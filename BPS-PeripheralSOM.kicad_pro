@@ -326,6 +326,14 @@
     [
       "d5ebd247-5a7c-47c2-8aee-beabaef72d6d",
       ""
+    ],
+    [
+      "1d0c269d-60cf-499b-bfd2-5087981d6678",
+      "CAN"
+    ],
+    [
+      "94125b35-79a1-41d0-8b6c-f77e699b83b8",
+      "USB"
     ]
   ],
   "text_variables": {}
