@@ -2010,6 +2010,18 @@
     (property "Sheetfile" "PowerDist.kicad_sch" (at 29.845 99.0096 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "GND" output (at 67.945 94.615 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7bc5b9ac-ff2a-4a7e-8ea7-c1928fc88e01)
+    )
+    (pin "+5V" output (at 67.945 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 00eaafac-fd91-4937-aa7a-d9620ac1cd5c)
+    )
+    (pin "+3.3V" output (at 67.945 90.805 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 8ad6b9d5-2ec5-4346-a5f5-15268625b44e)
+    )
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d" (page "4"))
