@@ -334,6 +334,10 @@
     [
       "94125b35-79a1-41d0-8b6c-f77e699b83b8",
       "USB"
+    ],
+    [
+      "60a4ab70-544e-48ed-aa76-f39bfcac39df",
+      "PowerDist"
     ]
   ],
   "text_variables": {}

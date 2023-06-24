@@ -2000,6 +2000,23 @@
     )
   )
 
+  (sheet (at 29.845 83.82) (size 38.1 14.605) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 60a4ab70-544e-48ed-aa76-f39bfcac39df)
+    (property "Sheetname" "PowerDist" (at 29.845 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerDist.kicad_sch" (at 29.845 99.0096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 29.21 54.61) (size 39.37 15.24) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
