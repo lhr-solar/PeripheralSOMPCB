@@ -2269,7 +2269,7 @@
     (uuid b4ceeed2-eac7-414c-ab1e-a64d3264209f)
   )
 
-  (text "Questions:\nI2C pull up resistor values right? TI said make em big bois\nCan circuit\nSwitching between GPIO and I2C or SPI since they require different protection circuitry\nCheck crystal oscillator\nDo we need NSS since we don't have multiple slaves?\nCorrect use of GNDPWR\nIs a 5V TVS diode needed at the LDO needed since the 12V is isolated?"
+  (text "Questions:\nI2C pull up resistor values right? TI said make em big bois\nCan circuit (changed up the connectors)\nSwitching between GPIO and I2C or SPI since they require different protection circuitry\nCheck crystal oscillator\nDo we need NSS since we don't have multiple slaves?\nCorrect use of GNDPWR for the input connector?\nIs a 5V TVS diode needed at the LDO needed? (no cuz the 12V is isolated and coming from board?)"
     (at 30.48 147.955 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96293956-693e-44d2-a3c7-01d35f9a80e0)
