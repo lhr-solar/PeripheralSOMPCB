@@ -1757,7 +1757,7 @@
     (property "Value" "CAN_OUT" (at 255.27 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 252.73 86.36 0)
+    (property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" (at 252.73 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 86.36 0)
