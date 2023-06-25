@@ -656,8 +656,8 @@
 
   (no_connect (at 170.18 85.09) (uuid 0b08f19d-4884-49ee-9e07-0e2a9fa8d245))
   (no_connect (at 139.7 90.17) (uuid 20fed20c-d01d-4cf2-979a-eee7e9ac9f55))
-  (no_connect (at 170.18 113.03) (uuid 468cbdfb-649c-4011-a278-9759b033cf17))
-  (no_connect (at 170.18 110.49) (uuid 580b6062-031c-425f-bc60-8624f00497d6))
+  (no_connect (at 170.18 113.03) (uuid 256b5001-342f-4c47-926a-a8f651481658))
+  (no_connect (at 170.18 110.49) (uuid 3c57ec37-c9fd-4590-a951-8bd877f990d2))
   (no_connect (at 139.7 92.71) (uuid 63c4b1d6-322b-4a16-9326-8c0117d3ed90))
   (no_connect (at 170.18 87.63) (uuid 6a04832b-a96d-4c1b-9168-fc2ef0120ddd))
   (no_connect (at 170.18 97.79) (uuid 8a84dc74-ef75-461c-aee5-45053e704dec))
