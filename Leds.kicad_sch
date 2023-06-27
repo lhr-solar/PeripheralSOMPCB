@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 9cc33591-ce64-446d-90f4-9c65158f123f)
+  (uuid 25ca038b-a3aa-4629-8648-c289771ad38f)
 
   (paper "A4")
 
@@ -233,7 +233,7 @@
     (uuid ee1c8694-7847-471f-b870-35d474cfd4b0)
   )
 
-  (text "Heartbeat LED Green!!" (at 102.235 115.57 0)
+  (text "Heartbeat LED Green!!" (at 60.325 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3cf2d8bc-f2fd-43f5-a916-0ce8e3e44496)
   )
