@@ -2196,7 +2196,7 @@
     (uuid b4ceeed2-eac7-414c-ab1e-a64d3264209f)
   )
 
-  (text "Things to change:\nChange SPI protectiont to 4 seperate diodes instead (put speed into consideration)\nAdd switches\nLearn why RX and TX should be swapped for the USB chip\nUse mosfets to switch between SPI/I2C to GPIO\nADD SPI impedance matching resistors\nWhen we add anything analog, seperate analog and digital domains\nDiscuss with Tianda optimal connector layout\n\nThings to add if extra time:\nMake power LEDs oscillate with analog circuitry"
+  (text "Change SPI protection IC by account for speed and clamping voltage\nAdd switches\nOne SPI with GPIO protection + SPI protection\nAdd one i2c with GPIO protection + I2C protection\nTerminating resistor SPI\nWhen we add anything analog, seperate analog and digital domains\nOptimal connector signal layout\nSoftware enabled I2C pull down resistors\nShielding i2c\nThings to add if extra time:\nMake power LEDs oscillate with analog circuitry"
     (at 29.21 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96293956-693e-44d2-a3c7-01d35f9a80e0)
