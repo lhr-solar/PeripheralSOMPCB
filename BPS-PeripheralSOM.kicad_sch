@@ -2125,6 +2125,7 @@
   (no_connect (at 222.25 80.01) (uuid 45fcaeeb-f9a6-48e2-9cf0-2b6b4d019ab5))
   (no_connect (at 222.25 85.09) (uuid 48a90f01-e7be-438b-a1d5-a645bf4ffb02))
   (no_connect (at 222.25 105.41) (uuid 6e319fcb-da50-4e6c-bb9d-d2ada4ac9281))
+  (no_connect (at 276.86 133.35) (uuid 89782929-e108-48f0-b6b5-90c92359e276))
   (no_connect (at 222.25 115.57) (uuid 9b8e57da-3855-4770-a1e0-f9989777f13d))
   (no_connect (at 222.25 107.95) (uuid bfe5234f-911a-44ca-934f-ef4a65518990))
   (no_connect (at 172.72 155.575) (uuid d42c03ea-088d-4360-b8fe-e89ac5480109))
@@ -2830,8 +2831,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6dac9d52-c01e-40fa-834c-c139355473de)
   )
-  (text "Change SPI protection IC by account for speed and clamping voltage\nOne SPI with GPIO protection + SPI protection\nAdd one i2c with GPIO protection + I2C protection\nSoftware enabled I2C pull down resistors\n\nThings to add if extra time:\nMake power LEDs oscillate with analog circuitry"
-    (at 29.21 188.595 0)
+  (text "To do:\nSoftware enabled I2C pull down resistors\n\nThings to add if extra time:\nMake power LEDs oscillate with analog circuitry"
+    (at 29.845 181.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96293956-693e-44d2-a3c7-01d35f9a80e0)
   )
