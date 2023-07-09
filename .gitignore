@@ -28,5 +28,8 @@ fp-info-cache
 *.xml
 *.csv
 
+#Mac Specific
+.DS_Store
+
 # Backups
 BPS-PeriphersalSOM-backups/*
