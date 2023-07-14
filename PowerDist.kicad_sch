@@ -882,6 +882,7 @@
     )
   )
 
+
   (junction (at 90.805 98.425) (diameter 0) (color 0 0 0 0)
     (uuid 02d8bfcc-5213-455d-8088-e1cbaf05af3b)
   )
@@ -969,7 +970,7 @@
     (stroke (width 0) (type default))
     (uuid 208d934d-f260-4049-b307-5e2424f7aba1)
   )
-  (wire (pts (xy 45.085 79.375) (xy 45.085 80.01))
+  (wire (pts (xy 45.085 78.105) (xy 45.085 80.01))
     (stroke (width 0) (type default))
     (uuid 2e828c25-7eca-428d-8a64-4ae80f1c3938)
   )
@@ -1238,7 +1239,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c768c1be-698c-4d64-8630-31c4ae3ad7e9)
   )
-  (hierarchical_label "12V_Power" (shape input) (at 45.085 79.375 90) (fields_autoplaced)
+  (hierarchical_label "12V_Power" (shape input) (at 45.085 78.105 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d4f25e24-2aef-41ba-a996-61030f3ebb02)
   )
