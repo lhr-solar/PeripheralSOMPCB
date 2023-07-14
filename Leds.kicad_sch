@@ -1098,7 +1098,7 @@
     (property "Value" "SW_Push" (at 74.93 107.315 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "UTSVT_Special:SW_SPST_B3SL-1002P" (at 67.945 105.41 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P" (at 67.945 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 67.945 105.41 0)
