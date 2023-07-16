@@ -2885,7 +2885,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96293956-693e-44d2-a3c7-01d35f9a80e0)
   )
-  (text "SPI1 is main SPI\nI2C1 is main I2C\nSPI2 and I2C can be swapped out for GPIO"
+  (text "SPI1 is main SPI\nI2C1 is main I2C\nSPI2 and I2C can be swapped out for GPIO\nConnector needs to mate with 53309-2070"
     (at 209.55 20.955 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9879ed90-a6fb-4db3-8f2d-b18d34b41079)
@@ -3271,10 +3271,10 @@
     (property "Value" "Conn_02x10_Counter_Clockwise" (at 241.3 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "UTSVT_Connectors:2039550203" (at 238.76 39.37 0)
+    (property "Footprint" "UTSVT_Connectors:Molex_52465-2070" (at 238.76 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 238.76 39.37 0)
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/52465-2070?qs=nDwhpid8gJZ7djOe3lh1gA%3D%3D" (at 238.76 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0af5e9e2-8883-44e1-a1ac-4cd814603b6f))

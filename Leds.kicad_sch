@@ -455,6 +455,8 @@
     (uuid fd62cb31-d34e-49ad-ae0c-103c9303e314)
   )
 
+  (no_connect (at 80.01 106.68) (uuid e1bcfc2a-a607-4eea-aab5-0c2b3ac30136))
+
   (bus_entry (at 88.9 83.82) (size 2.54 -2.54)
     (stroke (width 0) (type default))
     (uuid 108d1727-3dad-4c7a-8c2b-0e4199659739)
@@ -857,7 +859,7 @@
     (property "Value" "SW_SPDT" (at 74.93 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 74.93 109.22 0)
+    (property "Footprint" "UTSVT_Mechanical:CJS-1200B_NDC" (at 74.93 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/ProductDetail/Nidec-Components/CJS-1200TB1?qs=XeJtXLiO41S1Ro2%2Ft7kJ2w%3D%3D" (at 74.93 109.22 0)
@@ -881,7 +883,7 @@
     (property "Reference" "R5" (at 184.023 92.8116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1.5k" (at 184.023 95.123 0)
+    (property "Value" "1k" (at 184.023 95.123 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 180.467 93.98 90)
