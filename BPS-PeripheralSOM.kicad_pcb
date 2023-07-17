@@ -5121,7 +5121,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 33193a68-fb8d-4dfc-b010-744302f69066)
-    (at 217.02 53.05 -90)
+    (at 254.52 48.9 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -5739,7 +5739,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 4d649235-96c8-41dc-967e-b63f6f08df15)
-    (at 170.48 38.63)
+    (at 195.71 57.45 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -5748,7 +5748,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/60a4ab70-544e-48ed-aa76-f39bfcac39df/b705a517-cdf6-43f6-ac45-e0f702c8e4f1")
     (attr smd)
-    (fp_text reference "C18" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C18" (at 3.22 0.06) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6ebc808-5667-4268-a2ab-ce3982a90afc)
     )
@@ -5780,9 +5780,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b5caad0b-4edb-469b-9fec-54aea813251b))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 27d0f6b5-0fd2-4b0d-8c61-d7eba4d9040d))
-    (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+5V") (pintype "passive") (tstamp d4037ccf-f9b4-4c04-8195-7005ac430f34))
-    (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 9e8009e6-7d8e-4cb2-9439-ed587d6e1a86))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -5879,7 +5879,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (layer "F.Cu")
     (tstamp 5196e19e-b380-4da6-98b3-0811a3d15ab4)
-    (at 163.33 34.18)
+    (at 202.24 55.02)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -5998,7 +5998,7 @@
 
   (footprint "Inductor_SMD:L_0805_2012Metric" (layer "F.Cu")
     (tstamp 567ac37a-d09d-44c2-9f13-66cdfbc986c1)
-    (at 159.87 25.28 90)
+    (at 198.78 46.12 90)
     (descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "P/N" "MFBW1V2012-121-R")
@@ -6487,7 +6487,7 @@
 
   (footprint "Package_TO_SOT_SMD:SuperSOT-3" (layer "F.Cu")
     (tstamp 6473870c-73c7-448e-84fc-46258f0b4963)
-    (at 164.06 26.76)
+    (at 202.97 47.6)
     (descr "3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf")
     (tags "SuperSOT-3 SSOT-3")
     (property "P/N" "FDN360P")
@@ -7462,7 +7462,7 @@
 
   (footprint "UTSVT_Passive:C_2220_5750Metric" (layer "F.Cu")
     (tstamp 78247a15-a584-43f5-ac04-fec1572c636b)
-    (at 172.19 26.3 180)
+    (at 211.1 47.14 180)
     (descr "Capacitor SMD 2220In_5750Metrix")
     (tags "Capacitor, 5750")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -7666,7 +7666,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp 8418faae-2ab6-4c6d-af0d-0d5bf2f16796)
-    (at 201.92 22.73)
+    (at 201.98 22.03)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -7827,7 +7827,7 @@
 
   (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" (layer "F.Cu")
     (tstamp 89b13a05-ea71-44df-8f7f-3889d245b106)
-    (at 160.29 20.37)
+    (at 199.2 41.21)
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -7952,7 +7952,7 @@
 
   (footprint "UTSVT_ICs:RI3_DC_Converter" (layer "F.Cu")
     (tstamp 93f0a188-6cbf-453a-b029-efce890f69fc)
-    (at 210.77 27.24)
+    (at 162.31 23.24)
     (property "Sheetfile" "PowerDist.kicad_sch")
     (property "Sheetname" "PowerDist")
     (path "/60a4ab70-544e-48ed-aa76-f39bfcac39df/8e91f2cf-2fcb-49b5-8f30-f42f5daa53da")
@@ -8056,7 +8056,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 95427d69-1360-4dd3-97f8-1fa95732ee02)
-    (at 209.04 52.99 -90)
+    (at 246.54 48.84 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -8164,7 +8164,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp 9ee8be54-bdcd-4d26-aeb9-2283e5c4368c)
-    (at 185.79 30.63)
+    (at 194.8 51.14)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -8332,7 +8332,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp a20a1a91-6185-40f0-912b-ebcce06528f0)
-    (at 170.48 41.64)
+    (at 195.73 55.03 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -8341,7 +8341,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/60a4ab70-544e-48ed-aa76-f39bfcac39df/8801a5e3-7184-4886-802f-9cb3a430a69c")
     (attr smd)
-    (fp_text reference "C19" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C19" (at 3.2 0.01) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e0a412a2-1aea-4244-bf19-2a0f002cbd4b)
     )
@@ -8373,9 +8373,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9c8f553e-7c88-4b55-b2d4-f0e6864019d2))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e3ab6cb0-0dbb-4c81-a1de-6227ab619f7f))
-    (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "+3.3V") (pintype "passive") (tstamp a0c7ad35-c12a-44bd-9957-309eacd29e06))
-    (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 18a1edd1-91ec-414f-9533-93e1f6381943))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -9389,7 +9389,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp df5cdb97-d374-4461-8e6b-a0cdcc8878e0)
-    (at 204.79 53.02 -90)
+    (at 242.29 48.87 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -9558,7 +9558,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp f3d4ddb4-31a7-4b86-8487-06db509ab38b)
-    (at 212.98 53.05 -90)
+    (at 250.48 48.9 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -9724,7 +9724,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp fa9cdd11-97c5-4756-9a84-4f8e86831023)
-    (at 221.06 53.02 -90)
+    (at 258.56 48.87 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
