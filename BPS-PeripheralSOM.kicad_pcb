@@ -4478,7 +4478,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P" (layer "F.Cu")
     (tstamp 04dc7f2b-c73a-4656-b894-92a242281b86)
-    (at 77.205 95.04)
+    (at 188.505 110.12)
     (descr "Middle Stroke Tactile Switch, B3SL")
     (tags "Middle Stroke Tactile Switch")
     (property "Field2" "")
@@ -4551,7 +4551,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 086c3e83-0cba-4f6e-8d11-70bf709d4d9b)
-    (at 86.435 92.34)
+    (at 206.5425 84.87)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -4607,7 +4607,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 09d6b477-cfec-4488-8a68-54d67d1f3070)
-    (at 131.835 53.56)
+    (at 136.42 21.75)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -4662,7 +4662,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 15457f44-b186-4fbc-bc2e-c8cc51ab5cd8)
-    (at 69.975 95.425)
+    (at 181.275 110.505)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Field2" "")
@@ -4721,7 +4721,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 15f08d05-2e6d-4fd8-8d77-e826dd0cc4dc)
-    (at 223 38.26)
+    (at 220.95 37.86)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -4775,7 +4775,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 18a27218-c893-4172-b6de-ff2d57e69fda)
-    (at 65.525 104.14)
+    (at 176.825 119.22)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -4830,7 +4830,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 2108fd4f-f72e-4d21-b73e-d532f93ff6e3)
-    (at 131.835 50.61)
+    (at 136.42 18.8)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -4886,7 +4886,7 @@
 
   (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" (layer "F.Cu")
     (tstamp 22d1ec62-75a0-4569-9aab-5bb6d8e88c29)
-    (at 117.305 45.46)
+    (at 121.89 13.65)
     (property "Field2" "")
     (property "Sheetfile" "CAN.kicad_sch")
     (property "Sheetname" "CAN")
@@ -4953,7 +4953,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 23c57711-28f8-4b0f-a858-cb32da9f1e50)
-    (at 97.115 102.53)
+    (at 217.2225 95.06)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -5009,7 +5009,7 @@
 
   (footprint "Inductor_SMD:L_0805_2012Metric" (layer "F.Cu")
     (tstamp 2bc4482e-7723-43af-9c92-f0d1bd6f2ca9)
-    (at 126.855 60.61)
+    (at 131.44 28.8)
     (descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "Field2" "")
@@ -5065,7 +5065,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 2be1d242-1924-44b0-af5c-9471e1c8a227)
-    (at 110.005 64.46)
+    (at 114.59 32.65)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -5229,7 +5229,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp 3a96bea5-d5c0-48bc-9635-9adbbdce9e0b)
-    (at 110.305 80.59)
+    (at 185.79 25.58)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -5275,7 +5275,7 @@
 
   (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001" (layer "F.Cu")
     (tstamp 3eaef9d1-6556-46c2-8358-9d37f110f065)
-    (at 93.565 93.85)
+    (at 213.6725 86.38)
     (descr "http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf")
     (tags "Micro-USB SMD Typ-B")
     (property "Field2" "")
@@ -5380,7 +5380,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 3f76a924-ec19-4a0e-a8dc-e7f0cd3d7a26)
-    (at 110.005 58.44)
+    (at 114.59 26.63)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -5573,7 +5573,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 42eb94bb-77e8-4fa5-95ca-da59a1ec023e)
-    (at 110.005 55.43)
+    (at 114.59 23.62)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -5629,7 +5629,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 44c4243b-9d9d-4364-88be-89aaac4928a0)
-    (at 110.005 46.4)
+    (at 114.59 14.59)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -5739,7 +5739,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 4d649235-96c8-41dc-967e-b63f6f08df15)
-    (at 124.905 85.65)
+    (at 170.48 38.63)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -5793,7 +5793,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 4e87284c-f63d-4a72-a711-48e1f8d8ada9)
-    (at 110.005 49.41)
+    (at 114.59 17.6)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -5879,7 +5879,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (layer "F.Cu")
     (tstamp 5196e19e-b380-4da6-98b3-0811a3d15ab4)
-    (at 117.755 81.2)
+    (at 163.33 34.18)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -5943,7 +5943,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 51f99cd9-62b9-49d2-b7ed-4dc43c67d79d)
-    (at 65.525 101.19)
+    (at 176.825 116.27)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -5998,7 +5998,7 @@
 
   (footprint "Inductor_SMD:L_0805_2012Metric" (layer "F.Cu")
     (tstamp 567ac37a-d09d-44c2-9f13-66cdfbc986c1)
-    (at 161.92 25.68 90)
+    (at 159.87 25.28 90)
     (descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "P/N" "MFBW1V2012-121-R")
@@ -6137,7 +6137,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 60227206-8855-4695-9a7d-b7314b338d35)
-    (at 74.405 110.29)
+    (at 185.705 125.37)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -6192,7 +6192,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23W" (layer "F.Cu")
     (tstamp 61e996ac-1b6b-467e-a35d-fa55055f5509)
-    (at 131.605 61.5)
+    (at 136.19 29.69)
     (descr "SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3")
     (tags "SOT-23W")
     (property "Field2" "")
@@ -6487,7 +6487,7 @@
 
   (footprint "Package_TO_SOT_SMD:SuperSOT-3" (layer "F.Cu")
     (tstamp 6473870c-73c7-448e-84fc-46258f0b4963)
-    (at 167.55 31.98)
+    (at 164.06 26.76)
     (descr "3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf")
     (tags "SuperSOT-3 SSOT-3")
     (property "P/N" "FDN360P")
@@ -6548,7 +6548,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp 66706ae2-6e45-4e31-8961-dd1aab098440)
-    (at 203.97 28.18)
+    (at 201.92 27.78)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -6594,7 +6594,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P" (layer "F.Cu")
     (tstamp 687d0d48-3a2e-400a-bb59-b4ad1c0ac4cb)
-    (at 99.455 82.23)
+    (at 182.9 81.75)
     (descr "Middle Stroke Tactile Switch, B3SL")
     (tags "Middle Stroke Tactile Switch")
     (property "P/N" "B3SL-1002P")
@@ -7062,7 +7062,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 6f0bf153-4993-4052-8230-d979d1ff0040)
-    (at 86.435 95.29)
+    (at 206.5425 87.82)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -7118,7 +7118,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tstamp 724ac605-95fc-41e1-91e8-a7bfc7b5fd9f)
-    (at 208.82 36.2425 -90)
+    (at 206.77 35.8425 -90)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -7377,7 +7377,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 75b562ee-7db8-4d82-b9d2-6b325afebd0b)
-    (at 65.525 92.34)
+    (at 176.825 107.42)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -7462,7 +7462,7 @@
 
   (footprint "UTSVT_Passive:C_2220_5750Metric" (layer "F.Cu")
     (tstamp 78247a15-a584-43f5-ac04-fec1572c636b)
-    (at 174.24 26.7 180)
+    (at 172.19 26.3 180)
     (descr "Capacitor SMD 2220In_5750Metrix")
     (tags "Capacitor, 5750")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -7606,7 +7606,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-143" (layer "F.Cu")
     (tstamp 7b081603-f8d6-4a5d-9b81-8a0f5c47e124)
-    (at 86.355 101.94)
+    (at 206.4625 94.47)
     (descr "SOT-143 https://www.nxp.com/docs/en/package-information/SOT143B.pdf")
     (tags "SOT-143")
     (property "Field2" "")
@@ -7720,7 +7720,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp 8418faae-2ab6-4c6d-af0d-0d5bf2f16796)
-    (at 203.97 23.13)
+    (at 201.92 22.73)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -7820,7 +7820,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 86436cfc-8113-45bd-aed4-cdfc351ef377)
-    (at 86.435 98.24)
+    (at 206.5425 90.77)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -7876,7 +7876,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 89704c7b-f922-4cc5-87f0-278d1af7ba78)
-    (at 69.975 92.385)
+    (at 181.275 107.465)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Field2" "")
@@ -7935,7 +7935,7 @@
 
   (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" (layer "F.Cu")
     (tstamp 89b13a05-ea71-44df-8f7f-3889d245b106)
-    (at 162.34 20.77)
+    (at 160.29 20.37)
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -8001,7 +8001,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 90b801f6-2a62-4d00-8b0d-995de804088d)
-    (at 69.975 98.465)
+    (at 181.275 113.545)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Field2" "")
@@ -8060,7 +8060,7 @@
 
   (footprint "UTSVT_ICs:RI3_DC_Converter" (layer "F.Cu")
     (tstamp 93f0a188-6cbf-453a-b029-efce890f69fc)
-    (at 212.82 27.64)
+    (at 210.77 27.24)
     (property "Sheetfile" "PowerDist.kicad_sch")
     (property "Sheetname" "PowerDist")
     (path "/60a4ab70-544e-48ed-aa76-f39bfcac39df/8e91f2cf-2fcb-49b5-8f30-f42f5daa53da")
@@ -8101,7 +8101,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 9415f99a-255c-4223-bda9-a40377d239fe)
-    (at 69.975 101.505)
+    (at 181.275 116.585)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Color" "Green")
@@ -8272,7 +8272,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp 9ee8be54-bdcd-4d26-aeb9-2283e5c4368c)
-    (at 110.305 85.64)
+    (at 185.79 30.63)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -8384,7 +8384,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp a165bf1f-93db-4e58-9bec-4b3b793a70e1)
-    (at 65.525 95.29)
+    (at 176.825 110.37)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -8440,7 +8440,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp a20a1a91-6185-40f0-912b-ebcce06528f0)
-    (at 124.905 88.66)
+    (at 170.48 41.64)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PowerDist.kicad_sch")
@@ -8494,7 +8494,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp a8d0a091-a217-4130-bff6-2ee11d45c6dc)
-    (at 127.105 56.71)
+    (at 131.69 24.9)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Field2" "")
@@ -8542,7 +8542,7 @@
 
   (footprint "UTSVT_Mechanical:CJS-1200B_NDC" (layer "F.Cu")
     (tstamp b04436c8-2b9a-4898-860b-31188954932a)
-    (at 77.88 101.84)
+    (at 189.18 116.92)
     (tags "CJS-1200B ")
     (property "Field2" "")
     (property "Sheetfile" "Leds.kicad_sch")
@@ -8745,7 +8745,7 @@
 
   (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" (layer "F.Cu")
     (tstamp b586acd0-4ed3-4ded-aa50-e7bb782ced42)
-    (at 91.765 101.14)
+    (at 211.8725 93.67)
     (descr "QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "QFN NoLead")
     (property "Field2" "")
@@ -8861,7 +8861,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp be59cfb5-3574-4a96-8eb5-e617329c6d8b)
-    (at 97.115 99.52)
+    (at 217.2225 92.05)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -8971,7 +8971,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp ca3f8113-d5d4-4bef-80b1-1c4075204466)
-    (at 65.525 110.04)
+    (at 176.825 125.12)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -9080,7 +9080,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tstamp cdfef994-9672-4782-a198-de9762626051)
-    (at 210.2775 31.89 180)
+    (at 208.2275 31.49 180)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "P/N" "HPZR-C19-QX")
@@ -9151,7 +9151,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact" (layer "F.Cu")
     (tstamp d0b965e2-8bf9-4161-92ef-d9f413199fec)
-    (at 127.105 51.66)
+    (at 131.69 19.85)
     (descr "Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314")
     (tags "Through Hole Mount Test Points")
     (property "Field2" "")
@@ -9199,7 +9199,7 @@
 
   (footprint "UTSVT_ICs:SOIC-20W_7.5x15.4mm_Pitch1.27mm" (layer "F.Cu")
     (tstamp d32fa792-aee9-405c-81a8-a59e88f034ce)
-    (at 118.405 57.41)
+    (at 122.99 25.6)
     (descr "20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (property "Field2" "")
@@ -9276,7 +9276,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp d3ab623d-d96b-48e9-93b3-4f893bef8925)
-    (at 65.525 107.09)
+    (at 176.825 122.17)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -9331,7 +9331,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp d7278746-193a-49e4-97d6-aa1216d3531d)
-    (at 65.525 98.24)
+    (at 176.825 113.32)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -9386,7 +9386,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp d83a4232-034c-4ab5-baf7-c97226b85235)
-    (at 74.405 107.28)
+    (at 185.705 122.36)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -9441,7 +9441,7 @@
 
   (footprint "Inductor_SMD:L_0805_2012Metric" (layer "F.Cu")
     (tstamp de6ec004-b753-4025-89c7-27c3c5ac8da4)
-    (at 126.855 63.36)
+    (at 131.44 31.55)
     (descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "Field2" "")
@@ -9551,7 +9551,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp e887ce5a-dc18-4312-988a-6bd89432881c)
-    (at 69.975 104.545)
+    (at 181.275 119.625)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Color" "Green")
@@ -9720,7 +9720,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp f4f3bcee-2232-4508-9350-f61f2e2ac4de)
-    (at 110.005 43.39)
+    (at 114.59 11.58)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -9776,7 +9776,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp f96206fd-519c-401c-a5c2-451dc721d1af)
-    (at 110.005 52.42)
+    (at 114.59 20.61)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -9886,7 +9886,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp fbfdf2b8-9a83-40d4-a4e6-ba4b11956467)
-    (at 110.005 61.45)
+    (at 114.59 29.64)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")

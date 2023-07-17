@@ -4210,8 +4210,8 @@
     (property "Datasheet" "~" (at 109.22 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 661659a1-e63f-4eb1-9eaf-c0912341e585))
-    (pin "2" (uuid 4a22e5a3-45c0-44bf-b36e-6ffd0edbc3e6))
+    (pin "1" (uuid e8600af6-f818-4e9a-9b32-b3be30dd6e21))
+    (pin "2" (uuid 1fc05ca3-fa93-4016-9519-669a069815f3))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
