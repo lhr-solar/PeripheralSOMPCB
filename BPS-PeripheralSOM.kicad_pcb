@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -169,7 +182,7 @@
 
   (footprint "UTSVT_Special:Hallock_Image_Small" (layer "F.Cu")
     (tstamp 03551a7a-2499-4ed9-a38e-a0b52c846ea5)
-    (at 175.510738 75.380871)
+    (at 270.948738 66.490871)
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Graph footprint placeholder")
@@ -5405,7 +5418,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp 4ec701ef-bf27-49ba-b031-26d73bc4e219)
-    (at 229.362 40.132)
+    (at 276.032 40.386)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -5609,7 +5622,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp 5b980d91-d64d-49fe-856b-b090e2dc511e)
-    (at 167.96 94.742)
+    (at 268.224 50.292)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -5693,7 +5706,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 60227206-8855-4695-9a7d-b7314b338d35)
-    (at 189.232 63.042 180)
+    (at 187.452 62.23 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Field2" "")
@@ -5811,7 +5824,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp 63a83040-a9b9-4731-8d3d-b336d35c34fc)
-    (at 229.682 94.742)
+    (at 276.352 50.038)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -6223,7 +6236,7 @@
 
   (footprint "UTSVT_Special:UTSVT_Logo_Symbol" (layer "F.Cu")
     (tstamp 698a5abc-0627-484e-8b84-49d72ed961f4)
-    (at 265.176 75.692)
+    (at 272.034 86.36)
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Graph footprint placeholder")
@@ -6934,7 +6947,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp 76137bc5-5d3b-4ff1-aa04-cb4f60ab1ef1)
-    (at 167.64 40.132)
+    (at 267.904 40.64)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -8573,7 +8586,7 @@
 
   (footprint "Inductor_SMD:L_0805_2012Metric" (layer "F.Cu")
     (tstamp de6ec004-b753-4025-89c7-27c3c5ac8da4)
-    (at 176.784 51.308 -90)
+    (at 177.292 48.26 -90)
     (descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "Field2" "")
@@ -9938,25 +9951,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (dimension (type aligned) (layer "F.Cu") (tstamp 327a5525-c8f8-4505-9718-03f284755d48)
-    (pts (xy 167.64 40.132) (xy 229.362 40.132))
-    (height -6.35)
-    (gr_text "61.7220 mm" (at 198.501 31.982) (layer "F.Cu") (tstamp 327a5525-c8f8-4505-9718-03f284755d48)
-      (effects (font (size 1.5 1.5) (thickness 0.3)))
-    )
-    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
-    (style (thickness 0.2) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
-  )
-  (dimension (type aligned) (layer "F.Cu") (tstamp e86291f9-54ea-4be1-ae91-3bde9d8ec0c0)
-    (pts (xy 229.362 40.132) (xy 229.682 94.742))
-    (height -9.524944)
-    (gr_text "54.6109 mm" (at 240.846749 67.37064 270.3357341) (layer "F.Cu") (tstamp e86291f9-54ea-4be1-ae91-3bde9d8ec0c0)
-      (effects (font (size 1.5 1.5) (thickness 0.3)))
-    )
-    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
-    (style (thickness 0.2) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
 
 )
