@@ -2917,8 +2917,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6dac9d52-c01e-40fa-834c-c139355473de)
   )
-  (text "To do:\nSoftware enabled I2C pull down resistors\nNew connector\nSeperate VDD from VDDA and GND from GNDA"
-    (at 29.845 180.34 0)
+  (text "To do:\nSoftware enabled I2C pull down resistors" (at 29.845 180.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96293956-693e-44d2-a3c7-01d35f9a80e0)
   )
