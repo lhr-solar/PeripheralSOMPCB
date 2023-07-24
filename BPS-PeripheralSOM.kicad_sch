@@ -3566,6 +3566,31 @@
     )
   )
 
+  (symbol (lib_id "power:GNDA") (at 218.44 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 35d3674a-fb07-41b8-b72d-851e5b73ff9e)
+    (property "Reference" "#PWR038" (at 218.44 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 218.44 48.895 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 218.44 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 218.44 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f7a9d383-4b22-4ed5-9865-e2e1e0b118a5))
+    (instances
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "#PWR038") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 143.51 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3734a9b2-07a0-4c53-a1d3-80db14eba56e)
@@ -4267,31 +4292,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 215.265 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a55538a0-eca7-4219-a58d-f612e4aecc35)
-    (property "Reference" "#PWR038" (at 215.265 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 214.63 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 215.265 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 215.265 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9e67b664-c940-45e2-90d5-aefa539b7574))
-    (instances
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3.3V") (at 162.56 26.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a60244f0-01c2-428d-ace6-1cc3584e3190)
@@ -4398,41 +4398,6 @@
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
           (reference "C13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 218.44 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ad6e34dc-c411-4f6c-83f7-cdb2685f7f36)
-    (property "Reference" "#PWR033" (at 218.44 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 218.567 48.8442 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 218.44 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 218.44 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid abb292ef-7960-4b55-995b-d183d8862466))
-    (instances
-      (project "BPS-Minion"
-        (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
-          (reference "#PWR033") (unit 1)
-        )
-      )
-      (project "Power-SupplementalMonitoringPCB"
-        (path "/ba586973-3294-470f-8aa0-28c45686a0b3"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4771,6 +4736,31 @@
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VDDA") (at 215.265 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d655969d-3a2e-445b-b830-033d851ad137)
+    (property "Reference" "#PWR013" (at 215.265 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDDA" (at 215.265 38.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 215.265 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 215.265 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8165ed45-d296-4a94-b766-f64d6ea3e123))
+    (instances
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "#PWR013") (unit 1)
         )
       )
     )

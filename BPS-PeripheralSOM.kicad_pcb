@@ -9333,7 +9333,7 @@
 
   (footprint "UTSVT_ICs:SOIC-20W_7.5x15.4mm_Pitch1.27mm" (layer "B.Cu")
     (tstamp b156b87d-70e8-49c3-8f0c-4a8c9801b82e)
-    (at 113.835 109.6 90)
+    (at 114.935 109.6 90)
     (descr "20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (property "Field2" "")
