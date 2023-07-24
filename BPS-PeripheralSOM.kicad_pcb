@@ -4686,7 +4686,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 2d480eee-907e-42dd-bc83-d64c71af0b95)
-    (at 104.4 138.2 -90)
+    (at 104.14 138.2 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Field2" "")
@@ -6832,7 +6832,7 @@
       (net 85 "Net-(J2-Pin_1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 750cca08-17ff-4661-86e5-f799465b525e))
     (pad "2" thru_hole circle (at 3 0) (size 1.7 1.7) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 5 "GNDPWR") (pinfunction "Pin_2") (pintype "passive") (tstamp c2649a8a-d66a-45c1-8079-2f431f6349a9))
-    (model "common/utsvt3d/connectors.3dshapes/436500227.stp"
+    (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
       (offset (xyz 1.5 0 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))

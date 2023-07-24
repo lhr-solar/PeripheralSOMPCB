@@ -2921,7 +2921,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96293956-693e-44d2-a3c7-01d35f9a80e0)
   )
-  (text "SPI1 is main SPI\nI2C1 is main I2C\nSPI2 and I2C can be swapped out for GPIO\nConnector needs to mate with 53309-2070"
+  (text "SPI1 is main SPI\nI2C1 is main I2C\nSPI2 and I2C can be swapped out for GPIO\nConnector needs to mate with 53307-**71"
     (at 209.55 20.955 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9879ed90-a6fb-4db3-8f2d-b18d34b41079)
