@@ -6,6 +6,7 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS b
 | # | Name | Type | Pin 1 | 2 | 3 | 4 | 5 | 6 | Purpose |
 | - | - | - | - | - | - | - | - | - | - |
 | J1  | Serial Wire Debug | 1x4xP2.54mm Female | +3.3V | SWCLK | SWDIO | GND | | | Flashing |
+| J3  | USB  | 105017-0001 | | | | | | | USB Debugging |
 
 
 ## Switches LEDs
@@ -20,9 +21,16 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS b
 | SW3 | Pushbutton Switch|
 | SW4 | Single Pole Double Throw Switch|
 
+## Testpoints
+| # | Purpose |
+| - | - |
+| TP3 | 5V PWR |
+| TP4 | GND PWR |
+| TP5 | Isolated 5V |
+| TP6 | Isolated GND |
 
 ## BOM
-IBOM [TBA]
+IBOM [TBA]  
 Mouser Cart [TBA]
 
 ## PCB
