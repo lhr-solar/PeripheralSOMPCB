@@ -5,7 +5,7 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS b
 ## Connectors
 | # | Name | Type | Pin 1 | 2 | 3 | 4 | 5 | 6 | Purpose |
 | - | - | - | - | - | - | - | - | - | - |
-| J1  | Serial Wire Debug | 1x4xP2.54mm Female | +3.3V | SWCLK | SWDIO | GND | | | Flashing |
+| J1  | SWD | 1x4xP2.54mm Female | +3.3V | SWCLK | SWDIO | GND | | | Flashing |
 | J3  | USB  | 105017-0001 | | | | | | | USB Debugging |
 
 
