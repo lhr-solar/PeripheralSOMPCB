@@ -1291,7 +1291,7 @@
     (property "Reference" "C21" (at 135.7122 96.6216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 135.7122 98.933 0)
+    (property "Value" "10uF" (at 135.7122 98.933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "UTSVT_Passive:C_2220_5750Metric" (at 133.6802 101.6 0)
@@ -1303,8 +1303,8 @@
     (property "P/N" "22201C106KAT2A" (at 132.715 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6ba22a7e-d73b-43a8-af8f-3ad829e26cfb))
-    (pin "2" (uuid 1fdeeddd-a46f-46fa-90f6-b1c899aeb9ad))
+    (pin "1" (uuid eea43322-fd22-4c22-ba71-736dc77d5709))
+    (pin "2" (uuid 060ea2bb-66d7-4537-84d7-449f69561e0e))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1337,8 +1337,8 @@
     (property "P/N" "HPZR-C19-QX" (at 107.315 97.155 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44b82c4b-ab6c-4141-88bf-9872de87a9ff))
-    (pin "2" (uuid 22639454-0210-4023-a512-aa67be6ccf3e))
+    (pin "1" (uuid 1307339c-d53c-4f8a-9b9b-19c7456c6e51))
+    (pin "2" (uuid cfdee432-5d21-404f-9166-02f1435b4e9a))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1371,9 +1371,9 @@
     (property "P/N" "LD1117S33TR" (at 220.345 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a91bd04d-16e5-49d0-ba02-8814fa8d8cb8))
-    (pin "2" (uuid a1e07b34-bf32-46c4-b75f-0f256b5f7340))
-    (pin "3" (uuid f8dedb39-ce0a-4220-abf6-e6b2ff9f8dd5))
+    (pin "1" (uuid d44e824d-5667-435f-83ef-7a016bdf213e))
+    (pin "2" (uuid 3330b88f-bdce-4415-920a-af8b45a2e6c8))
+    (pin "3" (uuid e9b5e258-7aad-4ee5-899b-8e9d201acebe))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1406,7 +1406,7 @@
     (property "P/N" "5005" (at 178.435 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d62445a7-1a30-4ed4-833b-569dc65128b6))
+    (pin "1" (uuid 4ab94ba7-cb93-4168-84fd-c4ce2dd538d6))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1439,9 +1439,9 @@
     (property "P/N" "FDN360P" (at 96.52 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3368f2b3-e388-40e0-9a3a-5c851d852331))
-    (pin "2" (uuid dfb9abf6-34b2-4a39-8e6e-a5e8bcd7582f))
-    (pin "3" (uuid 9c348842-0c31-4a79-81aa-23d9b473924b))
+    (pin "1" (uuid d50ec641-e48c-4829-b06d-4a60a2268bca))
+    (pin "2" (uuid b0298692-3cbb-491a-bebe-69365bda4574))
+    (pin "3" (uuid 97c9043b-839e-4193-bac5-1e443b2c3698))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1462,7 +1462,7 @@
     (property "Reference" "C23" (at 235.966 96.6216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 235.966 98.933 0)
+    (property "Value" "10uF" (at 235.966 98.933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 234.0102 101.6 0)
@@ -1474,8 +1474,8 @@
     (property "P/N" "0805YC106KAT2A" (at 233.045 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b5c69ad-5af4-4984-9530-9eada2b32674))
-    (pin "2" (uuid 9708f0cc-4719-45f9-a7b8-0fb22b4af332))
+    (pin "1" (uuid d7c438d2-3747-4191-af7c-ea7300245c1f))
+    (pin "2" (uuid 414a34b6-62fd-4bd1-b9c5-28d4a0ba0d1e))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1505,7 +1505,7 @@
     (property "Datasheet" "" (at 207.645 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 790d56f9-08f8-4875-b597-17677de797e3))
+    (pin "1" (uuid 54c081c0-ed46-49f9-8238-aae3ec7710a9))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1535,7 +1535,7 @@
     (property "Datasheet" "" (at 35.56 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9167da9-939d-4134-8ac3-771237213e3f))
+    (pin "1" (uuid cce61764-e719-4d3e-aa50-b239c07e7780))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1568,7 +1568,7 @@
     (property "Datasheet" "" (at 170.815 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b2f7bba2-c5cb-4ceb-91b6-284436436e14))
+    (pin "1" (uuid 5394d0a7-c353-4e31-a766-03d130a9196b))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1598,7 +1598,7 @@
     (property "Datasheet" "~" (at 80.01 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ef932248-6ea0-430e-a473-e2864b011aa6))
+    (pin "1" (uuid 46fc10cb-27c5-46b2-a586-ef83493e2bfa))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -1626,7 +1626,7 @@
     (property "Datasheet" "" (at 35.56 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7a2d2d91-94fc-44ed-ac79-196ad8abbea8))
+    (pin "1" (uuid 1f575a17-352d-4c00-b3e4-3450c51f8e1a))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1662,8 +1662,8 @@
     (property "P/N" "MFBW1V2012-121-R" (at 73.66 83.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6c1b8a9d-dee8-44a2-b9ad-2ada23e093e5))
-    (pin "2" (uuid 5f4553aa-00ca-4795-b423-02fd57a33ed7))
+    (pin "1" (uuid 3c24a1de-979e-4a5c-9e1e-678a5b428d35))
+    (pin "2" (uuid fa05c9c7-37f8-42e1-8dcc-10a1ca383dd8))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -1696,7 +1696,7 @@
     (property "Datasheet" "" (at 220.345 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5898d644-8bb8-4e97-87b4-8e2bd285eae2))
+    (pin "1" (uuid a6abbd53-7fa8-4b27-aa08-2dbc65acfde4))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1729,7 +1729,7 @@
     (property "P/N" "5005" (at 178.435 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eb0984e7-9745-4cc1-93d0-40ac7b2362bf))
+    (pin "1" (uuid 634e3f1c-cdec-4ee7-adc4-d35eeddbb384))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1759,8 +1759,8 @@
     (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" (at 80.01 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1897a20d-be98-4701-8f77-db7a55d7017a))
-    (pin "2" (uuid 4640a890-75c9-4cc6-86f2-c021aaa286de))
+    (pin "1" (uuid aa57a5fa-3a30-491d-994d-7322cde76da7))
+    (pin "2" (uuid d0e05664-b115-4ea8-bcbf-87b8c4c2decb))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -1788,7 +1788,7 @@
     (property "Datasheet" "~" (at 205.105 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1efef66d-9cc8-44b3-ab3d-5e907096bb3a))
+    (pin "1" (uuid ffe9b9f2-e6ce-459d-ab89-17946148007f))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1818,8 +1818,8 @@
     (property "Datasheet" "~" (at 96.52 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f74d953-4b59-4cc6-8717-6a8a76328c08))
-    (pin "2" (uuid 8d46bd83-399c-4f37-9be4-314ee5be4caf))
+    (pin "1" (uuid a70fdacd-a01e-48f9-a501-9cc5f43297e6))
+    (pin "2" (uuid a2a09055-973c-48ca-934d-0fa305df94d5))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1849,7 +1849,7 @@
     (property "Datasheet" "" (at 170.815 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 557d50df-32ed-47f2-8a85-b83b6555494d))
+    (pin "1" (uuid 87ff2e90-7465-4047-ad7c-bd19220cb6f6))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1870,7 +1870,7 @@
     (property "Reference" "C22" (at 210.566 96.6216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 210.566 98.933 0)
+    (property "Value" "10uF" (at 210.566 98.933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 208.6102 101.6 0)
@@ -1882,8 +1882,8 @@
     (property "P/N" "0805YC106KAT2A" (at 207.645 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd308340-b494-4122-8f0f-ecb4c253b4bc))
-    (pin "2" (uuid 07259c6d-e1af-4bac-b387-ed9219d9e8be))
+    (pin "1" (uuid 2d8d8b5c-819c-4637-8e7c-483d7ea247f4))
+    (pin "2" (uuid 698a07e0-773e-42c4-bf3e-68a72592ded7))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1925,8 +1925,8 @@
     (property "If" "2mA" (at 35.56 146.685 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 293d5fd1-b086-4991-9971-f933c3364a70))
-    (pin "2" (uuid 14ce7067-e792-41dc-8dbc-4a48d8a3e1ac))
+    (pin "1" (uuid a4e34bff-efdb-49aa-9419-573f1b3f009e))
+    (pin "2" (uuid 32edcd50-1846-402b-8c53-b031d693e556))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1962,8 +1962,8 @@
     (property "P/N" "CRCW080521K5FKEA" (at 35.56 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58919c00-1a13-4904-b31c-39881f008a87))
-    (pin "2" (uuid 8ecac145-4b18-49ae-9f18-8fd347384546))
+    (pin "1" (uuid aa83ff39-61bb-4fee-82ac-4b60fbcdfacb))
+    (pin "2" (uuid 0323ccad-a39c-4394-8491-7e15bc75d686))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -1996,7 +1996,7 @@
     (property "Datasheet" "~" (at 60.325 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33bf3380-9d98-4bdc-ae42-ee6dca118d2f))
+    (pin "1" (uuid 930148e6-76e4-49ab-915c-f341b582b96f))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -2024,7 +2024,7 @@
     (property "Datasheet" "" (at 233.045 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c2ba732b-ab24-4a27-ae89-57d31690d02e))
+    (pin "1" (uuid 2c72befe-848f-4f0c-ba42-675a3779e95e))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -2057,10 +2057,10 @@
     (property "P/N" "RI3-0505S" (at 154.305 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64569260-23b7-4a49-a7b2-1e6635a0e7d5))
-    (pin "2" (uuid 7798ae95-1fef-49a5-b87c-41c1b5807b7b))
-    (pin "3" (uuid 95e67d95-8ee0-4bce-9e60-13d975f6a49a))
-    (pin "4" (uuid be084856-d61b-4b28-847f-cd5a56c4cd8a))
+    (pin "1" (uuid 8183ce6c-9222-4e4d-a053-cc6f04bbbb35))
+    (pin "2" (uuid 0fea0a69-0998-4cf3-9569-0f84ddfd907d))
+    (pin "3" (uuid 7b4b08bd-aa6b-42b3-9213-fd62c5799e6c))
+    (pin "4" (uuid 1baa8390-b3bc-4f34-bff7-6ff7881e1341))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -2090,7 +2090,7 @@
     (property "Datasheet" "~" (at 108.585 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0536f3c-23ef-41a4-a009-b730f0a6c61a))
+    (pin "1" (uuid 84e510f6-74cc-4726-b6d6-de854505d15e))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c29e573"
@@ -2120,7 +2120,7 @@
     (property "Datasheet" "~" (at 38.1 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7ec3c89-9be8-49a6-8538-f6ac38d4a7ff))
+    (pin "1" (uuid 2deb9743-160e-453c-b64b-e0d31108b44a))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -2153,7 +2153,7 @@
     (property "Datasheet" "~" (at 118.11 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80002058-d2d3-4ee0-b856-9e26178df69f))
+    (pin "1" (uuid 79ed878f-9e56-4a34-97a5-d090621244c6))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c29e573"
@@ -2183,7 +2183,7 @@
     (property "Datasheet" "" (at 96.52 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 121008ed-6563-4ec4-8b0a-ef6efbdc530d))
+    (pin "1" (uuid fc5d8b6b-276f-4ec7-991d-99e2ca5d9fd2))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c29e573"

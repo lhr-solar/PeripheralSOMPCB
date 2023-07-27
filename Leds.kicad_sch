@@ -569,8 +569,8 @@
     (property "Datasheet" "~" (at 134.62 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e06f2ba-bbae-47d0-9ac9-90ca869204ab))
-    (pin "2" (uuid 7818e84e-c40d-4ada-98c6-3128f75c48f0))
+    (pin "1" (uuid 36b56cc0-f291-41cc-a7c7-fb38301e1ff5))
+    (pin "2" (uuid 2ac35519-c719-4d47-8751-24ec58eb2837))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -595,8 +595,8 @@
     (property "Datasheet" "~" (at 147.32 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8dd9aed3-d70e-4467-a599-58a5711ffd1b))
-    (pin "2" (uuid 27ed4a42-f5c1-455a-b42c-1e00fc21a4fe))
+    (pin "1" (uuid dbbdefc6-d0a9-4120-93d5-1c2c3adde8a1))
+    (pin "2" (uuid 51c2dff2-26ff-4e8f-9c0f-d19db36d89bf))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -627,8 +627,8 @@
     (property "P/N" "APTD2012LCGCK" (at 101.6 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2954abba-df7a-4018-a1e7-fe558746c314))
-    (pin "2" (uuid 89c75c4a-c27b-4eb4-8692-167d92146f2e))
+    (pin "1" (uuid 79f7672d-7d21-4bdd-b6c6-46c5737a2e86))
+    (pin "2" (uuid b4a63665-26c0-4faf-b6db-3fb3fe4dd531))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -658,8 +658,8 @@
     (property "Datasheet" "~" (at 88.9 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d742c380-972e-4057-a0e5-e53776cc77d7))
-    (pin "2" (uuid 93585e3a-165c-4672-a45a-f147f69e9e15))
+    (pin "1" (uuid 76118ee0-1b0b-4852-818b-dfad1e7abf10))
+    (pin "2" (uuid 892a84a0-2b97-4c3b-ac3f-767625da052a))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -689,8 +689,8 @@
     (property "Datasheet" "~" (at 121.92 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19eb2cb3-878c-4031-9a65-b29c2ee2ccc7))
-    (pin "2" (uuid 4c767eed-1432-464a-9a8e-9c405e97172f))
+    (pin "1" (uuid cff55dbd-ed7e-4e32-87ae-7300f2d38235))
+    (pin "2" (uuid 2d602b55-9d8d-4469-b062-7b39a6a20baa))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -720,9 +720,9 @@
     (property "Datasheet" "https://www.mouser.com/ProductDetail/Nidec-Components/CJS-1200TB1?qs=XeJtXLiO41S1Ro2%2Ft7kJ2w%3D%3D" (at 74.93 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9f4d1d4-9674-4737-ae73-8adca4c3e7b5))
-    (pin "2" (uuid a95ec81a-d176-46b5-9326-9c7114da1342))
-    (pin "3" (uuid 6705c0bb-9517-43e2-b093-b092e3308778))
+    (pin "1" (uuid 69c603c7-a7ec-4f3a-97a5-f83e686f4989))
+    (pin "2" (uuid d4d6aba5-0df6-45e7-b39b-c420ba9b0267))
+    (pin "3" (uuid 20757943-7db1-47b2-a62d-fb7b37ec7081))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -747,8 +747,8 @@
     (property "Datasheet" "~" (at 101.6 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4793e15-3b90-4fc7-92ad-f695ca07a6bb))
-    (pin "2" (uuid eea26838-9a1b-4b3c-a40e-79484902cd23))
+    (pin "1" (uuid 81a84d19-e161-4d16-8702-90afbfcf132f))
+    (pin "2" (uuid aa5abf1a-6af1-4219-9e44-ca5fffe98e6f))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -778,7 +778,7 @@
     (property "Datasheet" "" (at 95.25 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d14dc53-c0f3-41c1-ab44-5552b63aeaf4))
+    (pin "1" (uuid f289fb4a-6143-489d-abd5-a73d61f07bfb))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
@@ -808,8 +808,8 @@
     (property "Datasheet" "~" (at 134.62 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4236c31e-5401-4fd8-8c23-6076fac53642))
-    (pin "2" (uuid 0767872e-bbab-4ae8-ad71-d4f11b2f133f))
+    (pin "1" (uuid b540b3fe-f318-402a-bedf-099b357aba80))
+    (pin "2" (uuid 1d995936-e110-453b-88e0-61442c5371a5))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -839,8 +839,8 @@
     (property "Datasheet" "~" (at 121.92 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6442f15b-6ccc-495e-9e18-7128c3f3a444))
-    (pin "2" (uuid d8a18abb-6d16-442c-af8f-f65ee81ddc68))
+    (pin "1" (uuid 0486bdb1-b43d-4ba5-bfe8-7411ebfc70a3))
+    (pin "2" (uuid 983ffaf4-538a-4d84-8bcd-513ff4a3aed9))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -865,8 +865,8 @@
     (property "Datasheet" "~" (at 83.82 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8acf4dcf-8f8f-4515-b477-9b7c9c1eee05))
-    (pin "2" (uuid a5b43393-885a-4f08-a83a-a9b615c3cd43))
+    (pin "1" (uuid f3f020c4-0a05-490d-9212-d5b51e3c483b))
+    (pin "2" (uuid 60341d5b-24d3-48e4-9b57-7a96666847e7))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/ef5b995d-f9db-4668-8b34-2450d3a2d44c"
@@ -896,8 +896,8 @@
     (property "Datasheet" "~" (at 147.32 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 687cc03e-b05a-4d48-a22f-62dbfaedeaf6))
-    (pin "2" (uuid 65587590-09c7-4a84-a643-a629817906cf))
+    (pin "1" (uuid ad3cb914-2c35-4fcb-8346-9e499d75bc77))
+    (pin "2" (uuid 65925768-8339-4dc4-b87b-d62eea9c991f))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -927,8 +927,8 @@
     (property "Datasheet" "~" (at 79.375 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c617d84d-7a35-4eb7-b1b7-371266596e37))
-    (pin "2" (uuid 37417dfa-2357-424c-a985-18ffefcc1df4))
+    (pin "1" (uuid 9399f09e-cb7f-4fd8-b518-b81808c2e722))
+    (pin "2" (uuid 7a82a398-0eb8-452b-bebd-31f5ce97d4c5))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/ef5b995d-f9db-4668-8b34-2450d3a2d44c"
@@ -958,8 +958,8 @@
     (property "Datasheet" "~" (at 69.85 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e31f82b-bc3b-4a49-90b1-bff3f6122b06))
-    (pin "2" (uuid 1fb53ed2-b9b8-488a-b85c-3ff653161cf1))
+    (pin "1" (uuid b8cf1666-7b42-4e54-ba61-c51c2488431d))
+    (pin "2" (uuid c493d9b4-13dd-4aac-a767-fb1bf67c0876))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
@@ -989,8 +989,8 @@
     (property "Datasheet" "~" (at 60.96 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10b095d2-69d9-4a96-8f9d-8e979b2a03c6))
-    (pin "2" (uuid 6c084ad6-7729-4c18-b516-37b276b962d5))
+    (pin "1" (uuid 78520e35-195d-4d0a-93b5-d7f599703568))
+    (pin "2" (uuid ca2d107b-75bc-4182-936f-88e28c2f33c1))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/ef5b995d-f9db-4668-8b34-2450d3a2d44c"

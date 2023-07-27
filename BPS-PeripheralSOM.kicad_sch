@@ -3284,8 +3284,8 @@
     (property "Datasheet" "~" (at 86.995 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6417cbde-a9fd-479c-a6c0-db75eb180b12))
-    (pin "2" (uuid 287cfa57-37ae-4c3e-a798-300cf0c4e64b))
+    (pin "1" (uuid b013bf9b-73c9-46d2-9689-7bb3680f1b07))
+    (pin "2" (uuid 48afd911-4ee0-49a8-a2f7-71b6b2303ae7))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3310,7 +3310,7 @@
     (property "Datasheet" "" (at 269.24 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5dc5cd0c-0aed-48fe-bbe8-5f16498ac226))
+    (pin "1" (uuid c317ba09-2abc-4457-b923-d68f5bf46cb3))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3335,12 +3335,12 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0P4UR6SO.pdf" (at 104.14 118.11 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 8136a078-fe7d-4be1-b7b2-59c6187729d8))
-    (pin "2" (uuid 357c67a1-7c25-4e14-ad38-bafc96becf98))
-    (pin "3" (uuid bb775c82-3746-4359-a16f-c991fa564dba))
-    (pin "4" (uuid 32f393f5-7d34-4070-b049-8dbc7eea9c12))
-    (pin "5" (uuid 0e8565a1-2b6b-43b6-ab89-cc2b8552fb0d))
-    (pin "6" (uuid 6b610604-01b5-49aa-8f07-285e710ba432))
+    (pin "1" (uuid 0d2d6902-8b99-40b8-ad73-adee4fb4dc67))
+    (pin "2" (uuid 3c6329ca-985e-41ca-bad7-e21631dbb3e0))
+    (pin "3" (uuid 87d8656e-04a6-4249-92a3-61dfb8aeed34))
+    (pin "4" (uuid 12d2099c-0f42-4237-be2c-991b21126798))
+    (pin "5" (uuid 0f6c39c6-172f-4a8a-b787-c9891d40f302))
+    (pin "6" (uuid 20957001-f19c-4792-a776-1a45d0bae526))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3365,7 +3365,7 @@
     (property "Datasheet" "" (at 90.805 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a22ea18-4672-444b-8554-c0f9871f60f5))
+    (pin "1" (uuid 0c76fd46-d04f-4058-9c65-24ce2b9b1546))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3395,7 +3395,7 @@
     (property "Datasheet" "" (at 149.225 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8755b177-a94f-4445-b587-d42a61160581))
+    (pin "1" (uuid 0f947d0e-6d23-4015-bee5-212710383c73))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3420,7 +3420,7 @@
     (property "Datasheet" "" (at 172.72 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 92c0bb9d-3ed9-47ea-bd64-f472067c1076))
+    (pin "1" (uuid 4b382b57-9c58-4d90-8df2-d7a2570753ce))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3445,7 +3445,7 @@
     (property "Datasheet" "" (at 166.37 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7ec09ea-7937-42f8-a40f-002f2c14e6ed))
+    (pin "1" (uuid 620a0341-15e6-4128-b11e-17e04a9f5fbe))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -3480,8 +3480,8 @@
     (property "Datasheet" "~" (at 116.205 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 045b4ae6-907d-43f2-b48d-f354c8e96ef5))
-    (pin "2" (uuid c7dec9a8-7756-4ad0-8dfd-208204c8f56e))
+    (pin "1" (uuid 6add529f-61d0-46c0-acb0-a20220d8bd42))
+    (pin "2" (uuid 1f62dafe-e63e-4766-89de-9506ca545981))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3506,8 +3506,8 @@
     (property "Datasheet" "~" (at 95.885 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ef3ec17-c238-4ece-8882-948bd9be4e77))
-    (pin "2" (uuid edded186-09f9-41e5-afa7-db9bfe07da76))
+    (pin "1" (uuid f1069757-1455-4f0e-99ad-b13b16281384))
+    (pin "2" (uuid db291d5b-ee25-42f3-9828-caf5e0c14c01))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3532,7 +3532,7 @@
     (property "Datasheet" "" (at 128.905 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a06072e1-94bb-4c9a-876e-5bdce027d5e7))
+    (pin "1" (uuid 3d64f5c9-3912-4754-9f14-52788f0b6988))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3560,8 +3560,8 @@
     (property "P/N" "B3SL-1002P" (at 140.335 182.245 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e9d8979-8e48-437c-80b8-a27afda8129e))
-    (pin "2" (uuid 1eab931c-4460-4333-b506-4342dc30366b))
+    (pin "1" (uuid 92f9d315-76f1-41ce-b597-4e4879b783dc))
+    (pin "2" (uuid bc1fab55-f377-4001-b268-c615f51333fb))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -3616,7 +3616,7 @@
     (property "Reference" "C26" (at 113.03 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" ".1uF" (at 113.03 148.59 0)
+    (property "Value" "100nF" (at 113.03 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 110.1852 150.495 0)
@@ -3625,8 +3625,8 @@
     (property "Datasheet" "~" (at 109.22 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53088d47-c86e-4f10-a3e3-78f5881d18ac))
-    (pin "2" (uuid 080e4f84-f905-4a7d-950b-a62f74a4de71))
+    (pin "1" (uuid 0e389e9b-1242-42ce-b52a-66e5a75f029a))
+    (pin "2" (uuid 67c3e283-5910-4043-b2c8-1d850afb1bfb))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -3656,7 +3656,7 @@
     (property "Datasheet" "" (at 91.44 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5b9b854c-e11a-4e50-9f32-a2c8835c44da))
+    (pin "1" (uuid cfbb9947-c6bd-4f66-8e07-0724989b1a6d))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3681,7 +3681,7 @@
     (property "Datasheet" "" (at 128.905 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 866105ba-9280-444d-9d16-d5e44d2b4b53))
+    (pin "1" (uuid 3bcbf475-d813-4bb0-92cc-0abd7559b3a5))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3706,7 +3706,7 @@
     (property "Datasheet" "" (at 166.37 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e058764-9e3f-4b90-98c5-17bae57e0631))
+    (pin "1" (uuid aaa57e0e-9716-4db9-876a-4d47e16a1cca))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -3741,8 +3741,8 @@
     (property "Datasheet" "~" (at 85.725 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cce0d971-5e1a-4c6e-84d4-a3ce784b0f8b))
-    (pin "2" (uuid 2c229687-989a-4ede-ac30-6bd0402833ab))
+    (pin "1" (uuid 8de7bb68-ad5f-43fd-a653-b72808a6009e))
+    (pin "2" (uuid 349cf119-e137-49ba-bdd9-b0a5d980cb94))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3767,7 +3767,7 @@
     (property "Datasheet" "" (at 137.16 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b188987-d637-4512-bb5f-f7c48311da86))
+    (pin "1" (uuid 68850177-bcb9-47be-a9ed-89e51e52e90e))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3792,7 +3792,7 @@
     (property "Datasheet" "" (at 240.665 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ac63970-dd77-4742-b693-f53a963ac9d9))
+    (pin "1" (uuid 25df5ba6-f45d-4f97-bc43-e3f1c83a7641))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3820,16 +3820,16 @@
     (property "P/N" "54265-1071" (at 247.65 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 948337c9-b760-44a1-b812-47e3560706ed))
-    (pin "10" (uuid a7703344-09c2-4248-aeb4-f98531d2c8ec))
-    (pin "2" (uuid 67fb8e7b-c064-4f0d-aa58-e25a87c25660))
-    (pin "3" (uuid 9752293d-7e21-4c07-90c6-06e1e0173c50))
-    (pin "4" (uuid 7ccff21e-a720-494d-9eff-4de5f0d6cd78))
-    (pin "5" (uuid 90104dd7-ca2b-4bad-afaa-12a14ffbe567))
-    (pin "6" (uuid 7388a616-a0e3-405a-9395-bd94425c3bba))
-    (pin "7" (uuid 6a28cc9a-e6d4-4952-ae3e-8a87222998d0))
-    (pin "8" (uuid 08b9e538-9440-424c-a96e-c4c5067e7a93))
-    (pin "9" (uuid d4e3575d-014b-44bb-83ad-2c129eb2677d))
+    (pin "1" (uuid 1ceb2b84-8a49-4eb0-b51e-5f2ba4ecd6ce))
+    (pin "10" (uuid ace44620-05db-465d-9664-8c52a7844ca0))
+    (pin "2" (uuid 642eb3f0-f7c9-4ec5-ba89-1a3ba80aa4e0))
+    (pin "3" (uuid 4957cf9b-0b0c-497a-830e-b6b48868c37e))
+    (pin "4" (uuid 23dbfd7d-c456-4725-9493-2d1c1ccc702d))
+    (pin "5" (uuid 220e3cde-09ec-4fb4-a7a4-5b3f35b34124))
+    (pin "6" (uuid 0a34999c-bcfc-4db6-9cdf-86ae29cea267))
+    (pin "7" (uuid b3863d01-b7f9-4275-bf7e-16e4732f13a0))
+    (pin "8" (uuid 37e69244-b445-46e3-a578-8301a265f6b6))
+    (pin "9" (uuid d6a03423-459a-4960-9a04-6fa369f0dc41))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3842,10 +3842,10 @@
   (symbol (lib_id "Device:C") (at 128.905 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54e76d3e-36eb-4922-80b0-519a1d201e5f)
-    (property "Reference" "C27" (at 132.715 146.685 0)
+    (property "Reference" "C27" (at 132.08 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" ".1uF" (at 132.715 149.225 0)
+    (property "Value" "100nF" (at 132.08 149.225 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 129.8702 151.13 0)
@@ -3854,8 +3854,8 @@
     (property "Datasheet" "~" (at 128.905 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6637fc9e-0f72-4295-9c9f-1e61ced2b0ca))
-    (pin "2" (uuid 4ea78f71-7fd9-42f4-be43-5c358b797e1f))
+    (pin "1" (uuid 368db524-5271-4e68-92d9-eaa5a2628f19))
+    (pin "2" (uuid 55d25bfa-87b7-43e5-a7b3-0679857a02b6))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -3873,10 +3873,10 @@
   (symbol (lib_id "Device:C") (at 90.805 183.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55996151-6d7d-4aad-835c-da411c547c15)
-    (property "Reference" "C7" (at 94.615 182.88 0)
+    (property "Reference" "C7" (at 93.98 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" ".1uF" (at 94.615 185.42 0)
+    (property "Value" "100nF" (at 93.98 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 91.7702 187.325 0)
@@ -3885,8 +3885,8 @@
     (property "Datasheet" "~" (at 90.805 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c48b20fb-b724-408e-ad03-56c29de72e4f))
-    (pin "2" (uuid 3d9d2f7c-3620-457b-93a8-00adf1077673))
+    (pin "1" (uuid d4c8c208-79ce-4238-8928-a9c4187602ff))
+    (pin "2" (uuid 7693e5ec-f295-4058-820c-934298b90391))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3902,7 +3902,7 @@
     (property "Reference" "C24" (at 88.9 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" ".1uF" (at 88.9 148.59 0)
+    (property "Value" "100nF" (at 88.9 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 86.0552 150.495 0)
@@ -3911,8 +3911,8 @@
     (property "Datasheet" "~" (at 85.09 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52850a0b-7600-40d3-a370-b3eff51f8f96))
-    (pin "2" (uuid fc096f12-8a72-4b65-b81e-98833e4ed751))
+    (pin "1" (uuid 90952bbd-83e5-4208-bbee-d15a4bee203e))
+    (pin "2" (uuid aad9df19-b475-4f0e-adf0-636f2b64caa1))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -3942,7 +3942,7 @@
     (property "Datasheet" "" (at 81.28 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f63be81-97c8-4581-b39f-b5cd38cd04f6))
+    (pin "1" (uuid 315c2d89-221a-4809-96b8-c0f892d859f7))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3967,12 +3967,12 @@
     (property "Datasheet" "~" (at 247.65 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25e0b72e-c6f1-4e87-9585-1bfda334ce0e))
-    (pin "2" (uuid 7f3074a5-91cc-4b50-9d9a-36c8b458de64))
-    (pin "3" (uuid 216623af-ac25-437b-b17c-61f5143253f8))
-    (pin "4" (uuid 8598d5bd-c5d5-4d6b-a9e3-079817700f77))
-    (pin "5" (uuid b68dd744-89f1-4068-86fc-21c3c4beb99f))
-    (pin "6" (uuid 2f4f179a-9fc2-47a4-b734-b3fe6550e9dd))
+    (pin "1" (uuid 3b335ae8-a617-4ef3-9b44-54045b624a47))
+    (pin "2" (uuid ca2438ff-b916-4a6f-a439-69967468454a))
+    (pin "3" (uuid 44d46e6b-0567-431b-a112-555b14e48f34))
+    (pin "4" (uuid 79e2f66a-a836-4ff8-8ef1-12bbe3529d33))
+    (pin "5" (uuid 6c12ffcf-d7a8-441e-a5c5-5a6f6baf07f5))
+    (pin "6" (uuid a4bbd182-d539-4dda-867b-5ce039314f9c))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3997,7 +3997,7 @@
     (property "Datasheet" "" (at 257.175 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e9918f0-9c84-4eb6-8948-9383714282a5))
+    (pin "1" (uuid 657bb380-d502-4fe7-ae12-731d942a2e0c))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4022,12 +4022,12 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0P4UR6SO.pdf" (at 193.675 82.55 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 86bc4a5d-1a61-4e30-93cb-4e8cab7b38ce))
-    (pin "2" (uuid fc0bbe67-f971-4930-9ee1-7b31ee5d5177))
-    (pin "3" (uuid 1e984c9c-fc8d-40ae-b9bc-1817b2f04e46))
-    (pin "4" (uuid cbe40e0e-6876-49d8-9b2f-4916fdaadcb7))
-    (pin "5" (uuid fc8d5d59-13c0-4d6e-ae1f-8a751a1c023b))
-    (pin "6" (uuid 4a8ef254-b360-4168-8dfa-4d8ff77b9b94))
+    (pin "1" (uuid 0d46b17d-b9a0-44bc-8ae6-c41acb9949ee))
+    (pin "2" (uuid a0454824-3bf6-49cf-af85-003d7d034a65))
+    (pin "3" (uuid 0bf22621-d2ce-469b-8022-344839f30a2b))
+    (pin "4" (uuid e47f6994-5d7b-4884-a2a8-4e86d59c6c9e))
+    (pin "5" (uuid 3784a7d9-571e-43c0-a16d-27a9fb65aa25))
+    (pin "6" (uuid a75ed8b5-0003-4b74-9694-676a1fa67a18))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4052,7 +4052,7 @@
     (property "Datasheet" "" (at 154.305 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3fd11ddc-1289-4cb1-9ef2-d967fd56fc29))
+    (pin "1" (uuid f6446655-3d5a-4561-b42d-56d5e0ef37e2))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4080,8 +4080,8 @@
     (property "P/N" "7A-8.000MAHJ-T" (at 104.775 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d555cc46-7ebc-4180-b5e2-66ffb084849e))
-    (pin "2" (uuid aab0b300-1d1d-4980-bc58-d5966fbf2b25))
+    (pin "1" (uuid 228ff1b3-f1ba-4fb4-be53-8f616fd31f93))
+    (pin "2" (uuid d07485cd-af6f-407f-bc24-fcde1f764890))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4114,16 +4114,16 @@
     (property "P/N" "54265-1071" (at 247.65 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc0644f8-d019-4fad-8b87-db142f2ded51))
-    (pin "10" (uuid 8a443c1c-f12e-4ee4-940f-7f3f72c57f01))
-    (pin "2" (uuid b99544b6-771e-4120-a0a6-004a9f77a296))
-    (pin "3" (uuid 9670fb8b-693d-4e75-b5dd-678efd41e9de))
-    (pin "4" (uuid eff3f71b-a292-4f8c-b667-148f186377ab))
-    (pin "5" (uuid 8452cc08-7a32-433e-b6e0-764a3d95cd59))
-    (pin "6" (uuid ed2213bb-46d1-4cb5-aa04-15d5206d9bca))
-    (pin "7" (uuid d3e9fa29-4a7e-4365-a4eb-9f155934f75a))
-    (pin "8" (uuid 11fef3ad-9b27-42cb-a650-66886c85d793))
-    (pin "9" (uuid b749f9be-f441-4bf1-afb1-bfe5c4891b4b))
+    (pin "1" (uuid c23d8256-1494-49b7-847a-c176207a22bc))
+    (pin "10" (uuid 2b7bfb3b-0b84-4cd9-a302-220173ea9311))
+    (pin "2" (uuid a2602ffc-1a7c-4500-887c-6997471f4d15))
+    (pin "3" (uuid 058a0bed-92f9-4de2-a604-fbfcdc549ba7))
+    (pin "4" (uuid 0d2e9480-e2e7-4ede-b30d-63d0724637eb))
+    (pin "5" (uuid 0677a719-3cbe-4a2d-b064-13733b2d7310))
+    (pin "6" (uuid 11f9afdd-5b85-4204-abe0-4594748727af))
+    (pin "7" (uuid 66d66ce9-902c-4628-a2e0-2a718bf9e317))
+    (pin "8" (uuid 40c59ca4-c97b-4286-a157-5ab51fd8259f))
+    (pin "9" (uuid a0a71291-17bd-4d92-bcc0-cbd8b5d2fb3e))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4177,7 +4177,7 @@
     (property "Datasheet" "" (at 274.32 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 62f2f45c-8f83-4143-840f-8c4f511d9519))
+    (pin "1" (uuid ce8791c7-6f6a-4604-aaf1-d544b81a8c1b))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4202,8 +4202,8 @@
     (property "Datasheet" "~" (at 146.685 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40624278-7747-4ca0-95fb-bdcb71ac6511))
-    (pin "2" (uuid ea140902-44c7-449c-87a8-eb422fe2e3c5))
+    (pin "1" (uuid af017ebc-e35a-4889-bcb8-dec961a69bbb))
+    (pin "2" (uuid 475466f5-a5d8-4ee5-81a2-d2fdab9390e8))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4228,7 +4228,7 @@
     (property "Datasheet" "" (at 237.49 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d344c08f-71d5-4518-af1e-bfc68d5c7c05))
+    (pin "1" (uuid 6bb1fee1-924c-4eb0-af29-dc94275ad69f))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4270,10 +4270,10 @@
   (symbol (lib_id "Device:C") (at 144.145 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93f8169c-43f6-4560-bf30-2f38576506bd)
-    (property "Reference" "C28" (at 147.955 146.685 0)
+    (property "Reference" "C28" (at 147.32 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF" (at 147.955 149.225 0)
+    (property "Value" "100nF" (at 147.32 149.225 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 145.1102 151.13 0)
@@ -4282,8 +4282,8 @@
     (property "Datasheet" "~" (at 144.145 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71db4830-4f15-44e3-a060-e4e3f0cd3571))
-    (pin "2" (uuid b0ae090d-dc7a-4b6b-952e-f7012a32d198))
+    (pin "1" (uuid dbd38158-36aa-46d1-9253-de1ce5693347))
+    (pin "2" (uuid bbcb7fb3-8c80-4ef8-a81f-40530a45f608))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -4313,10 +4313,10 @@
     (property "Datasheet" "~" (at 175.26 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 968b82fd-dee0-469f-b4f0-59700eb31808))
-    (pin "2" (uuid bf6034fe-1c9f-45db-ac84-0684d42baa20))
-    (pin "3" (uuid d1794b15-4bd0-4249-b41d-bee2d7f238cb))
-    (pin "4" (uuid f02bb848-686f-4ae6-a04f-29c4f1e03ff7))
+    (pin "1" (uuid 317f9e33-8bd7-449a-92c6-a8c7cb42456b))
+    (pin "2" (uuid 6c795d1d-9d04-4a7f-9d9f-8b1dfdc841f3))
+    (pin "3" (uuid 2c268e9b-769a-4d74-888a-64e22ffb946b))
+    (pin "4" (uuid 37d07b82-8430-415e-88e3-58ea01f58844))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4341,7 +4341,7 @@
     (property "Datasheet" "" (at 259.715 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c5bd9623-780c-433a-8e6b-2590c4a7c584))
+    (pin "1" (uuid 1c2c6d4d-a645-47a2-8c61-c44d9fdd582d))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4366,7 +4366,7 @@
     (property "Datasheet" "" (at 258.445 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8ee61cb3-f618-4124-91cd-b68be25c7615))
+    (pin "1" (uuid 1f8899a2-9f20-47a8-a56e-114050ebd7d6))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4391,7 +4391,7 @@
     (property "Datasheet" "" (at 73.66 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aa12625d-0fb5-4c83-8c98-712da0552754))
+    (pin "1" (uuid 3ee5c7d5-a0c7-45f3-988b-11e38926d211))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4416,7 +4416,7 @@
     (property "Datasheet" "" (at 95.885 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2aaffd3e-b0ce-4c21-a5b2-1f0ef8089f46))
+    (pin "1" (uuid c75eb4ec-2b97-494c-ae6f-a5ffd1a67b67))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4441,7 +4441,7 @@
     (property "Datasheet" "" (at 73.66 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1abe3ea3-a977-44a4-87fa-79c9a4c54fa0))
+    (pin "1" (uuid 7c38f46e-3dab-4b6f-8b66-e664da9ba218))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -4471,8 +4471,8 @@
     (property "Datasheet" "~" (at 73.66 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 818981e2-d3a6-419b-af0d-06add7941b43))
-    (pin "2" (uuid 2358e2da-567a-4a79-a187-9169e87c91f4))
+    (pin "1" (uuid 12a5a915-5f92-4afb-847d-a94b58ec485c))
+    (pin "2" (uuid a298da67-1648-46b5-adc5-1fd6129a77ab))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -4493,7 +4493,7 @@
     (property "Reference" "C29" (at 131.826 181.0766 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (at 131.826 183.388 0)
+    (property "Value" "100nF" (at 131.826 183.388 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 129.8702 186.055 0)
@@ -4502,8 +4502,8 @@
     (property "Datasheet" "~" (at 128.905 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4f59109-4a00-479f-aa30-c42108847310))
-    (pin "2" (uuid 95de3884-8a40-4ff9-aae8-14019424c787))
+    (pin "1" (uuid 622d18bf-9ace-4797-b892-2da97af82dad))
+    (pin "2" (uuid 331c551a-6b07-4d6b-8345-020e411c09a1))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -4538,8 +4538,8 @@
     (property "Datasheet" "~" (at 107.315 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a5e2f697-f82e-458b-9c05-7e728f0a256c))
-    (pin "2" (uuid 5508419e-d84c-4a1a-98d6-ac7e0b24945e))
+    (pin "1" (uuid 36138edb-ff44-432b-ad22-9fbe83a3e545))
+    (pin "2" (uuid 0cfdfab2-595a-41a8-b7a5-df76167d2f21))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4564,8 +4564,8 @@
     (property "Datasheet" "~" (at 165.1 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1774e8c5-2a1e-4d41-8c51-068080fe3859))
-    (pin "2" (uuid 387d2dbc-e34d-4cb7-9f97-0008214aad5d))
+    (pin "1" (uuid 292a56ac-5efa-4f22-8057-1adafed45a2e))
+    (pin "2" (uuid c7f54692-dc5c-495d-a78b-c48b7dab0fc8))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4581,7 +4581,7 @@
     (property "Reference" "C25" (at 100.33 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" ".1uF" (at 100.33 148.59 0)
+    (property "Value" "100nF" (at 100.33 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 97.4852 150.495 0)
@@ -4590,8 +4590,8 @@
     (property "Datasheet" "~" (at 96.52 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4530b69-915e-4f67-8eb4-c5298e7bf53c))
-    (pin "2" (uuid a2888bcd-b6a4-4393-9935-4fffaf8f2f57))
+    (pin "1" (uuid 4d4e1110-b4d8-40a9-b4d6-8b85a5245b35))
+    (pin "2" (uuid 0acd38f2-ef41-4bf1-be18-e410aae8657f))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -4621,7 +4621,7 @@
     (property "Datasheet" "" (at 273.05 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca8861fd-1fe6-4890-b8d8-e867b3d4ce2f))
+    (pin "1" (uuid 99676fca-b29e-40cf-8a80-058c8fe62ee1))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4646,7 +4646,7 @@
     (property "Datasheet" "" (at 260.985 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58468033-fc32-4127-ac58-e2284f4338fc))
+    (pin "1" (uuid 4eeb26b3-3259-4aa3-9f56-62c95afd0e49))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4671,8 +4671,8 @@
     (property "Datasheet" "~" (at 95.885 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80285fbe-bffc-4be4-991b-1354478ab6c7))
-    (pin "2" (uuid eb0f6570-3059-429a-8bc5-b9ebe5f1bdd7))
+    (pin "1" (uuid 2d4a6fac-5ab9-446d-b2fb-da5c06faa386))
+    (pin "2" (uuid 0d65e811-1128-4123-a81f-ca4aa7ff6369))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4702,7 +4702,7 @@
     (property "Datasheet" "" (at 144.145 24.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3c43eeb-80ae-4c7f-8a70-dd88ef06f187))
+    (pin "1" (uuid 46a88cd3-be73-4b22-a7f3-a89c59060d13))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -4737,7 +4737,7 @@
     (property "Datasheet" "" (at 73.66 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db98c7ba-3893-49cd-9107-95bdc03486ba))
+    (pin "1" (uuid 988d7dab-76b6-48f8-a600-03914b4b3a70))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -4767,54 +4767,54 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l431cb.pdf" (at 144.145 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fff5872b-37ef-4295-b9c5-7c1808cc6de7))
-    (pin "10" (uuid 67ea51f6-34a2-4b8a-a805-9daf7054e182))
-    (pin "11" (uuid f86f4556-6d53-4308-bb15-ab46727ed819))
-    (pin "12" (uuid b5798353-b2b5-434a-a62d-61ee1079c3cb))
-    (pin "13" (uuid fb60ac80-e89f-48f3-b5a2-19fe40e0ee60))
-    (pin "14" (uuid 88bfc3f2-6e54-40ce-a260-ac8ce77a0f59))
-    (pin "15" (uuid 63c69084-a449-4f6a-a1cb-3bc2cbde417b))
-    (pin "16" (uuid 5ca9484b-9459-4ea7-8c32-bae49e2adef3))
-    (pin "17" (uuid 1f72c425-afbc-4209-a53c-a0d6ec26befa))
-    (pin "18" (uuid dc426cb5-c192-47a1-acd8-323b7f23f529))
-    (pin "19" (uuid a2a740ab-177d-4114-a005-c34d44f32330))
-    (pin "2" (uuid 51465f06-bc2b-4c83-9ae6-c90a95bc64a1))
-    (pin "20" (uuid b70322f0-8508-41a0-83bd-c9c3db3933c2))
-    (pin "21" (uuid 88a75f0a-b721-49cd-86cb-d4bd3efbbb71))
-    (pin "22" (uuid 296b6b03-9b71-490e-af3f-051ee756362b))
-    (pin "23" (uuid 463047b0-9460-4168-90ce-5ac7255611c0))
-    (pin "24" (uuid 07f73cca-3dbd-498e-bc03-c5bd1f400732))
-    (pin "25" (uuid 467e2328-6754-49da-9b84-4ec6093a35b5))
-    (pin "26" (uuid 8f590d70-97c7-43e8-a7d3-ac4c7e9e9438))
-    (pin "27" (uuid 83d3dc3a-d58b-4d77-88d2-e9905ace918d))
-    (pin "28" (uuid 6bd1a940-70df-4494-b952-a613b97d187d))
-    (pin "29" (uuid 409c4366-4d1f-46bd-b215-63129b1c6571))
-    (pin "3" (uuid 1aa651eb-4411-4f7a-a63b-76406e162566))
-    (pin "30" (uuid d2bb574c-20aa-4abe-88b6-7927d80db238))
-    (pin "31" (uuid 3797babb-8435-4538-9677-1fb214ea7bb4))
-    (pin "32" (uuid a53e23ce-6cd4-4269-b649-560eaeb17142))
-    (pin "33" (uuid a186dcf5-f2b7-45ca-9b00-bebd3fbbe15f))
-    (pin "34" (uuid 145c9d11-02f2-4e0a-b656-1174caf3d0f5))
-    (pin "35" (uuid a5c11ce1-d718-4464-a197-8a8057f30c0b))
-    (pin "36" (uuid 982a7216-3e4f-408f-bd4a-ecbcbaa6d435))
-    (pin "37" (uuid dae8263d-3082-4a74-a6d2-1220e799f504))
-    (pin "38" (uuid f6fa0599-30e5-4e76-beed-0842065118a7))
-    (pin "39" (uuid 57511f50-43ae-46eb-af5e-dd5e0cfb5651))
-    (pin "4" (uuid e0f9c0cb-9c83-4339-83ec-b0d2375bd377))
-    (pin "40" (uuid abf2ea4b-050b-4e97-add0-a4c2c604d51d))
-    (pin "41" (uuid 23a4aaf6-0f31-463b-bd42-cfef0f13df5e))
-    (pin "42" (uuid 5185260e-de4f-4dea-97a2-c468a85f4a35))
-    (pin "43" (uuid 2f946d25-7aea-42eb-8fd0-5d0a581fe4c7))
-    (pin "44" (uuid fff6dbfe-ad63-4363-b47b-5727f302cf5a))
-    (pin "45" (uuid fb94d330-c4e4-490a-9e48-b59dc5cd02ad))
-    (pin "46" (uuid 2243adbf-1350-4730-ae9a-8ddc0c5d47de))
-    (pin "47" (uuid 2e78a797-5938-4162-b8d5-93d28620531f))
-    (pin "48" (uuid 23acbc05-1373-409d-92fc-64541fe3500e))
-    (pin "5" (uuid c1f1e098-af55-4520-9269-72f3b3accbf8))
-    (pin "6" (uuid 1b25f3b8-83a8-4325-9f61-f474479c53f9))
-    (pin "7" (uuid cd85d393-9c42-4b12-8246-8a99b059d3f1))
-    (pin "8" (uuid 16a2db7d-7772-4f46-9986-1f3feee23311))
-    (pin "9" (uuid dec8853f-5751-4ef1-9b3b-93ab66fd617b))
+    (pin "1" (uuid 1bd239eb-1564-4f41-b58d-45c411024d6e))
+    (pin "10" (uuid e2cd2964-5c99-44a9-a83f-0e9f48dbe1ff))
+    (pin "11" (uuid e046d803-fc2e-40ef-a2c0-9872d4df1b3a))
+    (pin "12" (uuid 6c264e3c-fcdb-4d73-bb85-7805c2f584dc))
+    (pin "13" (uuid ebd89625-f218-4fe4-9bf5-f2c239af96ef))
+    (pin "14" (uuid c14edcd8-9556-4313-bccd-86f6345147a6))
+    (pin "15" (uuid 1a79a34a-515d-49a6-af06-4330764f3a20))
+    (pin "16" (uuid 5f25a1d0-2f0a-4bba-afc1-1ae1ffa71c69))
+    (pin "17" (uuid 5c4a8e10-3b83-4bd7-856d-e7a44e65e3ef))
+    (pin "18" (uuid 8ca808b9-6227-47e5-a9f2-997ac1d291a8))
+    (pin "19" (uuid 07a0b39f-367a-4e69-afc6-6126d7a240ec))
+    (pin "2" (uuid a0b293c1-7a4f-45f5-aadf-a034ec7bbbee))
+    (pin "20" (uuid c7cb76b9-8c20-479e-8d56-a9d4055c6757))
+    (pin "21" (uuid e7c9ece1-5698-47cf-9afc-07e7d0a9473b))
+    (pin "22" (uuid 2904014d-629b-44a2-957e-d1679b6c5b2c))
+    (pin "23" (uuid 60a05623-926b-4823-8528-626f196a24e9))
+    (pin "24" (uuid bd2b6019-fd32-42f6-a84e-f06c5177162b))
+    (pin "25" (uuid 21ad23ac-5ede-4854-913e-7cc1ee2a3215))
+    (pin "26" (uuid f525673c-e114-484d-a932-df91b7cd4f3e))
+    (pin "27" (uuid 1451f695-b83c-4ff2-8283-b0f388751282))
+    (pin "28" (uuid 3f5a84c9-842b-469e-a2f9-adf9bf763798))
+    (pin "29" (uuid 66818a58-ef7c-4d21-902d-3d5e17a8afea))
+    (pin "3" (uuid 5e0edc5a-f984-47ce-b9f4-2c4f0bbfb5dc))
+    (pin "30" (uuid d66ebffb-d125-4e3c-bf9c-1c74842ebed8))
+    (pin "31" (uuid 643d48c7-b273-4713-8331-0f4d9de7bc90))
+    (pin "32" (uuid ab765505-8eba-4c93-b405-bc78dbfc5052))
+    (pin "33" (uuid d26b27e3-c434-4fc1-8ccc-dea0072a054a))
+    (pin "34" (uuid 52915fc7-aaa5-4612-bfac-28e724a29b16))
+    (pin "35" (uuid 48150a79-fc32-43ae-b943-fbad4977a891))
+    (pin "36" (uuid c23f2eea-8168-4b88-97a7-d60f76944ce0))
+    (pin "37" (uuid 78f29cf4-e0a1-4a8d-a173-c7399c0dc51c))
+    (pin "38" (uuid 71410168-77fe-47fc-83bc-ea1712334e7f))
+    (pin "39" (uuid 601426c4-037e-4eae-9a30-e1910d4b91c1))
+    (pin "4" (uuid fc32dbee-f111-4a28-9e44-dd19cbf7ad64))
+    (pin "40" (uuid aa2800a3-dcfd-4c35-9aa0-42e606909599))
+    (pin "41" (uuid 05caf353-1ddd-4a22-9485-2862dc7ff52e))
+    (pin "42" (uuid f4a8cfbd-4c71-4207-b33b-abf21b6ccd79))
+    (pin "43" (uuid bb69c66b-d908-43de-8427-66087cd78b3b))
+    (pin "44" (uuid f847f45c-e97f-46b8-96d9-3e86f2bba19b))
+    (pin "45" (uuid 6c0e1eda-76ac-4a7b-84ba-b32efd515a66))
+    (pin "46" (uuid 2becd6a6-0c46-4bf0-a365-7552e85be9d9))
+    (pin "47" (uuid 4192d17a-1d43-4b2d-b53a-e7ec76b3bfcf))
+    (pin "48" (uuid eea73d1d-8f66-47c3-adca-4ff0edf58cea))
+    (pin "5" (uuid 5b047a5b-9455-409a-a6eb-92d09368ecc9))
+    (pin "6" (uuid 75534d74-bc20-4914-8b31-35199785276d))
+    (pin "7" (uuid 12859f22-94f7-476b-bf47-75348e40d02d))
+    (pin "8" (uuid e34ed6ad-d2e6-4519-80ea-70f66b8571d1))
+    (pin "9" (uuid 65061211-f807-480e-8711-a6b8cbf387a4))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4839,40 +4839,11 @@
     (property "Datasheet" "" (at 90.805 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b9a4cf5-42a6-4aa2-973e-b952fdf65c43))
+    (pin "1" (uuid 717b959a-ddab-4bfd-9af7-8daaa73ddde9))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
           (reference "#PWR016") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 273.05 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dbf7ac8e-967c-4797-97c4-72fe7ba4f120)
-    (property "Reference" "MH2" (at 275.59 160.1216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M.3" (at 275.59 162.433 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (at 273.05 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 273.05 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "BPS-Leader"
-        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH2") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH4") (unit 1)
         )
       )
     )
@@ -4893,8 +4864,8 @@
     (property "Datasheet" "~" (at 95.885 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2a7699e-1cec-4f2c-9c4f-30ba36ddd5b6))
-    (pin "2" (uuid 0ce4ca69-3d86-4559-a6c4-47f14185df93))
+    (pin "1" (uuid 85df8eea-e33d-467d-b0e9-447180f8d609))
+    (pin "2" (uuid eb0b3912-6b1e-4bf8-993a-f6554d65520e))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -4904,35 +4875,6 @@
       (project "BPS-Leader"
         (path "/f7d7e637-f98b-407c-b73b-57d398ad2f71"
           (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 259.08 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e3870608-067e-4728-9042-ac5331d40793)
-    (property "Reference" "MH1" (at 261.62 160.1216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M.3" (at 261.62 162.433 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (at 259.08 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 259.08 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "BPS-Leader"
-        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH1") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH3") (unit 1)
         )
       )
     )
@@ -4953,8 +4895,8 @@
     (property "Datasheet" "~" (at 171.45 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 887a1ede-341b-4972-ac80-e71837f33625))
-    (pin "2" (uuid 0efd4512-7886-4b9d-a1d4-d9cb6c38566f))
+    (pin "1" (uuid 3d8f2154-a19d-4624-8db9-51d229299578))
+    (pin "2" (uuid fc0e7fc1-d59e-4327-aa78-9d606b79b676))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -5008,7 +4950,7 @@
     (property "Datasheet" "" (at 128.905 189.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c402a79-a0fd-4055-b41c-4086b1520545))
+    (pin "1" (uuid 4cb8856d-b03c-4887-8a25-50454f3dc038))
     (instances
       (project "BPS-Minion"
         (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
@@ -5043,7 +4985,7 @@
     (property "Datasheet" "" (at 111.76 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e81d2e7-a0cf-47dd-8772-c842e2b7eb31))
+    (pin "1" (uuid 70a8a686-ebe0-4534-ace0-b7b3c991ac73))
     (instances
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
