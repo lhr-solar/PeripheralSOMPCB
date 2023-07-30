@@ -728,7 +728,6 @@
     )
   )
 
-
   (junction (at 209.55 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 0d27a5c4-ffd7-4274-9049-0a0d9969aa2d)
   )
@@ -826,10 +825,8 @@
     (uuid fdcb5990-226d-4207-bab4-f5793209d697)
   )
 
-  (no_connect (at 93.98 97.79) (uuid 0d2a965b-9961-4b38-a811-bbfc2a6fac97))
+  (no_connect (at 93.98 92.71) (uuid 67943a07-4013-43ad-b3b0-f7689d89084a))
   (no_connect (at 129.54 96.52) (uuid 9813ff93-e244-499a-91b7-b99f19a73f5e))
-  (no_connect (at 93.98 95.25) (uuid a6837870-35cf-4524-8fd2-763da1d69210))
-  (no_connect (at 93.98 92.71) (uuid f9eebdc0-e6f2-44b8-824d-703d16b7fa4f))
 
   (wire (pts (xy 76.2 87.63) (xy 93.98 87.63))
     (stroke (width 0) (type default))
@@ -1032,6 +1029,10 @@
     (uuid 6fb0b846-eed3-4ee0-8b93-4a119c97b483)
   )
 
+  (wire (pts (xy 90.805 95.25) (xy 93.98 95.25))
+    (stroke (width 0) (type default))
+    (uuid 7095633c-c807-43c8-93b6-3486b699bb08)
+  )
   (wire (pts (xy 217.17 77.47) (xy 231.14 77.47))
     (stroke (width 0) (type default))
     (uuid 70a31e81-3496-41ab-9ebb-4c91d947348e)
@@ -1131,6 +1132,10 @@
   (wire (pts (xy 157.48 78.74) (xy 167.64 78.74))
     (stroke (width 0) (type default))
     (uuid cc7112b4-d6ad-40fd-b914-b45525cf7ba4)
+  )
+  (wire (pts (xy 90.805 97.79) (xy 93.98 97.79))
+    (stroke (width 0) (type default))
+    (uuid cc9d0ab5-3ff1-40ed-b210-4398efbbf2fc)
   )
   (wire (pts (xy 190.5 64.77) (xy 190.5 91.44))
     (stroke (width 0) (type default))
@@ -1354,6 +1359,14 @@
     (uuid f9f93a60-1340-42eb-8517-9a514c6f98ef)
   )
 
+  (hierarchical_label "SILENT" (shape input) (at 90.805 95.25 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 02798f47-9354-4ff9-8e5c-d816e8244283)
+  )
+  (hierarchical_label "STDBY" (shape input) (at 90.805 97.79 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0d1a93f1-1df2-4cf2-96c9-e9c6e95d9c54)
+  )
   (hierarchical_label "CAN_HIGH" (shape input) (at 231.14 77.47 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3099121c-33d3-452c-8b78-9d3252b9d96a)
