@@ -1060,52 +1060,6 @@
         )
       )
     )
-    (symbol "Power-SupplementalMonitoringPCB-rescue:+3.3V-power" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V-power" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V-power_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V-power_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -3613,6 +3567,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 166.37 141.605 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 10139e6e-ff92-49e8-83cd-b5eab1b37ee4)
+    (property "Reference" "#PWR014" (at 166.37 145.415 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 166.37 136.525 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 166.37 141.605 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 166.37 141.605 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 87cb5561-a4dd-45ea-9bda-6fcf42e690e9))
+    (instances
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 172.72 80.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15f2d2a3-62f6-488f-9ecb-693d3cb0d70d)
@@ -3633,41 +3612,6 @@
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
           (reference "#PWR037") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Power-SupplementalMonitoringPCB-rescue:+3.3V-power") (at 166.37 141.605 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 170bcfa6-258f-4612-ab6f-712fb0fdc524)
-    (property "Reference" "#PWR032" (at 166.37 145.415 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 166.751 137.2108 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 166.37 141.605 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 166.37 141.605 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 620a0341-15e6-4128-b11e-17e04a9f5fbe))
-    (instances
-      (project "BPS-Minion"
-        (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
-          (reference "#PWR032") (unit 1)
-        )
-      )
-      (project "Power-SupplementalMonitoringPCB"
-        (path "/ba586973-3294-470f-8aa0-28c45686a0b3"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -3745,6 +3689,31 @@
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 73.66 140.335 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 256355be-283e-4626-9182-fead6a4bd47d)
+    (property "Reference" "#PWR018" (at 73.66 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 73.66 135.255 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 73.66 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 73.66 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 830265ba-5394-4b1e-910a-3bb84585a9d8))
+    (instances
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4398,6 +4367,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 144.145 24.765 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9e79d72a-d49d-4840-84fa-b94aaf9c8b34)
+    (property "Reference" "#PWR023" (at 144.145 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 144.145 19.685 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 144.145 24.765 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 144.145 24.765 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6cfcaa37-fcc2-4e2b-8116-91fe76af0365))
+    (instances
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 269.875 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a39a39d5-6bc8-4f5d-8624-3f15c4783efe)
@@ -4493,36 +4487,6 @@
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
           (reference "#PWR021") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 73.66 140.335 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a6ee45d8-c16d-430d-8d02-ab331615e909)
-    (property "Reference" "#PWR024" (at 73.66 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 73.66 136.525 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 73.66 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 73.66 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7c38f46e-3dab-4b6f-8b66-e664da9ba218))
-    (instances
-      (project "BPS-Minion"
-        (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
-          (reference "#PWR024") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4732,41 +4696,6 @@
       (project "BPS-Leader"
         (path "/f7d7e637-f98b-407c-b73b-57d398ad2f71"
           (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Power-SupplementalMonitoringPCB-rescue:+3.3V-power") (at 144.145 24.765 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cd5d990d-d325-4aa5-8803-034a7bb0a709)
-    (property "Reference" "#PWR032" (at 144.145 28.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 144.526 20.3708 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 144.145 24.765 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 144.145 24.765 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 46a88cd3-be73-4b22-a7f3-a89c59060d13))
-    (instances
-      (project "BPS-Minion"
-        (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
-          (reference "#PWR032") (unit 1)
-        )
-      )
-      (project "Power-SupplementalMonitoringPCB"
-        (path "/ba586973-3294-470f-8aa0-28c45686a0b3"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR018") (unit 1)
         )
       )
     )
