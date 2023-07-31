@@ -851,7 +851,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P" (layer "F.Cu")
     (tstamp 53f7aa22-8235-40b8-8d47-5b93194cde63)
-    (at 129.5 86)
+    (at 122 78.5)
     (descr "Middle Stroke Tactile Switch, B3SL")
     (tags "Middle Stroke Tactile Switch")
     (property "P/N" "B3SL-1002P")
@@ -1332,7 +1332,7 @@
 
   (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" placed (layer "F.Cu")
     (tstamp 89b13a05-ea71-44df-8f7f-3889d245b106)
-    (at 107 56 -90)
+    (at 106 56 -90)
     (descr "Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Micro-Fit_3.0 side entry")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -1543,7 +1543,7 @@
 
   (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001" (layer "F.Cu")
     (tstamp b2c2cc97-3ea8-4bed-9fb5-71eab272dcfa)
-    (at 131 43.5375 180)
+    (at 131 43.5 180)
     (descr "http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf")
     (tags "Micro-USB SMD Typ-B")
     (property "Field2" "")
@@ -1709,7 +1709,7 @@
 
   (footprint "UTSVT_Passive:C_2220_5750Metric" (layer "F.Cu")
     (tstamp b8e13815-4481-4c94-adbd-49be6ff5b910)
-    (at 120.3758 78.5)
+    (at 128.5 86 180)
     (descr "Capacitor SMD 2220In_5750Metrix")
     (tags "Capacitor, 5750")
     (property "P/N" "22201C106KAT2A")
@@ -1791,9 +1791,9 @@
       (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp d27b76fa-7efe-45f1-844b-d74297174a50))
     (fp_circle (center -2.9972 0) (end -2.921 0)
       (stroke (width 0.1524) (type solid)) (fill none) (layer "F.Fab") (tstamp e4367c3c-d62c-4314-b9f1-b87011e43f6b))
-    (pad "1" smd rect (at -3.1242 0) (size 0.5588 5.4102) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -3.1242 0 180) (size 0.5588 5.4102) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 91 "Net-(D8-K)") (pintype "passive") (tstamp f75fe4bf-b79e-4350-b3a5-35681f795d53))
-    (pad "2" smd rect (at 3.1242 0) (size 0.5588 5.4102) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 3.1242 0 180) (size 0.5588 5.4102) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "GNDPWR") (pintype "passive") (tstamp df9f9a4b-29a9-4d69-9797-597f36056b37))
   )
 
@@ -1892,7 +1892,7 @@
 
   (footprint "UTSVT_ICs:SOT26_DIO" (layer "F.Cu")
     (tstamp d772e485-9f8e-4f9b-96a9-c71a5e2da885)
-    (at 130.85255 66.049999)
+    (at 131 66)
     (tags "D5V0P4UR6SO-7 ")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
     (property "Sheetname" "")
@@ -2034,7 +2034,7 @@
 
   (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" (layer "F.Cu")
     (tstamp e03770ed-a1c7-4050-a074-8f11f9f8ec59)
-    (at 106.94 70 -90)
+    (at 106 70 -90)
     (descr "Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Micro-Fit_3.0 side entry")
     (property "Field2" "")
@@ -2137,7 +2137,7 @@
 
   (footprint "UTSVT_ICs:SOT26_DIO" (layer "F.Cu")
     (tstamp f43d44cc-e13c-4dff-865a-b87181aa583c)
-    (at 130.85255 62.049999)
+    (at 131 62.049999)
     (tags "D5V0P4UR6SO-7 ")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
     (property "Sheetname" "")
@@ -7551,7 +7551,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tstamp 60877f2c-aed2-4ffe-85d5-78afef4431b4)
-    (at 127 85.05 -90)
+    (at 119.5 77.55 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -8441,7 +8441,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tstamp 8730d214-9f44-47db-a582-f806fc313a4d)
-    (at 130 60.4125 -90)
+    (at 130 60.5 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -8550,7 +8550,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-143" (layer "B.Cu")
     (tstamp 90e0cea3-e18b-4481-94bb-083a6d57699c)
-    (at 130.25 48 -90)
+    (at 130 48 -90)
     (descr "SOT-143 https://www.nxp.com/docs/en/package-information/SOT143B.pdf")
     (tags "SOT-143")
     (property "Field2" "")
@@ -8777,7 +8777,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tstamp 986c40fa-c854-44fa-a6f4-400a1f3db0c6)
-    (at 135.95 49 90)
+    (at 136 49 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -9350,7 +9350,7 @@
 
   (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" (layer "B.Cu")
     (tstamp c1ec4542-30dc-44a3-a464-dcedec0e2e77)
-    (at 129.75 52.4375 -90)
+    (at 130 52.5 -90)
     (descr "QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "QFN NoLead")
     (property "Field2" "")
@@ -9520,7 +9520,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tstamp c73d6ba0-b288-40e5-8eff-289d7fd1f6ff)
-    (at 128 63.9125 -90)
+    (at 128 64 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -9684,7 +9684,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tstamp cebe87a1-d2c9-446a-aaa2-badaa8f4fbc9)
-    (at 128 60.4125 -90)
+    (at 128 60.5 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
@@ -9792,7 +9792,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tstamp e1e4303c-ccea-4b49-9e62-2c1eb77453a4)
-    (at 133.95 49 90)
+    (at 134 49 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Field2" "")
@@ -9903,7 +9903,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tstamp ed1908b4-828f-4750-a3b1-7cdb65643f18)
-    (at 130 63.9125 -90)
+    (at 130 64 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "BPS-PeripheralSOM.kicad_sch")
