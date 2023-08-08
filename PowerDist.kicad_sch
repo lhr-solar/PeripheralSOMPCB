@@ -1280,7 +1280,7 @@
     (uuid f7deae9c-248d-455b-9000-d7c3f056e5ff)
   )
 
-  (hierarchical_label "5_In" (shape input) (at 55.245 83.82 180) (fields_autoplaced)
+  (hierarchical_label "5V_Ext" (shape input) (at 55.245 83.82 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 63cce9f3-a5e6-4960-862c-6547392a6bd8)
   )
