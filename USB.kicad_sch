@@ -1042,7 +1042,7 @@
     (property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001" (at 95.25 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 95.25 111.76 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/276/1/1050170001_IO_CONNECTORS-230168.pdf" (at 95.25 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "P/N" "105017-1001" (at 91.44 110.49 0)

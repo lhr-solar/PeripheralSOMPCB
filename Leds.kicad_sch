@@ -567,7 +567,7 @@
     (property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P" (at 100.965 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 100.965 118.11 0)
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1002P?qs=h8kCHL4kpM7r31L1Z%2F%2FPBA%3D%3D&gclid=Cj0KCQjwz8emBhDrARIsANNJjS5pXvHxUsJqw6ReWcEKaZNzf3rv_QrNw6TYoW9872ijDZj5ETxcqvUaAskfEALw_wcB" (at 100.965 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 964d9243-6ab1-4a19-9670-f7dad290b372))
