@@ -1520,39 +1520,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 35.56 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4310b577-23b4-472a-8619-e9af1b6815e0)
-    (property "Reference" "#PWR0126" (at 35.56 132.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 35.941 124.5108 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 35.56 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 35.56 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fcb5a23e-d865-4778-a31a-dd32ec124711))
-    (instances
-      (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "#PWR0126") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
-          (reference "#PWR030") (unit 1)
-        )
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+5V") (at 170.815 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4641e774-f68f-4cff-824a-dab9704a41fb)
@@ -1939,6 +1906,36 @@
         )
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
           (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 35.56 128.905 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c004f824-e7b2-47b6-882c-9555f9f20fd5)
+    (property "Reference" "#PWR0131" (at 35.56 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 35.941 124.5108 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 35.56 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 35.56 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 064ae49a-f8eb-40ab-a72d-bb8d8caffed7))
+    (instances
+      (project "Telemetry-Primary"
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
