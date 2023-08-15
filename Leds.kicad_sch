@@ -868,8 +868,8 @@
     (property "Datasheet" "~" (at 94.615 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c35ca77e-a346-4fe1-8287-f39f12a28a20))
-    (pin "2" (uuid 5e1f9ac1-ed7e-4747-8626-2dcb637fdd52))
+    (pin "1" (uuid 0f710a56-09d7-4476-97ae-e6b8a19817df))
+    (pin "2" (uuid d4bee180-0b67-49d7-a52f-f621ee78ee76))
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/ef5b995d-f9db-4668-8b34-2450d3a2d44c"
