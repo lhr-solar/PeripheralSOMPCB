@@ -617,7 +617,7 @@
     (property "ki_keywords" "test point tp")
     (path "/60a4ab70-544e-48ed-aa76-f39bfcac39df/85b36464-5827-4e39-b5ce-ab0f4f0f5da0")
     (attr through_hole)
-    (fp_text reference "TP6" (at 0 -2.75) (layer "B.SilkS")
+    (fp_text reference "TP6" (at 2 -2.75) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8e4b8d79-6482-4c88-9b5c-76c108433d0c)
     )
