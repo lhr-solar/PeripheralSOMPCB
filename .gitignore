@@ -11,11 +11,14 @@
 *.kicad_prl
 *.sch-bak
 *~
+*.lck
+
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+*auto_saved_files*
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -27,6 +30,9 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+#Mac Specific
+.DS_Store
 
 # Backups
 BPS-PeriphersalSOM-backups/*
