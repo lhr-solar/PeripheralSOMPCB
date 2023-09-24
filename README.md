@@ -35,10 +35,11 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS b
 | TP6 | Isolated GND |
 
 ## BOM
+[**BOM**](BPS-PeripheralSOMBOM.xls)
 [**IBOM**](ibom.html)
 
 ## PCB
-[Image to be added]
+![image](https://github.com/lhr-solar/BPS-PeripheralSOMPCB/blob/docs/BPS-PeripheralSOM_PCB.png?raw=true)
 
 ## Schematic
 [**PDF with all sheets**](BPS-PeripheralSOM_SCH.pdf)
