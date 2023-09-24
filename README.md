@@ -35,7 +35,7 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS b
 | TP6 | Isolated GND |
 
 ## BOM
-[**BOM**](BPS-PeripheralSOMBOM.xls)
+[**BOM**](BPS-PeripheralSOMBOM.xls)  
 [**IBOM**](ibom.html)
 
 ## PCB
