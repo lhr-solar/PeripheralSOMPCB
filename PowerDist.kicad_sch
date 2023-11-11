@@ -1798,7 +1798,7 @@
     (property "Value" "PBSS4330X,135" (at 216.535 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-39-3" (at 218.44 77.47 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 218.44 77.47 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" (at 216.535 82.55 0)
