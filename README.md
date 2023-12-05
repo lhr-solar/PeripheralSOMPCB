@@ -46,7 +46,7 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various Perip
 
 ## BOM
 [**BOM**](BPS-PeripheralSOMBOM.xls)  
-[**IBOM**](bom/ibom.html)
+[**IBOM**](bom/ibom.html)  
 [**Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=29ec1c3dbf)
 
 ## PCB
