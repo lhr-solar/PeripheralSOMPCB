@@ -40,17 +40,17 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS b
 ## Testpoints
 | # | Purpose |
 | - | - |
+| TP1 | 3.3V |
 | TP3 | 5V PWR |
 | TP4 | GND PWR |
-| TP5 | Isolated 5V |
 | TP6 | Isolated GND |
 
 ## BOM
-IBOM [TBA]  
-Mouser Cart [TBA]
+[**BOM**](BPS-PeripheralSOMBOM.xls)  
+[**IBOM**](bom/ibom.html)
 
 ## PCB
-[Image to be added]
+![image](https://github.com/lhr-solar/BPS-PeripheralSOMPCB/blob/docs/BPS-PeripheralSOM_PCB.png?raw=true)
 
 ## Schematic
-[Image to be added]
+[**PDF with all sheets**](BPS-PeripheralSOM_SCH.pdf)
