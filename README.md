@@ -1,5 +1,5 @@
 # BPS-PeripheralSOMPCB
-The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS boards (Volttemp and Amperes) and sends that along a can bus.
+The BPS Peripheral System on Module takes in the SPI or I2C of the various Peripheral boards and sends that along a can bus. Used primarily by BPS and Data Acquisition
 
 ## Daughter Board Connector Pinout Usage Guide
  * SPI1 is the main SPI
@@ -19,11 +19,10 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various BPS b
 | # | Name | Type | Pin 1 | 2 | 3 | 4 | 5 | 6 | Purpose |
 | - | - | - | - | - | - | - | - | - | - |
 | J1  | SWD | 1x4xP2.54mm Female | +3.3V | SWCLK | SWDIO | GND | | | Flashing |
-| J2  | CAN_In | 430450612 | Can Voltage | Can High | External 5V | Can GND | Can Low | Power GND | Input for CAN and Power |
+| J2  | CAN_In | 436500244 | 5V | GNDPWR | Can High | Can Low ||| Input for CAN and Power |
 | J3  | USB  | 105017-0001 | VBus | D+ | D- | ID | | | USB Debugging |
-| J4  | | | | | | | | | Daughter Board Connector |
-| J5  | CAN_Out | 430450612 | Can Voltage | Can High | External 5V | Can GND | Can Low | Power GND | Input for CAN and Power |
-
+| J4  | CAN_Out | 436500244 | 5V | GNDPWR | Can High | Can Low ||| Output for CAN and Power |
+| J6  | | | | | | | | | Daughter Board Connector |
 
 ## Switches LEDs
 | # | Purpose |
