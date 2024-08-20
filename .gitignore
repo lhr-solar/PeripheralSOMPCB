@@ -27,12 +27,14 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
+# Exported files
 *.xml
 *.csv
 
+
 #Mac Specific
 .DS_Store
+Production/
 
 # Backups
 BPS-PeriphersalSOM-backups/*
