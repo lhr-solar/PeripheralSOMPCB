@@ -55,3 +55,13 @@ The BPS Peripheral System on Module takes in the SPI or I2C of the various Perip
 
 ## Schematic
 [**PDF with all sheets**](BPS-PeripheralSOM_SCH.pdf)
+
+## Version History
+### V1.0: 
+Using STM32L4CBT1 with 2 I2C, 2 SPI, 1 CAN, 1 UART (USB)
+### v1.1:
+Add ADC pins as a quick hotfix
+### v2.0:
+Updated UART-> USB chip and moved to a 12V architecture
+
+
