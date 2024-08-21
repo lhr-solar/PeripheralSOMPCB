@@ -262,9 +262,10 @@
 			)
 		)
 		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
@@ -407,9 +408,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -507,8 +508,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -527,9 +528,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -603,8 +604,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -623,9 +624,9 @@
 		)
 		(symbol "power:GNDPWR"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -771,8 +772,8 @@
 			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDPWR"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -910,8 +911,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U4"
+				(at 0 9.525 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -919,7 +920,7 @@
 				)
 			)
 			(property "Value" "ISO1044BD"
-				(at 2.54 6.35 0)
+				(at 0 6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1194,56 +1195,56 @@
 		)
 	)
 	(junction
-		(at 76.835 85.725)
+		(at 77.47 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1701a080-7514-4fe8-939b-e8734a33c72b")
 	)
 	(junction
-		(at 137.795 83.185)
+		(at 138.43 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18605b65-63ba-4d49-b17f-4aed807c07a6")
 	)
 	(junction
-		(at 76.835 78.105)
+		(at 77.47 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f5d272b-06d1-4abe-b0b6-d4dad5ab09dc")
 	)
 	(junction
-		(at 127.635 83.185)
+		(at 128.27 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bce3a8b-cf99-475d-a6a7-b08896b6b925")
 	)
 	(junction
-		(at 117.475 85.725)
+		(at 118.11 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "899ceba6-e581-4c4b-ad0d-a7a21545c976")
 	)
 	(junction
-		(at 142.24 73.025)
+		(at 142.24 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a582bc0-16ea-4534-ad68-05e0e3187427")
 	)
 	(junction
-		(at 135.255 85.725)
+		(at 135.89 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd227f2f-306a-4088-a065-d8a9aa5584f6")
 	)
 	(junction
-		(at 142.24 80.645)
+		(at 142.24 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb37e832-3a4b-4eec-aff8-323c8b646338")
 	)
 	(wire
 		(pts
-			(xy 115.57 80.645) (xy 142.24 80.645)
+			(xy 115.57 81.28) (xy 142.24 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 83.185) (xy 142.24 83.185)
+			(xy 138.43 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1264,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.025) (xy 132.08 78.105)
+			(xy 132.08 73.66) (xy 132.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1273,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 84.455) (xy 76.835 85.725)
+			(xy 77.47 85.09) (xy 77.47 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.725) (xy 117.475 85.725)
+			(xy 115.57 86.36) (xy 118.11 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1293,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 83.185) (xy 137.795 83.185)
+			(xy 128.27 83.82) (xy 138.43 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 98.425) (xy 127.635 94.615)
+			(xy 128.27 99.06) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1313,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 79.375) (xy 142.24 80.645)
+			(xy 142.24 80.01) (xy 142.24 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 83.185) (xy 95.25 83.185)
+			(xy 92.71 83.82) (xy 95.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 80.645) (xy 95.25 80.645)
+			(xy 92.71 81.28) (xy 95.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 74.93) (xy 76.835 78.105)
+			(xy 77.47 74.93) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 78.105) (xy 76.835 79.375)
+			(xy 77.47 78.74) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1363,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 85.725) (xy 95.25 85.725)
+			(xy 77.47 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1373,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 81.915) (xy 157.48 80.645)
+			(xy 157.48 82.55) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1383,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 85.725) (xy 117.475 98.425)
+			(xy 118.11 86.36) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1393,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.105) (xy 115.57 78.105)
+			(xy 132.08 78.74) (xy 115.57 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1403,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.025) (xy 146.05 73.025)
+			(xy 142.24 73.66) (xy 147.32 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1413,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.025) (xy 142.24 74.295)
+			(xy 142.24 73.66) (xy 142.24 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1423,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 96.52) (xy 156.845 96.52)
+			(xy 156.21 96.52) (xy 157.48 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 83.185) (xy 137.795 95.25)
+			(xy 138.43 83.82) (xy 138.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1443,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 85.725) (xy 135.255 97.79)
+			(xy 135.89 86.36) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1453,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 97.79) (xy 135.255 97.79)
+			(xy 138.43 97.79) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1464,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.025) (xy 142.24 73.025)
+			(xy 132.08 73.66) (xy 142.24 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 85.725) (xy 142.24 85.725)
+			(xy 135.89 86.36) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1483,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 80.645) (xy 157.48 80.645)
+			(xy 142.24 81.28) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1493,7 +1494,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 83.185) (xy 127.635 86.995)
+			(xy 128.27 83.82) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 78.105) (xy 95.25 78.105)
+			(xy 77.47 78.74) (xy 95.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1513,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 86.995) (xy 76.835 85.725)
+			(xy 77.47 87.63) (xy 77.47 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 85.725) (xy 135.255 85.725)
+			(xy 118.11 86.36) (xy 135.89 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +1534,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 83.185) (xy 127.635 83.185)
+			(xy 115.57 83.82) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +1544,7 @@
 	)
 	(text "CAN Bus\nProtection"
 		(exclude_from_sim no)
-		(at 142.875 103.505 0)
+		(at 143.51 104.14 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1554,7 +1555,7 @@
 	)
 	(text "ISOLATED"
 		(exclude_from_sim no)
-		(at 97.155 69.215 0)
+		(at 97.79 69.85 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1567,7 +1568,7 @@
 	)
 	(text "Local (Primary Board) GND"
 		(exclude_from_sim no)
-		(at 70.485 93.98 0)
+		(at 71.12 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1599,7 +1600,7 @@
 		(uuid "d1fffd56-b060-4b29-9bbd-0b0024d34234")
 	)
 	(label "TERM_H"
-		(at 127.635 96.52 0)
+		(at 128.27 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1609,31 +1610,9 @@
 		)
 		(uuid "131bd822-3b1e-4cdb-8504-e0dac0c2c2f2")
 	)
-	(global_label "+5V_ISO"
-		(shape input)
-		(at 146.05 73.025 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2bef028-ff84-44d2-862b-ef46e4bb61ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.9387 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 92.075 80.645 180)
+		(at 92.71 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1643,9 +1622,21 @@
 		)
 		(uuid "0fbf1f46-ccc6-4f09-8ead-b274579c839d")
 	)
+	(hierarchical_label "3V3_Iso"
+		(shape input)
+		(at 147.32 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d588925-45d9-42ac-8697-081bcebd3e7b")
+	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
-		(at 92.075 83.185 180)
+		(at 92.71 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1657,7 +1648,7 @@
 	)
 	(hierarchical_label "CAN_HIGH"
 		(shape input)
-		(at 142.24 83.185 0)
+		(at 142.24 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1669,7 +1660,7 @@
 	)
 	(hierarchical_label "CAN_LOW"
 		(shape input)
-		(at 142.24 85.725 0)
+		(at 142.24 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1681,7 +1672,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 76.835 74.93 0)
+		(at 77.47 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1689,7 +1680,7 @@
 		(dnp no)
 		(uuid "14899c29-cf1f-4247-9194-4b9137c411e4")
 		(property "Reference" "#PWR0100"
-			(at 76.835 78.74 0)
+			(at 77.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1689,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 77.216 70.5358 0)
+			(at 77.851 70.5358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.835 74.93 0)
+			(at 77.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.835 74.93 0)
+			(at 77.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,8 +1714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.835 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 77.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1743,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 122.555 98.425 0)
+		(at 123.19 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1760,7 +1751,7 @@
 		(dnp no)
 		(uuid "29edfe3c-713a-41e9-a272-3242a6e34442")
 		(property "Reference" "JP2"
-			(at 122.555 96.393 0)
+			(at 123.19 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1759,7 @@
 			)
 		)
 		(property "Value" "Termination Resistors"
-			(at 122.555 100.965 0)
+			(at 123.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +1767,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 122.555 98.425 0)
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 122.555 98.425 0)
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,8 +1784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 122.555 98.425 0)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1816,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 76.835 81.915 0)
+		(at 77.47 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1833,7 +1824,7 @@
 		(dnp no)
 		(uuid "31877009-8b2c-4bc4-9396-ceea08704a01")
 		(property "Reference" "C35"
-			(at 77.089 80.137 0)
+			(at 77.724 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1833,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.089 83.947 0)
+			(at 77.724 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1842,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 76.835 81.915 0)
+			(at 77.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,8 +1850,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
-			(at 76.835 81.915 0)
+		(property "Datasheet" "~"
+			(at 77.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,8 +1859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.835 81.915 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1869,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0805C104M5R"
-			(at 76.835 81.915 0)
+			(at 77.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1878,7 @@
 			)
 		)
 		(property "P/N" "C0805C104M5RACTU"
-			(at 76.835 81.915 0)
+			(at 77.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1909,7 @@
 	)
 	(symbol
 		(lib_id "utsvt-chips:CDSOT23-T24CAN")
-		(at 146.685 96.52 0)
+		(at 147.32 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1927,7 +1918,7 @@
 		(fields_autoplaced yes)
 		(uuid "3278a108-8897-451c-a1d6-29ff0be51f59")
 		(property "Reference" "U5"
-			(at 146.685 89.535 0)
+			(at 147.32 89.535 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1935,7 +1926,7 @@
 			)
 		)
 		(property "Value" "CDSOT23-T24CAN"
-			(at 146.685 92.075 0)
+			(at 147.32 92.075 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1943,7 +1934,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
-			(at 146.685 105.41 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1952,7 +1943,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/652-CDSOT23-T24CAN"
-			(at 146.685 102.87 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1960,8 +1951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 146.685 96.52 0)
+		(property "Description" "CAN Bus Protector"
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1961,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CDSOT23-T24CAN"
-			(at 146.685 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1970,7 @@
 			)
 		)
 		(property "P/N" "CDSOT23-T24CAN"
-			(at 146.685 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +1998,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 157.48 81.915 0)
+		(at 157.48 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2016,7 +2007,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e7f6f0d-77ee-49d5-ab76-396c455c7816")
 		(property "Reference" "#PWR022"
-			(at 157.48 86.995 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2016,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 157.353 86.995 0)
+			(at 157.353 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 83.185 0)
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 83.185 0)
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,8 +2041,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 157.48 81.915 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2064,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 156.845 96.52 0)
+		(at 157.48 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2082,7 +2073,7 @@
 		(fields_autoplaced yes)
 		(uuid "8281223e-de80-486b-8ce2-92ab58e453c2")
 		(property "Reference" "#PWR024"
-			(at 156.845 101.6 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2082,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 156.718 101.6 0)
+			(at 157.353 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.845 97.79 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 97.79 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,8 +2107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 156.845 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2130,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 142.24 76.835 0)
+		(at 142.24 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2147,7 +2138,7 @@
 		(dnp no)
 		(uuid "8331df3b-9f6e-4e6a-89c1-3fac90eb649b")
 		(property "Reference" "C39"
-			(at 142.494 75.057 0)
+			(at 142.494 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2147,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 142.494 78.867 0)
+			(at 142.494 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2156,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 142.24 76.835 0)
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,8 +2164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
-			(at 142.24 76.835 0)
+		(property "Datasheet" "~"
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,8 +2173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 76.835 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2183,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0805C104M5R"
-			(at 142.24 76.835 0)
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2192,7 @@
 			)
 		)
 		(property "P/N" "C0805C104M5RACTU"
-			(at 142.24 76.835 0)
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2223,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127.635 90.805 180)
+		(at 128.27 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2240,7 +2231,7 @@
 		(dnp no)
 		(uuid "8b5e6551-f7b1-4f7c-b3e2-7e084ea33afa")
 		(property "Reference" "R35"
-			(at 125.603 90.805 90)
+			(at 126.238 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2239,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 127.635 90.805 90)
+			(at 128.27 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2247,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 129.413 90.805 90)
+			(at 130.048 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,8 +2255,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 127.635 90.805 0)
+		(property "Datasheet" "~"
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,8 +2264,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127.635 90.805 0)
+		(property "Description" "Resistor"
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2274,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW080559R0FKEA"
-			(at 127.635 90.805 0)
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2283,7 @@
 			)
 		)
 		(property "P/N" "CRCW080559R0FKEA"
-			(at 127.635 90.805 0)
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.835 86.995 0)
+		(at 77.47 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2331,7 +2322,7 @@
 		(dnp no)
 		(uuid "9a709c3d-6820-453c-a239-d032ec2ae829")
 		(property "Reference" "#PWR098"
-			(at 76.835 93.345 0)
+			(at 77.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.645 88.265 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.835 86.995 0)
+			(at 77.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.835 86.995 0)
+			(at 77.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,8 +2356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.835 86.995 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2385,7 @@
 	)
 	(symbol
 		(lib_id "utsvt-chips:ISO1044BD")
-		(at 105.41 80.645 0)
+		(at 105.41 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2403,7 +2394,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaf42c70-bee2-4929-8e51-230a5644d0b6")
 		(property "Reference" "U2"
-			(at 105.41 71.12 0)
+			(at 105.41 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2402,7 @@
 			)
 		)
 		(property "Value" "ISO1044BD"
-			(at 105.41 73.66 0)
+			(at 105.41 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2410,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
-			(at 105.41 89.535 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2420,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/Texas-Instruments/ISO1044BDR?qs=DuoOggApuK9UGD9QQWYeTA%3D%3D"
-			(at 105.41 81.915 0)
+			(at 105.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,8 +2428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 80.645 0)
+		(property "Description" "Isolated CAN Transceiver, SOP-8"
+			(at 105.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2438,7 @@
 			)
 		)
 		(property "Mouser Part Number" "ISO1044BD"
-			(at 105.41 80.645 0)
+			(at 105.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2447,7 @@
 			)
 		)
 		(property "P/N" "595-ISO1044BD"
-			(at 105.41 80.645 0)
+			(at 105.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

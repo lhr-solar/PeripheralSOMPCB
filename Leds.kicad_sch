@@ -583,7 +583,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 4.318 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -608,7 +608,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -634,10 +634,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -648,21 +660,7 @@
 				)
 				(circle
 					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
-					)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -673,7 +671,7 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -684,6 +682,17 @@
 				)
 			)
 			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -742,9 +751,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -818,8 +827,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1301,7 +1310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf"
+		(property "Datasheet" "~"
 			(at 163.83 116.205 0)
 			(effects
 				(font
@@ -1310,7 +1319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 163.83 116.205 0)
 			(effects
 				(font
@@ -1404,7 +1413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1002P?qs=h8kCHL4kpM7r31L1Z%2F%2FPBA%3D%3D&gclid=Cj0KCQjwz8emBhDrARIsANNJjS5pXvHxUsJqw6ReWcEKaZNzf3rv_QrNw6TYoW9872ijDZj5ETxcqvUaAskfEALw_wcB"
+		(property "Datasheet" "~"
 			(at 100.965 118.11 0)
 			(effects
 				(font
@@ -1413,7 +1422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 106.045 118.11 0)
 			(effects
 				(font
@@ -1506,7 +1515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 144.78 107.315 0)
 			(effects
 				(font
@@ -1599,7 +1608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 132.08 107.315 0)
 			(effects
 				(font
@@ -1691,7 +1700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 123.825 0)
 			(effects
 				(font
@@ -1763,7 +1772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 119.38 107.315 0)
 			(effects
 				(font
@@ -1848,7 +1857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "~"
 			(at 94.615 118.11 0)
 			(effects
 				(font
@@ -1857,7 +1866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 94.615 118.11 0)
 			(effects
 				(font
@@ -1950,7 +1959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 163.83 107.315 0)
 			(effects
 				(font
@@ -2035,7 +2044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 116.205 0)
 			(effects
 				(font
@@ -2044,7 +2053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 132.08 116.205 0)
 			(effects
 				(font
@@ -2123,7 +2132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 116.205 0)
 			(effects
 				(font
@@ -2132,7 +2141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 144.78 116.205 0)
 			(effects
 				(font
@@ -2211,7 +2220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf"
+		(property "Datasheet" "~"
 			(at 119.38 116.205 0)
 			(effects
 				(font
@@ -2220,7 +2229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 119.38 116.205 0)
 			(effects
 				(font
@@ -2297,7 +2306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Nidec-Components/CJS-1200TB1?qs=XeJtXLiO41S1Ro2%2Ft7kJ2w%3D%3D"
+		(property "Datasheet" "~"
 			(at 80.645 121.285 0)
 			(effects
 				(font
@@ -2306,7 +2315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, single pole double throw"
 			(at 80.645 121.285 0)
 			(effects
 				(font
