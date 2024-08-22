@@ -1560,7 +1560,7 @@
 					)
 				)
 			)
-			(property "Footprint" "UTSVT_Power:SIP4_CME0303_MUR"
+			(property "Footprint" "UTSVT_Power:CME0303S3C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1923,12 +1923,6 @@
 		(uuid "296ac984-c912-48a6-9143-18cada458653")
 	)
 	(junction
-		(at 92.71 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ac1f238-9e06-437b-8903-9975397bdc95")
-	)
-	(junction
 		(at 200.66 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2066,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 119.38) (xy 97.79 119.38)
+			(xy 91.44 119.38) (xy 97.79 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2083,16 +2077,6 @@
 			(type default)
 		)
 		(uuid "15cfd080-32b1-453f-a103-c09dd135d9d7")
-	)
-	(wire
-		(pts
-			(xy 91.44 119.38) (xy 92.71 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1652862c-4645-4b39-ba0c-0563dc2350ca")
 	)
 	(wire
 		(pts
@@ -2353,16 +2337,6 @@
 			(type default)
 		)
 		(uuid "6b7b4c2b-7b06-450d-be62-3f4c654f9e98")
-	)
-	(wire
-		(pts
-			(xy 92.71 114.3) (xy 92.71 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d41a4f2-d81c-42dc-bb3a-afe3b3a537f6")
 	)
 	(wire
 		(pts
@@ -2988,7 +2962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 181.61 67.31 0)
 			(effects
 				(font
@@ -3228,7 +3202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 67.31 0)
 			(effects
 				(font
@@ -3956,73 +3930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.71 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30736ab0-e207-43da-9685-476b46b21efd")
-		(property "Reference" "TP3"
-			(at 95.25 109.7279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 112.2679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.71 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48588376-7216-427a-bc2a-fe765de60e52")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "utsvt-chips:LM73100RPWR")
 		(at 67.31 59.69 0)
 		(unit 1)
@@ -4217,7 +4124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -6124,7 +6031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 76.2 0)
 			(effects
 				(font
@@ -6323,7 +6230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -6387,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_Power:SIP4_CME0303_MUR"
+		(property "Footprint" "UTSVT_Power:CME0303S3C"
 			(at 170.18 116.84 0)
 			(effects
 				(font

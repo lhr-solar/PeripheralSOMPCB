@@ -2370,7 +2370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.14 99.822 90)
 			(effects
 				(font
@@ -3044,7 +3044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "4.7k"
 			(at 166.37 111.7599 0)
 			(effects
 				(font
@@ -3053,7 +3053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 162.052 110.49 90)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 113.03 97.282 90)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "10k"
 			(at 166.37 121.9199 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 162.052 120.65 90)
 			(effects
 				(font

@@ -7132,7 +7132,7 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
-	(text "Todo:\nDoes USB chip need 3v3 reset?\nUART TX and RX switch on USB chip?\nChange connector out\nSwitch heartbeat pin (do when layout)\n"
+	(text "Todo:\nDoes USB chip need 3v3 reset?\nDouble check USB resistor divider\nUART TX and RX switch on USB chip?\nChange connector out\nSwitch heartbeat pin (do when layout)"
 		(exclude_from_sim no)
 		(at 14.732 101.6 0)
 		(effects
@@ -13349,8 +13349,8 @@
 		)
 	)
 	(sheet
-		(at 13.97 59.69)
-		(size 39.37 8.89)
+		(at 13.97 61.722)
+		(size 39.37 6.858)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -13361,7 +13361,7 @@
 		)
 		(uuid "94125b35-79a1-41d0-8b6c-f77e699b83b8")
 		(property "Sheetname" "USB"
-			(at 13.97 58.9784 0)
+			(at 13.97 61.0104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13379,7 +13379,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 13.97 59.69 0)
+			(at 13.97 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
