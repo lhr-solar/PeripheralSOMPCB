@@ -1579,7 +1579,7 @@
 	)
 	(text "Connect the jumper (JP1) to make this the terminating end"
 		(exclude_from_sim no)
-		(at 169.545 59.055 0)
+		(at 170.18 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1590,7 +1590,7 @@
 	)
 	(text "GND1 != GND\n\nGND1 = CAN GND = GND_ISO_In/Out"
 		(exclude_from_sim no)
-		(at 169.545 67.31 0)
+		(at 170.18 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
