@@ -5430,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 153.67 113.03)
+			(xy 154.94 121.92) (xy 153.67 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6057,6 +6057,16 @@
 			(type default)
 		)
 		(uuid "8a9a7e82-b6ba-42ca-8288-8231e4828e6d")
+	)
+	(wire
+		(pts
+			(xy 153.67 121.92) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef394d8-4cb1-4b01-9349-970baaeb1c27")
 	)
 	(wire
 		(pts
@@ -7122,6 +7132,17 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
+	(text "Todo:\nDoes USB chip need 3v3 reset?\nUART TX and RX switch on USB chip?\nChange connector out\nSwitch heartbeat pin (do when layout)\n"
+		(exclude_from_sim no)
+		(at 14.732 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f93fc46-f224-4a1d-9508-076600a18fa7")
+	)
 	(text "The crystal and caps have to be as \nclose to the uC as possible and\nno traces should go underneath\nthese components or connections."
 		(exclude_from_sim no)
 		(at 81.026 31.75 0)
@@ -7852,7 +7873,7 @@
 		(uuid "e86a3880-d0bf-485c-af86-79dd35546565")
 	)
 	(label "I2C2_PU_EN"
-		(at 147.32 113.03 0)
+		(at 154.94 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
