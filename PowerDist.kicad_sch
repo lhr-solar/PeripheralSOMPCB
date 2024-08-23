@@ -1467,7 +1467,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "UTSVT_ICs:LM76202QPWPRQ1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3286,9 +3286,9 @@
 		)
 		(uuid "9125795f-8e89-43f4-9c74-cc3f23ec05b5")
 	)
-	(text "Current lim(A) = 12/Rilim\n2.2A = 12/10k ohms"
+	(text "Current lim(A) = 12/Rilim(k)\n2.2A = 12/10k ohms"
 		(exclude_from_sim no)
-		(at 140.716 56.896 0)
+		(at 137.922 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6748,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_ICs:IC_LM76202QPWPRQ1"
+		(property "Footprint" "UTSVT_ICs:LM76202QPWPRQ1"
 			(at 97.79 59.69 0)
 			(effects
 				(font
