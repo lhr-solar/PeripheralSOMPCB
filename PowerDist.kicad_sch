@@ -3277,7 +3277,7 @@
 	)
 	(text "RTN!=GND \nConecting GND to RTN turns off RPP!"
 		(exclude_from_sim no)
-		(at 105.918 95.25 0)
+		(at 106.68 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3286,7 +3286,7 @@
 		)
 		(uuid "9125795f-8e89-43f4-9c74-cc3f23ec05b5")
 	)
-	(text "Current lim(A) = 12/Rilim(k)\n2.2A = 12/10k ohms"
+	(text "Current lim(A) = 12/Rilim(k)\n2.3A = 12/5.36k ohms"
 		(exclude_from_sim no)
 		(at 137.922 56.896 0)
 		(effects
@@ -3296,6 +3296,17 @@
 			(justify left)
 		)
 		(uuid "a1f3244a-6f09-416f-863a-434d273e7737")
+	)
+	(text "Todo:\nOVLO and UVLO values\nSHDN \nInrush cap value"
+		(exclude_from_sim no)
+		(at 91.694 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acfd5e04-d292-42f6-9686-d9cacf7d734e")
 	)
 	(text "Vout = .6 * (1 + (Rfbt / Rfbb))\n3.3V = .6 * (1 + (45.3 / 10))"
 		(exclude_from_sim no)
@@ -3316,6 +3327,16 @@
 			)
 		)
 		(uuid "e94460b3-2b44-4d02-b420-93eff3d55e28")
+	)
+	(text "Inrush current \nlimited to .5A"
+		(exclude_from_sim no)
+		(at 148.844 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec6c90fc-9c87-41ff-b355-9aaac856051f")
 	)
 	(label "RTN"
 		(at 101.6 96.52 0)
@@ -3759,7 +3780,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f014165-2eaf-4a67-8468-5603af62ddea")
 		(property "Reference" "R24"
-			(at 124.46 80.645 0)
+			(at 124.46 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,8 +3788,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 124.46 83.185 0)
+		(property "Value" "5.36k"
+			(at 124.46 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+		(property "Mouser Part Number" ""
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -3812,7 +3833,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" ""
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -4961,7 +4982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "12nF"
 			(at 137.16 80.0099 0)
 			(effects
 				(font
