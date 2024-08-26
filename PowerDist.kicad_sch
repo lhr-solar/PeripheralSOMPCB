@@ -2327,16 +2327,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 71.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00fdd27b-9dfb-45d8-b8d8-a3613a173cb9")
-	)
-	(wire
-		(pts
 			(xy 92.71 129.54) (xy 97.79 129.54)
 		)
 		(stroke
@@ -2354,6 +2344,16 @@
 			(type default)
 		)
 		(uuid "0318c0fb-3817-4861-a971-c955883ea2ab")
+	)
+	(wire
+		(pts
+			(xy 71.12 66.04) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c745a1-d8e1-4703-b674-36b9d68a5ade")
 	)
 	(wire
 		(pts
@@ -3037,6 +3037,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceda0d56-3a92-4796-a949-0f7a735fbca6")
+	)
+	(wire
+		(pts
 			(xy 99.06 96.52) (xy 99.06 95.25)
 		)
 		(stroke
@@ -3522,6 +3532,18 @@
 			(justify left bottom)
 		)
 		(uuid "ffb458cb-e091-4f8e-bab5-9a07df7d84d9")
+	)
+	(hierarchical_label "3.3V_Iso"
+		(shape output)
+		(at 72.39 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00b391f9-db11-42ca-8199-9c4bd67f3e97")
 	)
 	(hierarchical_label "12V_Ext"
 		(shape input)
@@ -4631,72 +4653,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 71.12 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53d3d23c-e31f-4358-8b3b-4c5d505626a7")
-		(property "Reference" "#PWR055"
-			(at 71.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 71.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2f8ea3c-0057-48f4-b267-8d5ebbcf7f04")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
