@@ -6975,8 +6975,8 @@
 		(uuid 3fd8a0ad-b1df-4a1b-aa37-b0ecb40ef712)
 	)
 	(rectangle
-		(start 12.065 12.7)
-		(end 69.85 198.12)
+		(start 12.065 11.938)
+		(end 69.85 197.358)
 		(stroke
 			(width 0)
 			(type default)
@@ -7106,7 +7106,7 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
-	(text "Todo:\nUVLO and OVLO divider on pp\nChange out pp footprint\nChange connector out\nSwitch heartbeat pin (do when layout)"
+	(text "Todo:\nUVLO and OVLO divider on pp\nChange connector out\nSwitch heartbeat pin (do when layout)"
 		(exclude_from_sim no)
 		(at 14.732 101.6 0)
 		(effects

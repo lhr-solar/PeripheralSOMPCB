@@ -1467,7 +1467,7 @@
 					)
 				)
 			)
-			(property "Footprint" "UTSVT_ICs:LM76202QPWPRQ1"
+			(property "Footprint" "UTSVT_ICs:SOP65P640X120-17N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4555,7 +4555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TDK/MLZ2012N100LT000?qs=%2FPzWLGNeQ%252BhBF9df2MjAZQ%3D%3D"
+		(property "Datasheet" "~"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -7159,7 +7159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TDK/MLZ2012M3R3HT000?qs=%2FPzWLGNeQ%252BgwPKJam21HNA%3D%3D"
+		(property "Datasheet" "~"
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -7227,7 +7227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_ICs:LM76202QPWPRQ1"
+		(property "Footprint" "UTSVT_ICs:SOP65P640X120-17N"
 			(at 97.79 59.69 0)
 			(effects
 				(font
@@ -7525,7 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12V, 450W Discrete Bidirectional TVS Diode, SOD-323"
 			(at 54.61 68.58 0)
 			(effects
 				(font
