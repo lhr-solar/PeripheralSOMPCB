@@ -7106,7 +7106,7 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
-	(text "Todo:\nInductor footprints\nSHDN on pp\nUVLO and OVLO divider\nChange connector out\nSwitch heartbeat pin (do when layout)"
+	(text "Todo:\nInductor footprints\nSHDN on pp\nUVLO and OVLO divider on pp\nChange connector out\nSwitch heartbeat pin (do when layout)\nFault pin on pp"
 		(exclude_from_sim no)
 		(at 14.732 101.6 0)
 		(effects
@@ -8240,7 +8240,7 @@
 			(uuid "33f9ed56-8f0d-42dd-91ac-35924de56e7f")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR041")
 					(unit 1)
@@ -8443,7 +8443,7 @@
 			(uuid "59c49bbf-6060-4e91-846f-bd87133f7af8")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR013")
 					(unit 1)
@@ -8509,7 +8509,7 @@
 			(uuid "8feb4f59-f22f-4b2f-9d13-252dbee26a67")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR038")
 					(unit 1)
@@ -9664,7 +9664,7 @@
 			(uuid "d474259c-cb0b-46af-814c-98b5604aeca6")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR035")
 					(unit 1)
@@ -13072,7 +13072,7 @@
 			(uuid "46710b50-59c0-43b1-88ab-d1119f05b345")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "J2")
 					(unit 1)

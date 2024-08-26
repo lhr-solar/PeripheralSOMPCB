@@ -2546,7 +2546,7 @@
 			(uuid "b7b44b14-0a79-4a25-a148-93a19087e303")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "U6")
 					(unit 1)
@@ -2612,7 +2612,7 @@
 			(uuid "8aaf5a0e-3075-428d-bcf8-c0df3b27a02e")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "#PWR026")
 					(unit 1)
@@ -3110,7 +3110,7 @@
 			(uuid "bfa022b5-23bc-420d-9d5d-840ef3191825")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "R1")
 					(unit 1)
@@ -3176,7 +3176,7 @@
 			(uuid "100375d9-69e4-4c35-ab79-710ba219ad35")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "#PWR027")
 					(unit 1)
@@ -3246,7 +3246,7 @@
 			(uuid "0b3f23f8-b849-4bdb-ac07-9397d3149f35")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "C28")
 					(unit 1)
@@ -3480,7 +3480,7 @@
 			(uuid "c2ec6a1e-f610-45ac-af47-b748b9f660a5")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "#PWR031")
 					(unit 1)
@@ -3700,7 +3700,7 @@
 			(uuid "f5fe60a2-f0c6-4a4e-9d75-fce00f0f7133")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "#PWR09")
 					(unit 1)
