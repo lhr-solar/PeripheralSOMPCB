@@ -4546,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -4555,7 +4555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TDK/MLZ2012N100LT000?qs=%2FPzWLGNeQ%252BhBF9df2MjAZQ%3D%3D"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -4573,7 +4573,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLZ2012N100LT000 "
 			(at 194.31 120.65 90)
 			(effects
 				(font
@@ -7150,7 +7150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -7159,7 +7159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TDK/MLZ2012M3R3HT000?qs=%2FPzWLGNeQ%252BgwPKJam21HNA%3D%3D"
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -7170,6 +7170,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLZ2012M3R3HT000"
+			(at 87.63 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
