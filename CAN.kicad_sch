@@ -1588,7 +1588,7 @@
 		)
 		(uuid "871cb24f-3234-40f1-914b-d5bfd4884edf")
 	)
-	(text "GND1 != GND\n\nGND1 = CAN GND = GND_ISO_In/Out"
+	(text "GNDPWR != GND\n\nGNDPWR = CAN GND = GND_ISO_In/Out"
 		(exclude_from_sim no)
 		(at 170.18 67.31 0)
 		(effects
