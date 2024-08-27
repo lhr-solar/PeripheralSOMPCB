@@ -3067,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 135.89) (xy 250.19 134.62)
+			(xy 250.19 139.7) (xy 250.19 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 135.89) (xy 250.19 135.89)
+			(xy 245.11 139.7) (xy 250.19 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3335,6 +3335,16 @@
 		)
 		(uuid "3c3996db-2ca9-43a4-8fad-8ba380b452d5")
 	)
+	(text "Ovlo ~ 13.45V\nUvlo ~ 10.34"
+		(exclude_from_sim no)
+		(at 42.672 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56fb54b9-cbc1-43e2-87fc-e385f4f8aac0")
+	)
 	(text "3.3V -> 3.3V (Isolated)"
 		(exclude_from_sim no)
 		(at 136.906 105.664 0)
@@ -3419,7 +3429,7 @@
 		(uuid "1d648079-0c08-4490-883b-d70b32fa71ee")
 	)
 	(label "fault"
-		(at 245.11 135.89 0)
+		(at 245.11 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5691,10 +5701,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94757c50-4b1b-4842-8185-e0e1c776d6ba")
+		(uuid "989ee568-ad13-48fe-aeb0-bfe458d1f99c")
 		(property "Reference" "R22"
-			(at 63.5 88.8999 0)
+			(at 62.738 89.0016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,8 +5711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 63.5 91.4399 0)
+		(property "Value" "100k"
+			(at 62.738 91.313 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,11 +5747,29 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "edb2bc5a-6a43-4b82-9e77-8e9474eac24e")
+			(uuid "48adb9a5-b356-486a-9844-fb0f0713939a")
 		)
 		(pin "2"
-			(uuid "923a234c-eedd-4c70-957a-7cb6b95d3ffd")
+			(uuid "ebead6e8-0d10-4dab-b8ec-3bb78dd8f335")
 		)
 		(instances
 			(project "BPS-PeripheralSOM"
@@ -5931,6 +5958,94 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a56f42c3-0b64-4330-9cec-531d8a903111")
+		(property "Reference" "R23"
+			(at 63.5 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 63.5 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 59.182 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75c061e8-d715-4d63-a2c9-c3c09aace052")
+		)
+		(pin "2"
+			(uuid "1faee257-83d7-4915-8f4b-1f706458f9a9")
+		)
+		(instances
+			(project "BPS-PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6307,7 +6422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3k"
 			(at 63.5 81.2799 0)
 			(effects
 				(font
@@ -6590,76 +6705,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc63ce7f-1b47-4991-bc45-1c2034efb6b9")
-		(property "Reference" "R23"
-			(at 63.5 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 63.5 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.182 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "958be759-d87c-42d9-988b-b2eeb1b38ee8")
-		)
-		(pin "2"
-			(uuid "48ff0e39-bdcd-4db2-b8ac-cd2b892f2992")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "R23")
 					(unit 1)
 				)
 			)
