@@ -7106,7 +7106,7 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
-	(text "Todo:\nUVLO and OVLO divider on pp\nChange connector out\nSwitch heartbeat pin (do when layout)"
+	(text "Todo:\nChange connector out\nSwitch heartbeat pin (do when layout)"
 		(exclude_from_sim no)
 		(at 14.732 101.6 0)
 		(effects
