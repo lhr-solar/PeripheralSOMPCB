@@ -7828,7 +7828,7 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
-	(text "Todo:\nChange connector out\nChange 3.3 Iso converter to 12->3.3V iso DC-DC\npp resistors\nSwitch heartbeat pin (do when layout)"
+	(text "Todo:\nChange 3.3 Iso converter to 12->3.3V iso DC-DC\npp resistors\nSwitch heartbeat pin (do when layout)"
 		(exclude_from_sim no)
 		(at 14.732 101.6 0)
 		(effects
@@ -9861,7 +9861,7 @@
 			(uuid "c7511238-69bc-4248-baee-3cc21dce0b69")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR066")
 					(unit 1)
@@ -12415,7 +12415,7 @@
 			(uuid "32fb2eb6-35d5-49d7-ba9f-b177b64091ac")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR065")
 					(unit 1)
@@ -12668,7 +12668,7 @@
 			(uuid "cb9bff79-303d-4911-bf2d-b43716a5253d")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR062")
 					(unit 1)
@@ -13229,7 +13229,7 @@
 			(uuid "befe8f9e-49ae-456b-8cd7-b9a995d4b811")
 		)
 		(instances
-			(project ""
+			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "J5")
 					(unit 1)

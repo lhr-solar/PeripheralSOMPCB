@@ -622,6 +622,10 @@
     [
       "40e00f49-8295-4a27-8e00-c31cad3b7d6c",
       "Switches and LEDs"
+    ],
+    [
+      "e2d9692e-b475-45c2-ba25-1b5b4c5e9a86",
+      "PowerProtection"
     ]
   ],
   "text_variables": {}
