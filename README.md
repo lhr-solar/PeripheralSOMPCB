@@ -1,5 +1,5 @@
-# BPS-PeripheralSOMPCB
-The BPS Peripheral System on Module takes in the SPI or I2C of the various Peripheral boards and sends that along a can bus. Used primarily by BPS and Data Acquisition
+# PeripheralSOMPCB
+The Peripheral System on Module takes in the SPI or I2C of the various Peripheral boards and sends that along a can bus. Used primarily by BPS and Data Acquisition
 
 ## Daughter Board Connector Pinout Usage Guide
  * SPI1 is the main SPI
