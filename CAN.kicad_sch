@@ -1622,7 +1622,7 @@
 		)
 		(uuid "0fbf1f46-ccc6-4f09-8ead-b274579c839d")
 	)
-	(hierarchical_label "3V3_Uniso"
+	(hierarchical_label "3V3_Bus"
 		(shape input)
 		(at 147.32 73.66 0)
 		(fields_autoplaced yes)
