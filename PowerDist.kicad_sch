@@ -1194,185 +1194,6 @@
 				)
 			)
 		)
-		(symbol "utsvt-power-regulators:CME0303S3C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CME0303S3C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "UTSVT_Power:CME0303S3C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdata/8807029342238/kdc-cme.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "P/N" "CME0303S3C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CME0303S3C_0_1"
-				(polyline
-					(pts
-						(xy -12.7 -13.97) (xy 12.7 -13.97)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -1.27) (xy -12.7 -13.97)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -13.97) (xy 12.7 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -1.27) (xy -12.7 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -20.32 -3.81 0)
-					(length 7.62)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -20.32 -11.43 0)
-					(length 7.62)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -11.43 180)
-					(length 7.62)
-					(name "-VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -3.81 180)
-					(length 7.62)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "utsvt-power-regulators:TPS562231DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1565,12 +1386,6 @@
 		(uuid "257f3319-70b8-41c7-b95a-b5bf1fa1e485")
 	)
 	(junction
-		(at 200.66 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "369d4796-82b0-4fdb-abbc-690fab5a16ca")
-	)
-	(junction
 		(at 38.1 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1667,16 +1482,6 @@
 			(type default)
 		)
 		(uuid "1553ff13-89bd-4604-a24a-894b20dcfb12")
-	)
-	(wire
-		(pts
-			(xy 190.5 128.27) (xy 200.66 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15cfd080-32b1-453f-a103-c09dd135d9d7")
 	)
 	(wire
 		(pts
@@ -1900,16 +1705,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 120.65) (xy 134.62 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e0bd76-319f-42c2-a5e0-e33883c6911e")
-	)
-	(wire
-		(pts
 			(xy 208.28 118.11) (xy 208.28 120.65)
 		)
 		(stroke
@@ -1977,6 +1772,26 @@
 			(type default)
 		)
 		(uuid "af3ebc58-ef9e-40ce-b3b0-6d2ddf96c143")
+	)
+	(wire
+		(pts
+			(xy 127 120.65) (xy 134.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa0e99f-8e3d-4a90-96eb-fca24d34b09a")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 127 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0dfcd39-f995-4810-ac1c-f19fbf8215f7")
 	)
 	(wire
 		(pts
@@ -2280,7 +2095,7 @@
 	)
 	(text "Isolation"
 		(exclude_from_sim no)
-		(at 170.434 113.284 0)
+		(at 170.18 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2313,7 +2128,7 @@
 	)
 	(text "3.3V -> 3.3V (Isolated)"
 		(exclude_from_sim no)
-		(at 136.906 105.664 0)
+		(at 134.112 105.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2373,7 +2188,7 @@
 		)
 		(uuid "ec6c90fc-9c87-41ff-b355-9aaac856051f")
 	)
-	(label "fault"
+	(label "Fault"
 		(at 245.11 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2439,7 +2254,7 @@
 		)
 		(uuid "a0b76e0a-c64b-4107-a6e3-31668e508e6a")
 	)
-	(label "fault"
+	(label "Fault"
 		(at 41.91 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2473,7 +2288,7 @@
 		)
 		(uuid "1816cf21-1a7b-4609-a601-e24a83cdf629")
 	)
-	(hierarchical_label "3V3_Uniso"
+	(hierarchical_label "3V3_Bus"
 		(shape output)
 		(at 41.91 71.12 180)
 		(fields_autoplaced yes)
@@ -2508,18 +2323,6 @@
 			(justify left)
 		)
 		(uuid "74b92e8c-1dc4-4c54-a1ef-db0fa03b8a94")
-	)
-	(hierarchical_label "3V3_Bus"
-		(shape output)
-		(at 132.08 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d985f036-3ad8-4f3e-99a1-3b895fcc2851")
 	)
 	(hierarchical_label "3V3_Bus"
 		(shape output)
@@ -2884,6 +2687,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 127 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fdbd6fc-8845-4c2d-beb2-d1e5acdadd02")
+		(property "Reference" "#PWR065"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b466f06-2494-4521-b512-0e4d30d6dec0")
+		)
+		(instances
+			(project "BPS-PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 97.79 138.43 0)
 		(unit 1)
@@ -3228,83 +3097,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 194.31 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b2df39e-51b0-4082-9c0b-48020c30f58f")
-		(property "Reference" "L2"
-			(at 194.31 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 194.31 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 194.31 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 194.31 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "MLZ2012N100LT000 "
-			(at 194.31 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a800ccd-635f-487f-8ac6-447d9ba003f4")
-		)
-		(pin "2"
-			(uuid "e8e3cc8f-2069-40bb-a1d2-3178ced4e1cd")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5238,97 +5030,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "utsvt-power-regulators:CME0303S3C")
-		(at 170.18 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1d5d7b5-9246-4973-8054-b8a8585276a7")
-		(property "Reference" "U4"
-			(at 170.18 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CME0303S3C"
-			(at 170.18 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT_Power:CME0303S3C"
-			(at 170.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdata/8807029342238/kdc-cme.pdf"
-			(at 170.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "CME0303S3C"
-			(at 170.18 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CME0303S3C"
-			(at 170.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "59c38f1b-eee8-4e9b-9f95-51c22c96e183")
-		)
-		(pin "4"
-			(uuid "5fcf25ad-7d3a-44d7-8052-bc3baae73cf2")
-		)
-		(pin "3"
-			(uuid "2b9c5fd8-4b8d-457f-922e-50f2fd4e72f5")
-		)
-		(pin "1"
-			(uuid "0d2096fc-8fba-456c-a871-509670c488c6")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 59.69 60.452)
 		(size 29.21 21.59)
@@ -5359,7 +5060,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3V_Uniso" output
+		(pin "3V3_Bus" output
 			(at 59.69 71.12 180)
 			(effects
 				(font

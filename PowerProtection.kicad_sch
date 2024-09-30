@@ -1815,7 +1815,7 @@
 		)
 		(uuid "34c5a3ab-5afa-45bc-b67b-ae21aab3ba69")
 	)
-	(hierarchical_label "3.3V_Uniso"
+	(hierarchical_label "3V3_Bus"
 		(shape output)
 		(at 116.84 85.09 0)
 		(fields_autoplaced yes)
