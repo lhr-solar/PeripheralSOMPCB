@@ -2253,7 +2253,7 @@
 		)
 		(uuid "d76be258-b6e1-4daa-aa40-e0e325885d20")
 	)
-	(hierarchical_label "UART_TX"
+	(hierarchical_label "CHIP_TX"
 		(shape output)
 		(at 154.94 91.44 0)
 		(fields_autoplaced yes)
@@ -2265,7 +2265,7 @@
 		)
 		(uuid "95da1cea-85db-44ee-b8d9-82a4da78ac72")
 	)
-	(hierarchical_label "UART_RX"
+	(hierarchical_label "CHIP_RX"
 		(shape input)
 		(at 154.94 93.98 0)
 		(fields_autoplaced yes)

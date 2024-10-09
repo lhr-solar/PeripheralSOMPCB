@@ -13080,7 +13080,7 @@
 				(hide yes)
 			)
 		)
-		(pin "UART_RX" input
+		(pin "CHIP_TX" input
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -13090,7 +13090,7 @@
 			)
 			(uuid "e7b013cf-8159-4123-97ad-13d7768e1724")
 		)
-		(pin "UART_TX" output
+		(pin "CHIP_RX" output
 			(at 53.34 67.31 0)
 			(effects
 				(font
