@@ -2229,7 +2229,7 @@
 	)
 	(rectangle
 		(start 219.964 106.68)
-		(end 266.954 151.384)
+		(end 264.16 151.384)
 		(stroke
 			(width 0)
 			(type default)
@@ -5346,7 +5346,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_Bus" output
+		(pin "3V3_Bus" input
 			(at 59.69 71.12 180)
 			(effects
 				(font
