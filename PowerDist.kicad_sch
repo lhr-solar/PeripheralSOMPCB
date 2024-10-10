@@ -2327,14 +2327,14 @@
 		)
 		(uuid "3c3996db-2ca9-43a4-8fad-8ba380b452d5")
 	)
-	(text "Ovlo ~ 13.45V\nUvlo ~ 10.34"
+	(text "Ovlo ~ 13.40V\nUvlo ~ 10.34\nValues aren't perfect due to resistor tolerances"
 		(exclude_from_sim no)
-		(at 141.732 58.674 0)
+		(at 161.29 59.182 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "56fb54b9-cbc1-43e2-87fc-e385f4f8aac0")
 	)
@@ -2391,12 +2391,12 @@
 	)
 	(text "Inrush current\nlimited to 54mA"
 		(exclude_from_sim no)
-		(at 141.986 62.992 0)
+		(at 161.29 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ec6c90fc-9c87-41ff-b355-9aaac856051f")
 	)
@@ -2601,6 +2601,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b5aafc8-8ca1-4121-9895-3edb241dfa3b")
 		)
@@ -2686,6 +2704,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 200.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 200.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3dba35cd-2009-4c22-ba5f-beb0d42e332a")
 		)
@@ -2746,6 +2782,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 224.79 63.5 0)
 			(effects
 				(font
@@ -2875,6 +2929,24 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 224.79 129.54 0)
 			(effects
 				(font
@@ -3234,6 +3306,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfa06162-5753-420e-b164-f2e2f521f926")
 		)
@@ -3367,6 +3457,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08fe3cb4-e1f4-4ecd-b1c6-2609adbce46c")
 		)
@@ -3425,6 +3533,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 134.62 124.46 0)
 			(effects
 				(font
@@ -3503,6 +3629,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b37c71fa-9c6d-4d5e-b8c3-963f6c90fcf6")
 		)
@@ -3572,6 +3716,24 @@
 			)
 		)
 		(property "P/N" "TPS562231DRLR"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -3859,6 +4021,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64fb9c73-c828-4fee-91b9-aedb66d8c3ca")
 		)
@@ -4030,6 +4210,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 224.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 224.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "392d0f9a-9cda-466c-9b66-9b4ae7b686fd")
 		)
@@ -4144,6 +4342,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 236.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 236.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a4a61a7-592f-42eb-a9e6-923234ed65cd")
 		)
@@ -4205,6 +4421,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 146.05 124.46 0)
 			(effects
 				(font
@@ -4359,6 +4593,24 @@
 			)
 		)
 		(property "P/N" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -4604,6 +4856,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 250.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 250.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a67baa8-e6a7-4a63-8112-e6b42a09fcc8")
 		)
@@ -4736,6 +5006,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "002c14d7-f5a7-4f72-bc91-d06d4fb7accc")
 		)
@@ -4815,6 +5103,24 @@
 			)
 		)
 		(property "Mouser Part Number" "Inventory"
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -4949,6 +5255,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 224.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 224.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 224.79 72.39 0)
 			(effects
 				(font
@@ -5097,6 +5421,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f379148-012e-4d3c-9a46-c3b11b8118b8")
 		)
@@ -5165,6 +5507,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c4ad8a1-4da3-440e-8e0c-b568156b2f37")
 		)
@@ -5221,6 +5581,33 @@
 			)
 		)
 		(property "Description" "Isolated DC/DC Converters 1W DC/DC 2kV UNREG 12Vin 3.3Vout"
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "RO-123.3S "
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 170.18 124.46 0)
 			(effects
 				(font

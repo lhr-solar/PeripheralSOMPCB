@@ -5077,10 +5077,6 @@
 		(uuid "ec98e323-a018-4127-bb58-cc5dfd2cd809")
 	)
 	(no_connect
-		(at 151.13 34.29)
-		(uuid "16638cd9-61e7-44f6-98c8-34b8622c52e4")
-	)
-	(no_connect
 		(at 130.81 29.21)
 		(uuid "1fee7576-4b9e-48f5-9369-f060b076dab7")
 	)
@@ -5091,6 +5087,10 @@
 	(no_connect
 		(at 151.13 41.91)
 		(uuid "48a90f01-e7be-438b-a1d5-a645bf4ffb02")
+	)
+	(no_connect
+		(at 151.13 72.39)
+		(uuid "5b1b63c5-e88d-45f6-b10b-d6086ab4c119")
 	)
 	(no_connect
 		(at 120.65 54.61)
@@ -6038,16 +6038,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a83b12-e479-4314-b422-cc33f3181d64")
-	)
-	(wire
-		(pts
 			(xy 96.52 180.34) (xy 91.44 180.34)
 		)
 		(stroke
@@ -6165,6 +6155,16 @@
 			(type default)
 		)
 		(uuid "9b7f3d6d-94ef-4e26-9cf6-6394b56f438a")
+	)
+	(wire
+		(pts
+			(xy 151.13 34.29) (xy 153.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcfd81c-bf46-4944-b2b4-ddcfea20ffe3")
 	)
 	(wire
 		(pts
@@ -6963,6 +6963,16 @@
 		)
 		(uuid "51fa11a8-9e27-46d9-984e-70e2a45c2fab")
 	)
+	(text "PC13-15 can \nonly source 3mA"
+		(exclude_from_sim no)
+		(at 107.696 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "674a0389-b493-4680-b1c4-fcf631ffa1ad")
+	)
 	(text "Keep terminating resistors close to the pins\nMake sure to put resistor at MISO at the other end"
 		(exclude_from_sim no)
 		(at 158.75 41.91 0)
@@ -7020,7 +7030,7 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
-	(text "Todo:\npp resistors\nSwitch heartbeat pin (do when layout)"
+	(text "Todo:\nSwitch heartbeat pin (do when layout)"
 		(exclude_from_sim no)
 		(at 14.732 101.6 0)
 		(effects
@@ -7088,17 +7098,6 @@
 			(justify right bottom)
 		)
 		(uuid "0a00c4fb-b01d-4a79-8441-1ecf1ad5d68d")
-	)
-	(label "PA15"
-		(at 59.69 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d872a8f-6c8a-4dc0-b2f2-510c19115c75")
 	)
 	(label "USART1_TX"
 		(at 64.77 67.31 180)
@@ -7209,17 +7208,6 @@
 			(justify left bottom)
 		)
 		(uuid "25ecdda6-c438-49e6-a018-925f52594d17")
-	)
-	(label "PA15"
-		(at 156.21 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c0f6879-9d98-47a2-a716-cac8ad298f77")
 	)
 	(label "USART1_RX"
 		(at 170.18 59.69 180)
@@ -7352,6 +7340,17 @@
 			(justify right bottom)
 		)
 		(uuid "60a0ce09-9ddd-4c32-b7cf-6b2167074264")
+	)
+	(label "PA0"
+		(at 153.67 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60a71d97-6505-4360-a985-8f19c775adf1")
 	)
 	(label "SPI2_NSS"
 		(at 232.41 57.15 180)
@@ -7683,6 +7682,17 @@
 		)
 		(uuid "d9e0994d-6c37-4a5b-8334-1427ac61ebb6")
 	)
+	(label "PA0"
+		(at 59.69 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcfd5522-0163-4108-9338-081340b57a1b")
+	)
 	(label "CAN_RX"
 		(at 55.88 46.99 0)
 		(fields_autoplaced yes)
@@ -7843,6 +7853,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bac7365c-3a13-4291-835d-94cda0a568cf")
 		)
@@ -7987,6 +8015,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 266.7 135.89 0)
 			(effects
 				(font
@@ -8408,6 +8454,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ad5674e-f65c-4af5-9f97-a54e7aee9d85")
 		)
@@ -8626,6 +8690,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4968ef2d-2bf7-4d9c-a2bc-72a0a7bb63a6")
 		)
@@ -8699,6 +8781,24 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
+			(at 236.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 236.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 236.22 144.78 0)
 			(effects
 				(font
@@ -8787,6 +8887,24 @@
 			)
 		)
 		(property "P/N" "C0805C104M5RACTU"
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 109.22 147.32 0)
 			(effects
 				(font
@@ -8946,6 +9064,24 @@
 			)
 		)
 		(property "P/N" "CRCW080510K0FKEAC"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 198.12 110.49 0)
 			(effects
 				(font
@@ -9171,6 +9307,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45a60ef5-df61-4464-8567-df46d602c5f5")
 		)
@@ -9325,6 +9479,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a1cdd9e-7581-4c94-815a-d7edfdd572b8")
 		)
@@ -9419,6 +9591,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30451bb5-55d4-42f4-8589-1aaf6715f164")
 		)
@@ -9499,6 +9689,24 @@
 			)
 		)
 		(property "P/N" "C0805C104M5RACTU"
+			(at 85.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 85.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 85.09 147.32 0)
 			(effects
 				(font
@@ -9699,6 +9907,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "1c52c140-0c6b-4168-abf3-cb2bc29bcde8")
 		)
@@ -9845,6 +10071,24 @@
 			)
 		)
 		(property "P/N" "D5V0P4UR6SO-7"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -10213,6 +10457,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b412dd00-10eb-416e-8ff4-190710f38bc7")
 		)
@@ -10280,6 +10542,24 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
+			(at 236.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 236.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 236.22 135.89 0)
 			(effects
 				(font
@@ -10366,6 +10646,24 @@
 			)
 		)
 		(property "P/N" "MFBW1V2012-121-R"
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 138.43 118.11 0)
 			(effects
 				(font
@@ -10508,6 +10806,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 256.54 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 256.54 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BPS-Leader"
 				(path "/c248b171-df31-4e8a-afb6-607fa2df334b"
@@ -10596,6 +10912,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 144.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 144.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9a41e66-dbfb-464d-83cb-6c4147545c61")
 		)
@@ -10664,6 +10998,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 175.26 144.78 0)
 			(effects
 				(font
@@ -11028,6 +11380,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "351d9d20-3d03-495a-b4d0-f80c8c218b26")
 		)
@@ -11096,6 +11466,24 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 172.72 120.65 0)
 			(effects
 				(font
@@ -11183,6 +11571,24 @@
 			)
 		)
 		(property "P/N" "C0805C104M5RACTU"
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 129.54 182.88 0)
 			(effects
 				(font
@@ -11283,6 +11689,24 @@
 			)
 		)
 		(property "P/N" "CRCW080510K0FKEAC"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 139.7 171.45 0)
 			(effects
 				(font
@@ -11511,6 +11935,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "380e30da-e998-4f22-8ab0-60c80e0f0c71")
 		)
@@ -11591,6 +12033,24 @@
 			)
 		)
 		(property "P/N" "C0805C104M5RACTU"
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 96.52 147.32 0)
 			(effects
 				(font
@@ -11757,6 +12217,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 87.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 87.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af700087-2656-448c-94a5-bdbdcef35629")
 		)
@@ -11915,6 +12393,24 @@
 			)
 		)
 		(property "P/N" "STM32L431CBT6"
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 135.89 67.31 0)
 			(effects
 				(font
@@ -12279,6 +12775,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b905f4e-7c41-4685-9ef8-e8b537cb49b3")
 		)
@@ -12365,6 +12879,24 @@
 			)
 		)
 		(property "P/N" "CRCW080510K0FKEAC"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 172.72 110.49 0)
 			(effects
 				(font
@@ -12508,6 +13040,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 266.7 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 266.7 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -12563,6 +13113,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 256.54 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 256.54 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 256.54 144.145 0)
 			(effects
 				(font
@@ -12776,6 +13344,24 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 198.12 120.65 0)
 			(effects
 				(font

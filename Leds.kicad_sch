@@ -1345,6 +1345,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62278507-03eb-4d8f-808b-df71e3417203")
 		)
@@ -1431,6 +1449,24 @@
 			)
 		)
 		(property "P/N" "B3SL-1002P"
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 106.68 118.11 0)
 			(effects
 				(font
@@ -1532,6 +1568,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 144.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 144.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56d96ef9-37b2-4b8a-90f5-e176841879e7")
 		)
@@ -1617,6 +1671,24 @@
 			)
 		)
 		(property "P/N" "SDR10EZPF2200"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -1789,6 +1861,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b0c4cd0-a563-412f-903f-d25b6bfae617")
 		)
@@ -1883,6 +1973,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6cf795c-8451-444f-84b2-2684daf32f65")
 		)
@@ -1968,6 +2076,24 @@
 			)
 		)
 		(property "P/N" "SDR10EZPF2200"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 163.83 107.95 0)
 			(effects
 				(font
@@ -2070,6 +2196,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e77c4ea-c571-48ee-8068-80ac10cd3ff2")
 		)
@@ -2150,6 +2294,24 @@
 			)
 		)
 		(property "P/N" "APTD2012LCGCK"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -2246,6 +2408,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c6d3465-1d00-4edc-9136-dd3915ed235f")
 		)
@@ -2324,6 +2504,24 @@
 			)
 		)
 		(property "P/N" "CJS-1200TB1"
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 81.28 121.92 0)
 			(effects
 				(font

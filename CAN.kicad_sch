@@ -1793,6 +1793,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce76050f-5035-4be0-a07b-2ddd754b86c3")
 		)
@@ -1886,6 +1904,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14f3ccd0-5633-4896-99e9-6af079c88c79")
 		)
@@ -1970,6 +2006,24 @@
 			)
 		)
 		(property "P/N" "CDSOT23-T24CAN"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 147.32 96.52 0)
 			(effects
 				(font
@@ -2200,6 +2254,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b10a04fc-7688-4129-bc95-3ae27fe64f76")
 		)
@@ -2283,6 +2355,24 @@
 			)
 		)
 		(property "P/N" "CRCW080559R0FKEA"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 128.27 91.44 0)
 			(effects
 				(font
@@ -2447,6 +2537,24 @@
 			)
 		)
 		(property "P/N" "595-ISO1044BD"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 105.41 81.28 0)
 			(effects
 				(font

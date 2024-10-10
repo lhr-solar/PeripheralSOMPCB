@@ -1838,7 +1838,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c907d0a-e19e-4739-b5b6-e48253cdd5c9")
 		(property "Reference" "R22"
-			(at 109.22 108.585 0)
+			(at 109.22 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,8 +1846,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 109.22 111.125 0)
+		(property "Value" "1k"
+			(at 109.22 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,6 +1900,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "454d7c93-1a40-467d-bf7c-0dfd035429f2")
 		)
@@ -1933,7 +1951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 108.458 90.043 0)
 			(effects
 				(font
@@ -1979,6 +1997,24 @@
 			)
 		)
 		(property "P/N" "CRCW0805100KFKEAC"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -2141,6 +2177,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cc42c21-8e32-4fea-9d11-9248441f1d21")
 		)
@@ -2228,6 +2282,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1914d45e-74e5-4698-81fe-6b1754b92bbb")
 		)
@@ -2262,7 +2334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "200"
 			(at 109.22 100.3299 0)
 			(effects
 				(font
@@ -2290,6 +2362,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 106.68 99.06 0)
 			(effects
 				(font
@@ -2386,6 +2485,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "060875b5-3bfc-4046-b541-e16ca47dfe3b")
 		)
@@ -2465,6 +2582,24 @@
 			)
 		)
 		(property "P/N" "CRCW0805100KFKEAC"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 162.56 85.09 0)
 			(effects
 				(font
@@ -2627,6 +2762,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10f6028e-0250-4544-bab4-7eb51c641ac5")
 		)
@@ -2707,6 +2860,24 @@
 			)
 		)
 		(property "P/N" "CRCW080510K0FKEAC"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 167.64 100.33 0)
 			(effects
 				(font
@@ -2887,6 +3058,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d4a3987-49c7-4e55-8539-03edf6c3ee90")
 		)
@@ -2956,6 +3145,24 @@
 			)
 		)
 		(property "P/N" "LM76202QPWPRQ1"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 143.51 78.74 0)
 			(effects
 				(font
