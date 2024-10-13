@@ -1516,22 +1516,10 @@
 		(uuid "05aa32f0-d756-4b71-b47f-f450779e9c7a")
 	)
 	(junction
-		(at 146.05 128.27)
+		(at 134.62 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "257f3319-70b8-41c7-b95a-b5bf1fa1e485")
-	)
-	(junction
-		(at 200.66 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31eb47b2-fa57-4c81-86c8-434beab2b7f0")
-	)
-	(junction
-		(at 200.66 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "492c286c-fb8a-4f5e-9858-3686e20249c1")
+		(uuid "0ee1d09f-ebe0-4335-87fe-abe2375e6052")
 	)
 	(junction
 		(at 38.1 116.84)
@@ -1552,16 +1540,10 @@
 		(uuid "93abdda5-5d84-4d7b-b5d9-84bbdb1554b0")
 	)
 	(junction
-		(at 134.62 120.65)
+		(at 144.78 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a38d89d0-1caf-4613-bbbc-455c99e34dc4")
-	)
-	(junction
-		(at 146.05 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a83398f1-3c7d-480d-8742-415475af740f")
+		(uuid "a8364d1c-3fd7-4835-981b-5b050b7ae0d7")
 	)
 	(junction
 		(at 97.79 119.38)
@@ -1570,10 +1552,28 @@
 		(uuid "e13aee20-3c54-4eed-8634-33cd8f9b2617")
 	)
 	(junction
+		(at 144.78 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61e1c13-a59e-4830-9379-2e6911b8c355")
+	)
+	(junction
+		(at 198.12 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6c5b168-720a-47d4-bcd0-eb2d67d98f36")
+	)
+	(junction
 		(at 48.26 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f08e371e-67ae-4ff6-9c86-124e2c090abd")
+	)
+	(junction
+		(at 198.12 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f463ef77-dd78-4d38-a346-03b406e9ae82")
 	)
 	(wire
 		(pts
@@ -1584,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "000cc076-beb2-4c67-82f4-0679e72cb92b")
+	)
+	(wire
+		(pts
+			(xy 198.12 129.54) (xy 200.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00aded81-dce6-4c2b-9865-e3dead4bd867")
 	)
 	(wire
 		(pts
@@ -1614,6 +1624,16 @@
 			(type default)
 		)
 		(uuid "10c58045-27b2-4d0d-99e0-7e2bb5730cee")
+	)
+	(wire
+		(pts
+			(xy 144.78 120.65) (xy 149.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f15f18-774e-4730-b6b6-d3ad8fbff0ce")
 	)
 	(wire
 		(pts
@@ -1667,7 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 129.54) (xy 200.66 129.54)
+			(xy 195.58 129.54) (xy 198.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1687,16 +1707,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 120.65) (xy 149.86 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322afb36-f09c-4ca2-b456-0c90f6ad752b")
-	)
-	(wire
-		(pts
 			(xy 224.79 113.03) (xy 224.79 116.84)
 		)
 		(stroke
@@ -1704,16 +1714,6 @@
 			(type default)
 		)
 		(uuid "328405e5-2eed-42e8-9aaa-6341c25a2bef")
-	)
-	(wire
-		(pts
-			(xy 137.16 128.27) (xy 146.05 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "333ebc7c-5cc2-4f78-9400-2286e5a01b88")
 	)
 	(wire
 		(pts
@@ -1897,16 +1897,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 121.92) (xy 200.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9127dd45-e44c-4742-82be-6f20e8121c45")
-	)
-	(wire
-		(pts
 			(xy 38.1 114.3) (xy 38.1 116.84)
 		)
 		(stroke
@@ -1927,13 +1917,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 121.92) (xy 208.28 121.92)
+			(xy 181.61 121.92) (xy 198.12 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99c690b3-8583-4a34-b336-2bb465653bee")
+		(uuid "9b5fc045-a775-46de-a3db-8a945129af2b")
 	)
 	(wire
 		(pts
@@ -1944,6 +1934,16 @@
 			(type default)
 		)
 		(uuid "9ccff571-56a6-4a93-b27a-38253f76f55a")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 144.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d52f16c-906a-46be-b736-39b78018396f")
 	)
 	(wire
 		(pts
@@ -2007,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 128.27) (xy 149.86 128.27)
+			(xy 137.16 128.27) (xy 144.78 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2087,6 +2087,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 121.92) (xy 208.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29379e5-c290-4eb4-b559-78409b8a8834")
+	)
+	(wire
+		(pts
+			(xy 144.78 128.27) (xy 149.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fcd11a-db76-4413-8b37-f1dabafbbb9f")
+	)
+	(wire
+		(pts
 			(xy 48.26 121.92) (xy 48.26 124.46)
 		)
 		(stroke
@@ -2124,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "eae22440-be75-4f7a-ac47-6e707ddedb5e")
-	)
-	(wire
-		(pts
-			(xy 134.62 120.65) (xy 146.05 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd424dc-5487-4587-a87a-e48a00cba3b1")
 	)
 	(wire
 		(pts
@@ -2626,112 +2636,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bd582c2-32e0-4aa0-b274-70b5b2722a94")
-		(property "Reference" "C8"
-			(at 204.47 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 204.47 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 201.6252 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "GRM219R6YA475KA73D"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dba35cd-2009-4c22-ba5f-beb0d42e332a")
-		)
-		(pin "2"
-			(uuid "3dd154c8-32e3-4c8d-980d-23758cf28956")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3192,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "22201C106KAT2A"
+		(property "P/N" "TMK212BBJ106MGHT"
 			(at 38.1 120.65 0)
 			(effects
 				(font
@@ -3495,9 +3399,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3f61c94c-800a-4c3c-84e1-ffecd8b46a01")
+		(uuid "51a72f2e-61f5-4830-acfe-5b45260dceb9")
 		(property "Reference" "C9"
-			(at 137.668 122.428 0)
+			(at 137.6172 123.2916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,8 +3409,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 137.414 125.73 0)
+		(property "Value" "10uF"
+			(at 137.6172 125.603 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,6 +3445,24 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TMK212BBJ106MGHT"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-22201C106KAT2A"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "PN" ""
 			(at 134.62 124.46 0)
 			(effects
@@ -3559,11 +3481,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a7f537fa-9772-4616-8924-94b374b69cef")
-		)
 		(pin "1"
-			(uuid "d47f029e-cf9b-4e17-b642-13fccb36cf5b")
+			(uuid "f7be2947-65f1-4251-bec6-2cc3f502967c")
+		)
+		(pin "2"
+			(uuid "0b497261-6de1-4108-8668-2055b530e9b7")
 		)
 		(instances
 			(project "BPS-PeripheralSOM"
@@ -3647,6 +3569,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080545K3FKEA"
+			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b37c71fa-9c6d-4d5e-b8c3-963f6c90fcf6")
 		)
@@ -3657,6 +3588,111 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ff505d2-116d-43f7-b685-ad1f98f70902")
+		(property "Reference" "C24"
+			(at 147.7772 123.2916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 147.7772 125.603 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 145.7452 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TMK212BBJ106MGHT"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-22201C106KAT2A"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd28717e-f985-4693-b871-3d8c0108afa9")
+		)
+		(pin "2"
+			(uuid "41972680-9df0-4e7b-b6c4-d8da4eb8ecff")
+		)
+		(instances
+			(project "BPS-PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4039,6 +4075,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "RT0603FRE0710KL "
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64fb9c73-c828-4fee-91b9-aedb66d8c3ca")
 		)
@@ -4376,93 +4421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 146.05 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c9be698-dc47-4fd3-ac26-b2c412ab232b")
-		(property "Reference" "C24"
-			(at 148.844 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 148.844 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 147.0152 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9600dce8-9f7c-46ee-a646-a69d6a907a37")
-		)
-		(pin "1"
-			(uuid "2d3f2b44-4dea-4dde-8427-63d223219dd2")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 208.28 118.11 0)
 		(unit 1)
@@ -4523,112 +4481,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 60.96 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aed793da-14f0-470c-975f-aabd116cfd50")
-		(property "Reference" "C3"
-			(at 64.77 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 64.77 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 61.9252 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "505290c0-426b-4157-8f0f-e01ca203fa87")
-		)
-		(pin "2"
-			(uuid "dd707db2-0629-442a-a602-0650c46d8d74")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5538,6 +5390,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 60.96 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f53ff053-9740-4d7c-ba1c-e210dcc23f83")
+		(property "Reference" "C3"
+			(at 64.77 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.77 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 61.9252 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0805C104M5R"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ce4dd74-694f-4b50-8970-e92629022d3f")
+		)
+		(pin "2"
+			(uuid "6a8d2521-346c-4e2c-b69d-3bfc10ed9f00")
+		)
+		(instances
+			(project "BPS-PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "utsvt-power-regulators:RO-123.3S_HP")
 		(at 170.18 124.46 0)
 		(unit 1)
@@ -5698,6 +5656,111 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 198.12 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcd8eae5-18f0-47d4-807a-d98d7645f7c1")
+		(property "Reference" "C8"
+			(at 201.1172 124.5616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 201.1172 126.873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 199.0852 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TMK212BBJ106MGHT"
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-22201C106KAT2A"
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a0f903f-a7ee-4305-948a-c3886876b58a")
+		)
+		(pin "2"
+			(uuid "ad342b63-7e23-4ba0-8cc1-eaf93e268a67")
+		)
+		(instances
+			(project "BPS-PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "C8")
 					(unit 1)
 				)
 			)

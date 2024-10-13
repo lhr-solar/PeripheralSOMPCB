@@ -7030,17 +7030,6 @@
 		)
 		(uuid "9d69e4fa-1711-4f56-82ec-b54b058dc33f")
 	)
-	(text "Todo:\nSwitch heartbeat pin (do when layout)"
-		(exclude_from_sim no)
-		(at 14.732 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f93fc46-f224-4a1d-9508-076600a18fa7")
-	)
 	(text "The crystal and caps have to be as \nclose to the uC as possible and\nno traces should go underneath\nthese components or connections."
 		(exclude_from_sim no)
 		(at 81.026 31.75 0)
