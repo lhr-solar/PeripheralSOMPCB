@@ -3160,7 +3160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38c1e5f4-9878-40ff-bcb5-052baf4d265c")
-		(property "Reference" "IC?"
+		(property "Reference" "IC2"
 			(at 67.945 116.84 0)
 			(effects
 				(font
@@ -3273,7 +3273,7 @@
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "IC?")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -3476,7 +3476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d926f8f-a2ed-42e6-965d-955264638764")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 88.7222 127.1016 0)
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3712,7 +3712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91b195a3-b0cb-4685-9216-99b125508d5c")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 46.1772 125.8316 0)
 			(effects
 				(font
@@ -3802,7 +3802,7 @@
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
