@@ -1564,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.74) (xy 115.57 78.74)
+			(xy 115.57 78.74) (xy 132.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1664,6 +1664,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 78.74) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be82059f-c247-477d-9dee-0a3a2c2fb83f")
+	)
+	(wire
+		(pts
 			(xy 142.24 81.28) (xy 157.48 81.28)
 		)
 		(stroke
@@ -1681,16 +1691,6 @@
 			(type default)
 		)
 		(uuid "c3feb7ac-296e-410a-9318-eb26ded75e32")
-	)
-	(wire
-		(pts
-			(xy 77.47 78.74) (xy 95.25 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2003a65-86ba-434c-83f5-eb0630a3ea67")
 	)
 	(wire
 		(pts
@@ -1735,7 +1735,7 @@
 	)
 	(text "ISOLATED"
 		(exclude_from_sim no)
-		(at 97.79 69.85 0)
+		(at 97.028 70.104 0)
 		(effects
 			(font
 				(size 2.54 2.54)

@@ -5259,6 +5259,10 @@
 		(uuid "e26a7904-fbe1-4545-862b-480212efad59")
 	)
 	(no_connect
+		(at 118.11 64.77)
+		(uuid "e66e125f-2d16-45d9-9ae9-5910ed6316ee")
+	)
+	(no_connect
 		(at 118.11 59.69)
 		(uuid "fb4ef738-933e-4d28-ae3f-29faa512501e")
 	)
@@ -5671,16 +5675,6 @@
 			(type default)
 		)
 		(uuid "38945254-b13a-433a-b361-391bb20c88cc")
-	)
-	(wire
-		(pts
-			(xy 113.03 64.77) (xy 118.11 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395e13d0-789e-4e38-84e8-73ecc673d5ac")
 	)
 	(wire
 		(pts
@@ -7462,17 +7456,6 @@
 			(justify right bottom)
 		)
 		(uuid "215d4c27-d78f-4773-b1ea-5551666fabfb")
-	)
-	(label "PB2"
-		(at 113.03 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25ecdda6-c438-49e6-a018-925f52594d17")
 	)
 	(label "I2C2_PU_En"
 		(at 151.765 54.61 0)
