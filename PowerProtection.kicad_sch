@@ -2216,7 +2216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 164.338 86.233 0)
 			(effects
 				(font
@@ -2252,7 +2252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
+		(property "Mouser Part Number" ""
 			(at 162.56 85.09 0)
 			(effects
 				(font
@@ -2261,7 +2261,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW0805100KFKEAC"
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 162.56 85.09 0)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "RC0805FR-07402KL"
 			(at 46.355 114.935 0)
 			(effects
 				(font
