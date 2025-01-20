@@ -1256,31 +1256,50 @@
 				)
 			)
 		)
-		(symbol "utsvt-power-regulators:RO-123.3S_HP"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "utsvt-power-regulators:IE1203S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 10.16 0)
+				(at 11.684 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "RO-123.3S_HP"
-				(at 0 7.62 0)
+			(property "Value" "IE1203S"
+				(at 8.636 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "UTSVT_ICs:RI3_DC_Converter"
-				(at 0 -7.62 0)
+			(property "Footprint" "UTSVT_Power:IE1224S-H"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2893286.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC/DC Converter Isolated 3.3V 1W"
+				(at 10.668 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1288,40 +1307,84 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/468/RO-1711124.pdf"
-				(at 0 -7.62 0)
+			(property "Height" ""
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Isolated DC/DC Converters 1W DC/DC 2kV UNREG 12Vin 3.3Vout"
-				(at 0 0 0)
+			(property "Mouser Part Number" "209-IE1203S"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "RO-123.3S_HP_1_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/XP-Power/IE1203S/?qs=w%2Fv1CP2dgqqfjxaAROdAnw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "XP POWER"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "P/N" "IE1203S"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IE1203S_1_1"
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 -5.08)
+					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin input line
-					(at -11.43 -2.54 0)
-					(length 3.81)
-					(name "-Vin"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1336,10 +1399,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -11.43 2.54 0)
-					(length 3.81)
-					(name "+Vin"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1354,10 +1417,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 11.43 -2.54 180)
-					(length 3.81)
-					(name "-Vout"
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "-VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1372,10 +1435,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 11.43 2.54 180)
-					(length 3.81)
-					(name "+Vout"
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "+VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1412,6 +1475,12 @@
 		(uuid "2d0c7843-c8e3-4d49-b6ad-805dc5e1c068")
 	)
 	(junction
+		(at 198.12 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f3ef9a-745f-4ef1-900e-52dcc0f681f0")
+	)
+	(junction
 		(at 107.95 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1424,22 +1493,10 @@
 		(uuid "42073aab-6a17-4a7e-bbc0-2e219fc90a85")
 	)
 	(junction
-		(at 156.21 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "645470f9-1f8f-4708-845a-257dfa21414c")
-	)
-	(junction
 		(at 137.16 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92278ab5-3c87-451f-a81b-e54fcf040cb9")
-	)
-	(junction
-		(at 184.15 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c071ac75-909a-4469-aa5e-ff67bd63e288")
 	)
 	(junction
 		(at 198.12 129.54)
@@ -1453,12 +1510,6 @@
 		(color 0 0 0 0)
 		(uuid "e988503f-843e-4f45-8898-b1cc2beabcaf")
 	)
-	(junction
-		(at 198.12 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f463ef77-dd78-4d38-a346-03b406e9ae82")
-	)
 	(no_connect
 		(at 105.41 124.46)
 		(uuid "b8a37ff3-19ce-4b56-b3c1-c0512f309e06")
@@ -1466,16 +1517,6 @@
 	(no_connect
 		(at 105.41 127)
 		(uuid "c7be4948-d0a4-46b4-b970-4cebaabeeb0c")
-	)
-	(wire
-		(pts
-			(xy 149.86 128.27) (xy 149.86 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000cc076-beb2-4c67-82f4-0679e72cb92b")
 	)
 	(wire
 		(pts
@@ -1499,16 +1540,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 135.255) (xy 184.15 135.255)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1022fd16-2e11-441f-a642-b1bff17eaa99")
-	)
-	(wire
-		(pts
 			(xy 224.79 125.73) (xy 224.79 124.46)
 		)
 		(stroke
@@ -1519,23 +1550,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 149.86 120.65)
+			(xy 184.15 121.92) (xy 198.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8bb918-4d11-4e1d-9e2d-8724fc7a3739")
+	)
+	(wire
+		(pts
+			(xy 158.75 123.19) (xy 158.75 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21813712-01cf-4f3e-917a-9a494cb68902")
-	)
-	(wire
-		(pts
-			(xy 195.58 129.54) (xy 198.12 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28587aa6-1772-4713-843c-119469ba33c4")
 	)
 	(wire
 		(pts
@@ -1556,6 +1587,16 @@
 			(type default)
 		)
 		(uuid "3032475e-7ad6-403c-8c21-d1c866266394")
+	)
+	(wire
+		(pts
+			(xy 198.12 121.92) (xy 208.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322176a1-2608-42ca-b720-72f3f473d6cf")
 	)
 	(wire
 		(pts
@@ -1637,16 +1678,6 @@
 		)
 		(uuid "5b2bf213-971f-45b8-b1cb-31b5b55b7405")
 	)
-	(polyline
-		(pts
-			(xy 170.18 132.08) (xy 170.18 114.046)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "60e4b554-0adb-42de-86fa-eee71f73b23f")
-	)
 	(wire
 		(pts
 			(xy 134.62 128.27) (xy 137.16 128.27)
@@ -1666,36 +1697,6 @@
 			(type default)
 		)
 		(uuid "6b7b4c2b-7b06-450d-be62-3f4c654f9e98")
-	)
-	(wire
-		(pts
-			(xy 181.61 127) (xy 184.15 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fa241ae-efd4-460b-a7c5-d1ea86ac223f")
-	)
-	(wire
-		(pts
-			(xy 156.21 127) (xy 158.75 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fdb9d86-2f62-4941-a39d-7782f8e15da0")
-	)
-	(wire
-		(pts
-			(xy 184.15 127) (xy 195.58 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ffc994-7153-4c04-9615-9835a7c5c741")
 	)
 	(wire
 		(pts
@@ -1729,16 +1730,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 135.255) (xy 184.15 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b27d484-0486-482b-a2b0-11dab29ad36f")
-	)
-	(wire
-		(pts
 			(xy 113.03 128.27) (xy 113.03 129.54)
 		)
 		(stroke
@@ -1759,6 +1750,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 129.54) (xy 198.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9733a79e-26c3-4170-bdcc-1b20c5e0cc38")
+	)
+	(wire
+		(pts
 			(xy 251.46 109.22) (xy 250.19 109.22)
 		)
 		(stroke
@@ -1766,16 +1767,6 @@
 			(type default)
 		)
 		(uuid "97a7a6ae-656e-4f2d-b269-921a276ff804")
-	)
-	(wire
-		(pts
-			(xy 181.61 121.92) (xy 198.12 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b5fc045-a775-46de-a3db-8a945129af2b")
 	)
 	(wire
 		(pts
@@ -1809,17 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 121.92) (xy 149.86 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67d7742-1a72-40ed-b760-07e23e028fa8")
-	)
-	(wire
-		(pts
-			(xy 144.78 120.65) (xy 149.86 120.65)
+			(xy 144.78 120.65) (xy 158.75 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1859,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 128.27) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b8f841-75fa-48ad-ab46-609b30b5a010")
+	)
+	(wire
+		(pts
 			(xy 127 118.11) (xy 127 120.65)
 		)
 		(stroke
@@ -1869,7 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 128.27) (xy 149.86 128.27)
+			(xy 144.78 128.27) (xy 158.75 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1939,16 +1930,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 156.21 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d805b15b-7219-4ded-8e13-0fb0032e96ef")
-	)
-	(wire
-		(pts
 			(xy 186.055 86.36) (xy 192.405 86.36)
 		)
 		(stroke
@@ -1959,13 +1940,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 121.92) (xy 208.28 121.92)
+			(xy 184.15 123.19) (xy 184.15 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e29379e5-c290-4eb4-b559-78409b8a8834")
+		(uuid "de8c66a9-2e74-4612-ab7d-6fbb70a81adb")
 	)
 	(wire
 		(pts
@@ -2019,33 +2000,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 135.255) (xy 156.21 135.255)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51b4982-07f8-4e8f-8f13-56015b2fa2f0")
-	)
-	(wire
-		(pts
-			(xy 195.58 127) (xy 195.58 129.54)
+			(xy 184.15 125.73) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f59169e5-ab34-42e2-968f-6ce670cc770d")
-	)
-	(wire
-		(pts
-			(xy 156.21 135.255) (xy 156.21 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ee3db9-21a6-440d-a591-dca642c5b434")
 	)
 	(wire
 		(pts
@@ -2895,6 +2856,132 @@
 		)
 	)
 	(symbol
+		(lib_id "utsvt-power-regulators:IE1203S")
+		(at 158.75 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20210c25-b435-4f3e-8af3-73dfb2db1910")
+		(property "Reference" "U4"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IE1203S"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_Power:IE1224S-H"
+			(at 180.34 218.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2893286.pdf"
+			(at 180.34 318.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC/DC Converter Isolated 3.3V 1W"
+			(at 169.418 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 180.34 518.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "209-IE1203S"
+			(at 180.34 618.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/XP-Power/IE1203S/?qs=w%2Fv1CP2dgqqfjxaAROdAnw%3D%3D"
+			(at 180.34 718.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XP POWER"
+			(at 180.34 818.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "P/N" "IE1203S"
+			(at 180.34 918.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5335e9e7-5526-438d-b8b3-1a12560944c4")
+		)
+		(pin "3"
+			(uuid "29f8f701-2c5b-43a3-a607-ac4b68a2547b")
+		)
+		(pin "2"
+			(uuid "9c4cc0b8-1f0d-471d-bdcc-45812d010a35")
+		)
+		(pin "4"
+			(uuid "946975cc-48db-46f3-9ef9-f33b4d795c52")
+		)
+		(instances
+			(project ""
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 186.055 86.36 90)
 		(unit 1)
@@ -3642,82 +3729,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 135.255 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "931a1531-5f3e-4fc8-840c-ce1e9a584f34")
-		(property "Reference" "C26"
-			(at 170.18 139.065 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2nF"
-			(at 170.18 141.605 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 173.99 134.2898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" "C0805J222K5RACAUTO"
-			(at 170.18 135.255 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bf22a5e-88f3-4ec2-bae1-2fb29d1c037d")
-		)
-		(pin "2"
-			(uuid "3da594d0-7af8-4dbc-96cd-0d6b32820508")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5085,106 +5096,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "utsvt-power-regulators:RO-123.3S_HP")
-		(at 170.18 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb0a4171-ad4d-4a6a-b4c1-3a16a7099da3")
-		(property "Reference" "U4"
-			(at 169.926 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RO-123.3S"
-			(at 169.926 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT_ICs:RI3_DC_Converter"
-			(at 170.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/468/RO-1711124.pdf"
-			(at 170.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Isolated DC/DC Converters 1W DC/DC 2kV UNREG 12Vin 3.3Vout"
-			(at 170.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "RO-123.3S "
-			(at 170.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 170.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 170.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62dc021f-40a9-429f-a0c7-55ea9e617cb9")
-		)
-		(pin "3"
-			(uuid "8bd9279d-c663-4447-85c5-74f8bbda6c18")
-		)
-		(pin "4"
-			(uuid "e9c9379a-261e-4267-9651-72c2232ca9e5")
-		)
-		(pin "2"
-			(uuid "c60d1fea-15f4-45c5-8d82-ac71f6a9c59d")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "U4")
 					(unit 1)
 				)
 			)
