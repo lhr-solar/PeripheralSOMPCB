@@ -2202,7 +2202,7 @@
 		)
 		(uuid "a1f3244a-6f09-416f-863a-434d273e7737")
 	)
-	(text "Max draw: 303 mA"
+	(text "Max draw: 300 mA"
 		(exclude_from_sim no)
 		(at 131.064 153.416 0)
 		(effects
