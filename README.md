@@ -15,11 +15,11 @@ The Peripheral System on Module takes in the SPI or I2C of the various Periphera
     * Drawing significant current will result in unstable voltage output
 
 ## BOM
-[**BOM**](bom/BPS-PeripheralSOM.csv)  
+[**BOM**](bom/PeripheralSOM.xlsx)  
 [**IBOM**](bom/ibom.html)  
 
 ## PCB
-![image](https://github.com/lhr-solar/BPS-PeripheralSOMPCB/blob/docs/BPS-PeripheralSOM_PCB.png?raw=true)
+![image](PeripheralSOM-Layout.png))
 
 ## Schematic
 [**PDF with all sheets**](BPS-PeripheralSOM_SCH.pdf)
@@ -31,5 +31,6 @@ Using STM32L4CBT1 with 2 I2C, 2 SPI, 1 CAN, 1 UART (USB)
 Add ADC pins as a quick hotfix
 ### v2.0:
 Updated UART-> USB chip and moved to a 12V architecture
-
+### v2.1:
+Fixed power protection chip bugs and changed 12->3.3V (noniso) to be an LDO
 
