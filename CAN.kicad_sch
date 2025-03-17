@@ -1494,6 +1494,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 106.045) (xy 97.79 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653e553f-198d-4074-aaae-e3aa85a6e75b")
+	)
+	(wire
+		(pts
 			(xy 92.71 81.28) (xy 95.25 81.28)
 		)
 		(stroke
@@ -1644,6 +1654,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 106.045) (xy 95.25 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6280b2f-cac3-4d3f-a534-ed99ff10a77b")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 142.24 73.66)
 		)
 		(stroke
@@ -1790,6 +1810,18 @@
 		)
 		(uuid "131bd822-3b1e-4cdb-8504-e0dac0c2c2f2")
 	)
+	(hierarchical_label "CAN_HIGH"
+		(shape input)
+		(at 97.79 109.855 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07a886a0-d517-4272-96d6-581b84fdf951")
+	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
 		(at 92.71 81.28 180)
@@ -1825,6 +1857,18 @@
 			(justify right)
 		)
 		(uuid "641af4f1-57a8-43a6-b064-222285c95d05")
+	)
+	(hierarchical_label "CAN_LOW"
+		(shape input)
+		(at 95.25 109.855 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aaf536b-9f01-4825-80ed-08b2246c0738")
 	)
 	(hierarchical_label "CAN_HIGH"
 		(shape input)
@@ -2385,6 +2429,76 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d0c269d-60cf-499b-bfd2-5087981d6678"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 97.79 100.965 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e5d1297-5854-4924-b347-f40749a8f009")
+		(property "Reference" "J6"
+			(at 99.06 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 99.06 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 97.79 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 97.79 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30f4cacf-5977-45e2-b95a-346ef3c31a0b")
+		)
+		(pin "1"
+			(uuid "298cfcb6-0722-4912-b8df-511d864ac67a")
+		)
+		(instances
+			(project "BPS-PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d0c269d-60cf-499b-bfd2-5087981d6678"
+					(reference "J6")
 					(unit 1)
 				)
 			)

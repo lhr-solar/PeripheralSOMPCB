@@ -5288,6 +5288,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.855 52.07) (xy 109.855 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048ff44c-caba-4e81-b313-f391ed575a17")
+	)
+	(wire
+		(pts
 			(xy 234.95 48.26) (xy 237.49 48.26)
 		)
 		(stroke
@@ -5485,16 +5495,6 @@
 			(type default)
 		)
 		(uuid "20cb7078-f5a3-4d4c-ae46-5dfa61a20663")
-	)
-	(wire
-		(pts
-			(xy 113.03 45.72) (xy 113.03 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21af05cf-5c69-4b1a-9873-a67618b8d682")
 	)
 	(wire
 		(pts
@@ -6568,16 +6568,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 44.45) (xy 118.11 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80150dc-4953-4e7d-96b8-3fc1264d63f7")
-	)
-	(wire
-		(pts
 			(xy 123.825 105.41) (xy 133.35 105.41)
 		)
 		(stroke
@@ -6988,6 +6978,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.855 44.45) (xy 118.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ee76f2-7e91-42c8-8e4f-22b84fe6e883")
+	)
+	(wire
+		(pts
 			(xy 101.6 63.5) (xy 101.6 66.04)
 		)
 		(stroke
@@ -7235,7 +7235,7 @@
 	)
 	(text "PC13-15 can \nonly source 3mA"
 		(exclude_from_sim no)
-		(at 105.156 53.848 0)
+		(at 99.695 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7522,6 +7522,17 @@
 			(justify right bottom)
 		)
 		(uuid "3300b1b4-aeb9-4db7-9a4a-57e6dfb6ee0d")
+	)
+	(label "Boot"
+		(at 110.49 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37a4be5d-6025-44f8-a6a9-7b49739241f3")
 	)
 	(label "I2C1_SCL"
 		(at 264.16 50.8 0)
@@ -8529,7 +8540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 45.72 0)
+		(at 109.855 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8538,7 +8549,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eb4feed-e94b-46ec-9817-d5b936da5301")
 		(property "Reference" "#PWR038"
-			(at 113.03 52.07 0)
+			(at 109.855 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 50.8 0)
+			(at 109.855 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 45.72 0)
+			(at 109.855 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8564,7 +8575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 45.72 0)
+			(at 109.855 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,7 +8584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 45.72 0)
+			(at 109.855 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,6 +9738,112 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.855 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b750676-8f2b-4dc9-9102-e7012eb35c35")
+		(property "Reference" "R19"
+			(at 112.395 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 112.395 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 108.077 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.855 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.855 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+			(at 109.855 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 109.855 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 109.855 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 109.855 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f702619a-51c6-4bbd-aabf-751bb5ba2ad2")
+		)
+		(pin "2"
+			(uuid "178c13e5-36d9-4d2f-a70f-d71e91441956")
+		)
+		(instances
+			(project "BPS-PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+					(reference "R19")
 					(unit 1)
 				)
 			)
