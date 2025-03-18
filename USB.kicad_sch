@@ -3168,7 +3168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "254ce5db-7fa4-4c80-be39-12a9c539da5c")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 71.755 91.44 0)
 			(effects
 				(font
@@ -3238,7 +3238,7 @@
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
-					(reference "D?")
+					(reference "D7")
 					(unit 1)
 				)
 			)

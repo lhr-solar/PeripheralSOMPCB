@@ -5499,7 +5499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a56d37f3-ffd5-4a3e-bc40-fb02c4e6bb44")
-		(property "Reference" "TP?"
+		(property "Reference" "TP9"
 			(at 244.475 63.6269 0)
 			(effects
 				(font
@@ -5568,7 +5568,7 @@
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "TP?")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
