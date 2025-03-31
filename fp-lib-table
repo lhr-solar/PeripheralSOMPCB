@@ -6,4 +6,5 @@
   (lib (name "UTSVT_Passive")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Passive.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Special.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Power")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/UTSVT_Power.pretty")(options "")(descr ""))
+  (lib (name "UTSVT_Logos")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/UTSVT_Logos.pretty")(options "")(descr ""))
 )
