@@ -2657,7 +2657,7 @@
 	)
 	(text "vbus should be ~5V"
 		(exclude_from_sim no)
-		(at 80.645 74.93 0)
+		(at 81.915 74.295 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2730,12 +2730,6 @@
 		(uuid "6ff90c6f-27bb-4916-a408-d9433b6ff1ab")
 	)
 	(junction
-		(at 69.215 75.565)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77b6a279-63e2-4a86-9ce5-59647872556d")
-	)
-	(junction
 		(at 157.48 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2800,6 +2794,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3c4d2a0-082c-4203-9826-f54bf436d043")
+	)
+	(junction
+		(at 72.39 75.565)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b63430-aba3-4f18-8d17-08024e31a435")
 	)
 	(no_connect
 		(at 57.15 98.425)
@@ -2881,16 +2881,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 75.565) (xy 70.485 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02c3c1da-b4b7-4cac-9061-8b3ddc37b810")
-	)
-	(wire
-		(pts
 			(xy 186.69 111.76) (xy 186.69 113.03)
 		)
 		(stroke
@@ -2908,16 +2898,6 @@
 			(type default)
 		)
 		(uuid "0d0c013e-e6a6-49b7-b52c-05be685ca3ff")
-	)
-	(wire
-		(pts
-			(xy 69.215 75.565) (xy 69.215 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10800ac3-f39c-4c55-af49-73d964bec89c")
 	)
 	(wire
 		(pts
@@ -3051,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 73.025) (xy 72.39 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd1a6b7-e6f3-4a3d-8438-c1463d9c35be")
+	)
+	(wire
+		(pts
 			(xy 142.24 80.01) (xy 156.21 80.01)
 		)
 		(stroke
@@ -3128,6 +3118,16 @@
 			(type default)
 		)
 		(uuid "547ff267-86a7-4067-8d08-d7726e0ee26c")
+	)
+	(wire
+		(pts
+			(xy 57.15 75.565) (xy 64.77 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5599179d-9053-407a-b5de-9420efa7368c")
 	)
 	(wire
 		(pts
@@ -3211,6 +3211,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 92.71) (xy 69.215 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647b8575-8284-4ba0-8d24-c0e0d7c4300a")
+	)
+	(wire
+		(pts
 			(xy 106.68 95.25) (xy 109.22 95.25)
 		)
 		(stroke
@@ -3218,16 +3228,6 @@
 			(type default)
 		)
 		(uuid "68477490-2b06-413b-ad77-4c9ac4a339dd")
-	)
-	(wire
-		(pts
-			(xy 57.15 75.565) (xy 59.69 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ede05ce-793d-47b0-94f7-7b43f908d422")
 	)
 	(wire
 		(pts
@@ -3331,16 +3331,6 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 72.39) (xy 70.485 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea725dd-e5da-45c4-9012-d6f8d903e4c5")
-	)
-	(wire
-		(pts
 			(xy 161.29 115.57) (xy 161.29 116.84)
 		)
 		(stroke
@@ -3421,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 75.565) (xy 69.215 75.565)
+			(xy 72.39 75.565) (xy 72.39 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3628,6 +3618,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e94f20b-64af-413a-b99e-47cf5c606af9")
+	)
+	(label "vbus_in"
+		(at 57.785 75.565 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78f48086-c7a1-4745-a77b-1af8aecfbb29")
 	)
 	(label "D-"
 		(at 106.68 95.25 0)
@@ -5992,16 +5992,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 63.5 75.565 180)
+		(at 68.58 75.565 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0bd0ff9-9461-4c43-a8f0-2a77c779427e")
 		(property "Reference" "D10"
-			(at 63.8175 69.215 0)
+			(at 66.04 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,7 +6008,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 63.8175 71.755 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6016,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 63.5 75.565 0)
+			(at 68.58 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 75.565 0)
+			(at 68.58 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6034,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 63.5 75.565 0)
+			(at 68.58 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6043,7 @@
 			)
 		)
 		(property "P/N" "BAT760-7"
-			(at 63.5 75.565 0)
+			(at 68.58 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6052,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 63.5 75.565 0)
+			(at 68.58 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6061,7 @@
 			)
 		)
 		(property "Inventory" ""
-			(at 63.5 75.565 0)
+			(at 68.58 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6086,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 70.485 72.39 0)
+		(at 72.39 73.025 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6096,7 +6095,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7137e18-69d3-4b4e-ad5f-25a01d21b48d")
 		(property "Reference" "#PWR050"
-			(at 70.485 76.2 0)
+			(at 72.39 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6104,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 70.485 67.945 0)
+			(at 72.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.485 72.39 0)
+			(at 72.39 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 70.485 72.39 0)
+			(at 72.39 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 70.485 72.39 0)
+			(at 72.39 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
