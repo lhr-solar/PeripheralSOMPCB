@@ -60,27 +60,39 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|124950000|47005000|303027b7-ca0f-4e31-b880-cf78414f645a|4b44fbfb-19dd-41e3-bb6b-b277a1bda220",
+          "clearance|162700000|43300000|59f1c02a-1510-4ec0-a567-2cc155603e5c|8b1e24dc-1ab9-42b1-8b95-628790cad6cc",
           ""
         ],
         [
-          "hole_clearance|124950000|47005000|4c6603b5-b4a8-4e98-bdcb-808d50d40641|4b44fbfb-19dd-41e3-bb6b-b277a1bda220",
+          "clearance|165625000|46225000|935d51f0-0790-4197-8467-ff8b5912877d|02093575-c188-435a-b066-84141b21c150",
           ""
         ],
         [
-          "hole_clearance|131050000|47005000|21878407-db6a-480f-b286-cf52b7934e6b|b7f951af-2861-45db-9561-42315ccfea49",
+          "clearance|165750000|43300000|9880f501-f48c-4468-b184-0ae53f9ed123|92579036-35ff-4f80-ae6e-afcfe0d09735",
           ""
         ],
         [
-          "hole_clearance|131050000|47005000|9d931985-fe6a-4885-aff7-ba4097619994|b7f951af-2861-45db-9561-42315ccfea49",
+          "hole_clearance|138100000|60325000|13be8ccd-0a17-41f0-8b5b-7309cd035df4|a606d43f-6b7f-4c75-bb8b-95849d5451af",
           ""
         ],
         [
-          "hole_clearance|138100000|60325000|d47893e0-e0c0-4025-b777-4ff8ecd66b0b|a606d43f-6b7f-4c75-bb8b-95849d5451af",
+          "hole_clearance|138100000|69675000|e4b17a65-7a1f-4508-9253-556a868d4a1a|bc1d0ddf-47ec-4894-a558-58b05708cd4f",
           ""
         ],
         [
-          "hole_clearance|138100000|69675000|9e980518-6e11-45f4-bb6d-47a824fb66e8|bc1d0ddf-47ec-4894-a558-58b05708cd4f",
+          "hole_clearance|162175000|34683750|2c84e946-d970-42cd-af7e-205c37060f91|303027b7-ca0f-4e31-b880-cf78414f645a",
+          ""
+        ],
+        [
+          "hole_clearance|162175000|34683750|2c84e946-d970-42cd-af7e-205c37060f91|4c6603b5-b4a8-4e98-bdcb-808d50d40641",
+          ""
+        ],
+        [
+          "hole_clearance|168275000|34683750|1d5ba22a-c43d-48f4-96b5-91b82b21c195|21878407-db6a-480f-b286-cf52b7934e6b",
+          ""
+        ],
+        [
+          "hole_clearance|168275000|34683750|1d5ba22a-c43d-48f4-96b5-91b82b21c195|9d931985-fe6a-4885-aff7-ba4097619994",
           ""
         ]
       ],
@@ -486,7 +498,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
