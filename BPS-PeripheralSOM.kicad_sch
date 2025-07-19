@@ -1385,6 +1385,17 @@
 		)
 		(uuid 6ffa0d32-387f-4ffc-9041-e1ec456801e0)
 	)
+	(text "Todo:\n- Finish microcontroller breakouts\n- Double check pins for UART and CAN bootloader\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher currnet\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for Sci Labs chip\n- Get rid of push button\n- Change all testpoints to pad testpoints\n- Swap out 2 extra ADC pins for the better ones\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)"
+		(exclude_from_sim no)
+		(at 74.168 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bb2de95-b47c-4d28-a58a-e9d02c7f142e")
+	)
 	(text "Graphics/Logos"
 		(exclude_from_sim no)
 		(at 241.935 147.955 0)
