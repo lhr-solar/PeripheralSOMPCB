@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e8885e9b-5aff-478d-bac6-78e3201db64c")
 	(paper "A4")
 	(lib_symbols
@@ -86,18 +86,6 @@
 			(symbol "TLV70130DBVR_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 48.26 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
@@ -110,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy 48.26 -10.16) (xy 48.26 5.08)
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -123,6 +111,18 @@
 				(polyline
 					(pts
 						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -168,17 +168,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 55.88 -5.08 180)
+				(pin unspecified line
+					(at 55.88 0 180)
 					(length 7.62)
-					(name "IN"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,17 +204,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 55.88 0 180)
+				(pin input line
+					(at 55.88 -5.08 180)
 					(length 7.62)
-					(name "NC"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -223,11 +223,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -325,9 +330,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -400,7 +408,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -412,7 +420,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -461,11 +469,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -533,10 +546,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -557,7 +582,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -569,22 +594,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -630,9 +643,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -751,12 +767,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -828,7 +849,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -840,7 +861,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -871,12 +892,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -948,7 +974,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -960,7 +986,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -991,12 +1017,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1087,12 +1118,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1152,18 +1188,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -1180,6 +1204,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1255,6 +1291,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "utsvt-power-regulators:IE1203S"
 			(exclude_from_sim no)
@@ -1358,18 +1395,6 @@
 				)
 			)
 			(symbol "IE1203S_1_1"
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -5.08)
@@ -1381,22 +1406,16 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 -5.08)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1418,16 +1437,16 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -2.54 180)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "-VOUT"
+					(name "-VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1453,8 +1472,202 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 30.226 106.68)
+		(end 118.11 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 077865a3-1b05-4f74-b694-1fad1bf22fcc)
+	)
+	(rectangle
+		(start 219.964 106.68)
+		(end 264.16 151.384)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94bd9113-cbf6-4e1c-981b-84af12385978)
+	)
+	(rectangle
+		(start 30.226 53.086)
+		(end 162.052 97.536)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid afd7a808-7b65-4caa-8e94-9ea30b281a7a)
+	)
+	(rectangle
+		(start 122.174 106.68)
+		(end 215.9 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d27480ab-fd2b-4f78-8480-e6a620f40d35)
+	)
+	(rectangle
+		(start 176.276 52.578)
+		(end 239.522 96.774)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5eed47e-a8c7-48cd-808c-32e32362689c)
+	)
+	(text "Max draw: 2.2A"
+		(exclude_from_sim no)
+		(at 37.846 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "013f5405-2735-4d7e-a405-79d3a450ca12")
+	)
+	(text "Testpoints"
+		(exclude_from_sim no)
+		(at 181.102 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e45829b-bb2d-4f7a-a316-5566a9c74d30")
+	)
+	(text "Max draw: 150mA"
+		(exclude_from_sim no)
+		(at 40.64 153.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "175f2c8a-7df0-4b93-bcdb-d1d6cd828a2c")
+	)
+	(text "Isolation"
+		(exclude_from_sim no)
+		(at 170.18 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "393c9f3d-5901-416a-8a18-7b8ec3bb1854")
+	)
+	(text "12V -> 3.3V (Unisolated)"
+		(exclude_from_sim no)
+		(at 42.672 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c3996db-2ca9-43a4-8fad-8ba380b452d5")
+	)
+	(text "Ovlo ~ 13.40V\nUvlo ~ 10.34\nValues aren't perfect due to resistor tolerances"
+		(exclude_from_sim no)
+		(at 161.29 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56fb54b9-cbc1-43e2-87fc-e385f4f8aac0")
+	)
+	(text "12V -> 3.3V (Isolated)"
+		(exclude_from_sim no)
+		(at 133.604 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "605fb04a-60f5-4688-be6c-41b6732465ac")
+	)
+	(text "Vin Protection"
+		(exclude_from_sim no)
+		(at 37.084 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a8f5f99-cb92-4a22-b2fd-9bbaed418ffb")
+	)
+	(text "Current limit = 1.2A"
+		(exclude_from_sim no)
+		(at 141.478 55.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1f3244a-6f09-416f-863a-434d273e7737")
+	)
+	(text "Max draw: 300 mA"
+		(exclude_from_sim no)
+		(at 131.064 153.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e94460b3-2b44-4d02-b420-93eff3d55e28")
+	)
+	(text "Inrush current\nlimited to 54mA"
+		(exclude_from_sim no)
+		(at 161.29 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6c90fc-9c87-41ff-b355-9aaac856051f")
 	)
 	(junction
 		(at 41.91 124.46)
@@ -2048,184 +2261,8 @@
 		)
 		(uuid "fd6dd3b1-88d3-4a04-9812-0f109e965a66")
 	)
-	(rectangle
-		(start 30.226 106.68)
-		(end 118.11 151.13)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 077865a3-1b05-4f74-b694-1fad1bf22fcc)
-	)
-	(rectangle
-		(start 219.964 106.68)
-		(end 264.16 151.384)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 94bd9113-cbf6-4e1c-981b-84af12385978)
-	)
-	(rectangle
-		(start 30.226 53.086)
-		(end 162.052 97.536)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid afd7a808-7b65-4caa-8e94-9ea30b281a7a)
-	)
-	(rectangle
-		(start 122.174 106.68)
-		(end 215.9 151.13)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d27480ab-fd2b-4f78-8480-e6a620f40d35)
-	)
-	(rectangle
-		(start 176.276 52.578)
-		(end 239.522 96.774)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d5eed47e-a8c7-48cd-808c-32e32362689c)
-	)
-	(text "Max draw: 2.2A"
-		(exclude_from_sim no)
-		(at 37.846 99.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "013f5405-2735-4d7e-a405-79d3a450ca12")
-	)
-	(text "Testpoints"
-		(exclude_from_sim no)
-		(at 181.102 51.054 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0e45829b-bb2d-4f7a-a316-5566a9c74d30")
-	)
-	(text "Max draw: 150mA"
-		(exclude_from_sim no)
-		(at 40.64 153.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "175f2c8a-7df0-4b93-bcdb-d1d6cd828a2c")
-	)
-	(text "Isolation"
-		(exclude_from_sim no)
-		(at 170.18 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "393c9f3d-5901-416a-8a18-7b8ec3bb1854")
-	)
-	(text "12V -> 3.3V (Unisolated)"
-		(exclude_from_sim no)
-		(at 42.672 105.664 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3c3996db-2ca9-43a4-8fad-8ba380b452d5")
-	)
-	(text "Ovlo ~ 13.40V\nUvlo ~ 10.34\nValues aren't perfect due to resistor tolerances"
-		(exclude_from_sim no)
-		(at 161.29 59.182 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "56fb54b9-cbc1-43e2-87fc-e385f4f8aac0")
-	)
-	(text "12V -> 3.3V (Isolated)"
-		(exclude_from_sim no)
-		(at 133.604 105.918 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "605fb04a-60f5-4688-be6c-41b6732465ac")
-	)
-	(text "Vin Protection"
-		(exclude_from_sim no)
-		(at 37.084 51.308 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8a8f5f99-cb92-4a22-b2fd-9bbaed418ffb")
-	)
-	(text "Current limit = 1.2A"
-		(exclude_from_sim no)
-		(at 141.478 55.118 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1f3244a-6f09-416f-863a-434d273e7737")
-	)
-	(text "Max draw: 300 mA"
-		(exclude_from_sim no)
-		(at 131.064 153.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e94460b3-2b44-4d02-b420-93eff3d55e28")
-	)
-	(text "Inrush current\nlimited to 54mA"
-		(exclude_from_sim no)
-		(at 161.29 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec6c90fc-9c87-41ff-b355-9aaac856051f")
-	)
 	(label "Fault"
 		(at 245.11 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2236,7 +2273,6 @@
 	)
 	(label "Fault"
 		(at 41.91 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2248,7 +2284,6 @@
 	(hierarchical_label "12V_Ext"
 		(shape input)
 		(at 39.37 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2260,7 +2295,6 @@
 	(hierarchical_label "3V3_Bus"
 		(shape output)
 		(at 41.91 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2272,7 +2306,6 @@
 	(hierarchical_label "12V_Ext"
 		(shape input)
 		(at 251.46 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2284,7 +2317,6 @@
 	(hierarchical_label "3V3_Bus"
 		(shape output)
 		(at 40.64 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2296,7 +2328,6 @@
 	(hierarchical_label "12V_Ext"
 		(shape input)
 		(at 192.405 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2308,7 +2339,6 @@
 	(hierarchical_label "3V3_Bus"
 		(shape output)
 		(at 207.01 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5275,6 +5305,10 @@
 	(sheet
 		(at 59.69 60.452)
 		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5304,33 +5338,33 @@
 		)
 		(pin "3V3_Bus" input
 			(at 59.69 71.12 180)
+			(uuid "ccbd2a87-870d-435a-a1ea-b176835ff03c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ccbd2a87-870d-435a-a1ea-b176835ff03c")
 		)
 		(pin "12V_Ext" input
 			(at 59.69 64.77 180)
+			(uuid "42a443fe-1432-4f89-9d9b-0af9fda3a97e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42a443fe-1432-4f89-9d9b-0af9fda3a97e")
 		)
 		(pin "Fault" input
 			(at 59.69 76.2 180)
+			(uuid "5a93a0e9-a577-48dc-8431-af4aadf94ea6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5a93a0e9-a577-48dc-8431-af4aadf94ea6")
 		)
 		(instances
 			(project "BPS-PeripheralSOM"
