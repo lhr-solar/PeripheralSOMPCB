@@ -2027,7 +2027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 180.0352 101.6 0)
 			(effects
 				(font
@@ -2132,7 +2132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 86.0552 91.44 0)
 			(effects
 				(font
@@ -2237,7 +2237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 160.782 85.09 90)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 44.577 114.935 90)
 			(effects
 				(font
@@ -2440,7 +2440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 41.402 163.83 90)
 			(effects
 				(font
@@ -2611,7 +2611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 178.7652 88.9 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 113.792 95.25 90)
 			(effects
 				(font
@@ -2823,7 +2823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 165.862 100.33 90)
 			(effects
 				(font
@@ -2995,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" ""
 			(at 105.41 87.63 0)
 			(effects
 				(font
@@ -3117,7 +3117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_ICs:SOP65P640X120-17N"
+		(property "Footprint" ""
 			(at 143.51 78.74 0)
 			(effects
 				(font
@@ -3259,7 +3259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 41.402 153.67 90)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 41.402 143.51 90)
 			(effects
 				(font
