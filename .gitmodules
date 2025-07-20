@@ -1,0 +1,3 @@
+[submodule "KiCAD-Bild"]
+	path = KiCAD-Bild
+	url = git@github.com:lhr-solar/KiCAD-Bild
