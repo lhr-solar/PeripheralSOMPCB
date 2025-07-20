@@ -1,3 +1,5 @@
+TODO(rshah): update for new rev
+
 # PeripheralSOMPCB
 The Peripheral System on Module takes in the SPI or I2C of the various Peripheral boards and sends that along a can bus.
 
