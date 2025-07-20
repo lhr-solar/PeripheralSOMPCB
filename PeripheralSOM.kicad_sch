@@ -420,179 +420,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VDDA"
 			(power)
 			(pin_numbers
@@ -1390,9 +1217,9 @@
 		)
 		(uuid 6ffa0d32-387f-4ffc-9041-e1ec456801e0)
 	)
-	(text "Todo:\n- Finish microcontroller breakouts\n- Double check pins for UART and CAN bootloader\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher currnet\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for Sci Labs chip\n- Get rid of push button\n- Change all testpoints to pad testpoints\n- Swap out 2 extra ADC pins for the better ones\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)"
+	(text "Todo:\n- Finish microcontroller breakouts\n- Double check pins for UART and CAN bootloader\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher currnet\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for Sci Labs chip\n- Get rid of push button\n- Change all testpoints to pad testpoints\n- Swap out 2 extra ADC pins for the better ones\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)\n- Add new logo footprint\nDone:"
 		(exclude_from_sim no)
-		(at 74.168 62.484 0)
+		(at 69.088 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1440,6 +1267,16 @@
 		)
 		(uuid "6e468ed8-f7fe-4d8e-a9d4-fd3c48d684fd")
 	)
+	(text "DONT CHANGE PWR/GND\nrecheck pinout with prev"
+		(exclude_from_sim no)
+		(at 168.148 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acd4bb26-6674-49bc-9daa-00f5bc811311")
+	)
 	(text "Connector mates with 53307-2471\nPlease consult README for pin usage guide\n** Note that the pin naming scheme is not indicative of \nproper usage guidelines **"
 		(exclude_from_sim no)
 		(at 137.668 29.21 0)
@@ -1456,37 +1293,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 149.86 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06f1b1e3-de0f-40fb-a5ad-92cab8e7dd18")
-	)
-	(wire
-		(pts
-			(xy 172.72 60.96) (xy 179.07 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08519cb1-cac7-4222-b428-2554db011fd7")
-	)
-	(wire
-		(pts
-			(xy 172.72 50.8) (xy 176.53 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10254300-ac32-4d37-ae21-2f71b13821b9")
-	)
-	(wire
-		(pts
-			(xy 172.72 43.18) (xy 176.53 43.18)
+			(xy 172.72 43.18) (xy 181.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1506,56 +1313,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 82.55) (xy 53.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4138bfec-2c61-41ae-82c2-eb67c615ea0d")
-	)
-	(wire
-		(pts
-			(xy 147.32 45.72) (xy 149.86 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468ba7b1-1db5-4a76-9ff9-a5dbe9e7a87c")
-	)
-	(wire
-		(pts
-			(xy 146.05 63.5) (xy 149.86 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494b7902-bd81-491c-9471-8c90efed49ea")
-	)
-	(wire
-		(pts
-			(xy 146.05 60.96) (xy 149.86 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a5ec2a-20fa-428f-9d7a-dc8b55268483")
-	)
-	(wire
-		(pts
-			(xy 172.72 48.26) (xy 176.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b26d9f-948c-4915-a845-feb3b87d494b")
-	)
-	(wire
-		(pts
 			(xy 172.72 55.88) (xy 182.88 55.88)
 		)
 		(stroke
@@ -1563,36 +1320,6 @@
 			(type default)
 		)
 		(uuid "6935ebd7-a561-4945-8ae4-7488bce5d266")
-	)
-	(wire
-		(pts
-			(xy 144.145 58.42) (xy 144.145 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afa18db-4095-4b28-8652-aedb83deff78")
-	)
-	(wire
-		(pts
-			(xy 147.32 66.04) (xy 149.86 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d069d22-c883-4a30-9fdb-cb31f1617eb1")
-	)
-	(wire
-		(pts
-			(xy 147.32 53.34) (xy 149.86 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e25935b-98b9-4c4f-bdbf-e512c8b45c7d")
 	)
 	(wire
 		(pts
@@ -1616,26 +1343,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 53.34) (xy 176.53 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c066abe6-b0b8-48b1-852f-303f7a05ce95")
-	)
-	(wire
-		(pts
-			(xy 147.32 68.58) (xy 149.86 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fefe51-476b-4879-af1f-5fbaf8724732")
-	)
-	(wire
-		(pts
 			(xy 172.72 58.42) (xy 187.96 58.42)
 		)
 		(stroke
@@ -1643,16 +1350,6 @@
 			(type default)
 		)
 		(uuid "cc32f5e7-9cb0-4902-aa75-2a80f5f49e01")
-	)
-	(wire
-		(pts
-			(xy 144.145 58.42) (xy 149.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d077c707-7950-4b28-a1ac-e1f790c11b0d")
 	)
 	(wire
 		(pts
@@ -1666,36 +1363,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 48.26) (xy 149.86 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfef3d27-c740-4a2b-84d7-c234e8f55c94")
-	)
-	(wire
-		(pts
-			(xy 172.72 63.5) (xy 179.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea61935-c94c-463e-ba6e-54196fa408a1")
-	)
-	(wire
-		(pts
-			(xy 172.72 45.72) (xy 176.53 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d98bbc-77c7-4d6d-874b-eb401a67742c")
-	)
-	(wire
-		(pts
 			(xy 172.72 66.04) (xy 177.8 66.04)
 		)
 		(stroke
@@ -1703,26 +1370,6 @@
 			(type default)
 		)
 		(uuid "fcc8240f-5d5a-43e7-b7d4-e3be2b269c7f")
-	)
-	(wire
-		(pts
-			(xy 142.24 40.64) (xy 149.86 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd84d8f0-cf62-43fd-8555-ac9cfed3e7d9")
-	)
-	(wire
-		(pts
-			(xy 147.32 43.18) (xy 149.86 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd923680-c39c-4942-956a-c4f51a223d62")
 	)
 	(label "PB[3..5]"
 		(at 66.04 77.47 180)
@@ -1734,165 +1381,15 @@
 		)
 		(uuid "0a00c4fb-b01d-4a79-8441-1ecf1ad5d68d")
 	)
-	(label "I2C1_SDA"
-		(at 176.53 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10c8c9de-7e97-43ee-8900-a09f5fe111d2")
-	)
-	(label "SPI1_NSS"
-		(at 147.32 45.72 180)
+	(label "24V_Ext"
+		(at 181.61 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1ae80b86-bc93-4c7d-a7b9-14cda8d3e953")
-	)
-	(label "I2C1_SCL"
-		(at 176.53 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "408e06eb-f3b9-46c6-9e53-c6d2dbb78e5f")
-	)
-	(label "CAN_L"
-		(at 147.32 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47f7fffa-bd1a-470d-b938-425aa0a45e67")
-	)
-	(label "SPI2_NSS"
-		(at 146.05 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64dd6e4d-ad21-4830-b1ea-85fee6ed2db1")
-	)
-	(label "CAN_H"
-		(at 142.24 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "719fedc3-2ba3-4197-b819-69442138dd45")
-	)
-	(label "SPI1_MISO"
-		(at 147.32 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "780d6ec8-7c30-4ccd-b1b3-6364144fb123")
-	)
-	(label "PB1"
-		(at 59.69 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9304b373-6082-4bd1-a532-0e97df93fa03")
-	)
-	(label "I2C2_SDA"
-		(at 179.07 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1e3706b-4e94-4f78-83fd-5bb99fd44cf4")
-	)
-	(label "I2C2_SCL"
-		(at 179.07 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2dad304-d048-41e8-885f-a34eb83ef1a0")
-	)
-	(label "SPI2_SCK"
-		(at 146.05 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2e7047b-a513-4566-9a62-36359529e14a")
-	)
-	(label "SPI2_MISO"
-		(at 147.32 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9c7d05e-b58f-4655-9ecc-4d800d8ae42f")
-	)
-	(label "SPI1_SCK"
-		(at 147.32 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ca8af135-3ef5-4762-834e-d342e254a33a")
-	)
-	(label "SPI2_MOSI"
-		(at 147.32 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cabd4b5f-2dec-417f-b5cf-07251a6d2e83")
-	)
-	(label "PA2"
-		(at 176.53 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd1ef0ef-32bc-428d-bc05-b73dcea8b6ef")
-	)
-	(label "12V_Ext"
-		(at 176.53 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf21c21d-91d9-48e6-b806-6529f5b5ab2e")
+		(uuid "6e604136-63a4-43cc-8f3d-1b2ddb4b5833")
 	)
 	(label "PA0"
 		(at 59.69 80.01 0)
@@ -1903,26 +1400,6 @@
 			(justify left bottom)
 		)
 		(uuid "dcfd5522-0163-4108-9338-081340b57a1b")
-	)
-	(label "PA1"
-		(at 176.53 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5dbd878-10d5-4e70-842a-621685f129aa")
-	)
-	(label "SPI1_MOSI"
-		(at 147.32 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec78fe0c-af65-4b90-b225-de3561c89090")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -2006,17 +1483,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 144.145 57.15 90)
+		(lib_id "power:GND")
+		(at 185.42 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19cf4648-5d27-4bde-a7dc-9845a39b824b")
-		(property "Reference" "#PWR041"
-			(at 147.955 57.15 0)
+		(uuid "0a00b324-95a7-4886-affa-5b6cbf801e5c")
+		(property "Reference" "#PWR013"
+			(at 191.77 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,17 +1500,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 140.335 57.1499 90)
+		(property "Value" "GND"
+			(at 189.8142 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 144.145 57.15 0)
+			(at 185.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +1518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.145 57.15 0)
+			(at 185.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,8 +1526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.145 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,99 +1536,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9571f80e-dc70-41ea-8c13-a68b31104a16")
+			(uuid "726c0e38-2dc8-4533-b983-35d906aa96f1")
 		)
 		(instances
-			(project "BPS-PeripheralSOM"
+			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "utsvt-misc:Logo_Placeholder")
-		(at 157.48 98.425 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a262f4b-1a56-49a8-b826-630eb12dde85")
-		(property "Reference" "LOGO2"
-			(at 157.48 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "UTSVT Logo"
-			(at 161.036 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Graph footprint placeholder"
-			(at 157.48 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 157.48 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 157.48 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-					(reference "LOGO2")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "LOGO2")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2490,71 +1878,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 185.42 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e229f4c-837c-4801-b9d5-4aa16fcccb00")
-		(property "Reference" "#PWR071"
-			(at 190.5 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 189.23 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 185.42 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeddcc03-2c5d-4b46-86b1-2e78c49a5c46")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3226,7 +2549,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "40e00f49-8295-4a27-8e00-c31cad3b7d6c")
-		(property "Sheetname" "Switches and LEDs"
+		(property "Sheetname" "LEDs"
 			(at 13.97 74.2184 0)
 			(effects
 				(font
@@ -3251,16 +2574,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(pin "SW_PUSH" output
-			(at 53.34 82.55 0)
-			(uuid "527f2f0c-3829-4ad9-8df4-ac12eeb38113")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "LED[1..3]" input
