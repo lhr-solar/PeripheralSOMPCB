@@ -1419,7 +1419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.3"
+		(property "Value" "M3"
 			(at 190.5 90.678 0)
 			(effects
 				(font
@@ -2053,7 +2053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.3"
+		(property "Value" "M3"
 			(at 180.34 90.678 0)
 			(effects
 				(font
@@ -2270,7 +2270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.3"
+		(property "Value" "M3"
 			(at 190.5 98.933 0)
 			(effects
 				(font
@@ -2351,7 +2351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.3"
+		(property "Value" "M3"
 			(at 180.34 98.933 0)
 			(effects
 				(font
