@@ -1217,7 +1217,7 @@
 		)
 		(uuid 6ffa0d32-387f-4ffc-9041-e1ec456801e0)
 	)
-	(text "Todo:\n- Finish microcontroller breakouts\n- Double check pins for UART and CAN bootloader\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher currnet\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for Sci Labs chip\n- Get rid of push button\n- Change all testpoints to pad testpoints\n- Swap out 2 extra ADC pins for the better ones\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)\n- Add new logo footprint\nDone:"
+	(text "Todo:\n- Finish microcontroller breakouts\n- Double check pins for UART and CAN bootloader\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher currnet\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for Sci Labs chip\n- Get rid of push button\n- Change all testpoints to pad testpoints\n- Swap out 2 extra ADC pins for the better ones\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)\n- Add new logo footprint\nDone:\n- Need to change pp values to be 24V"
 		(exclude_from_sim no)
 		(at 69.088 79.248 0)
 		(effects
