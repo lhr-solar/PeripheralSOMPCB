@@ -730,15 +730,6 @@
 				(hide yes)
 			)
 		)
-		(property "Color" "Green"
-			(at 127 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "APTD2012LCGCK"
 			(at 127 68.58 90)
 			(effects
@@ -749,24 +740,6 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -868,24 +841,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "56d96ef9-37b2-4b8a-90f5-e176841879e7")
 		)
@@ -971,24 +926,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 92.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 92.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -1161,24 +1098,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8b0c4cd0-a563-412f-903f-d25b6bfae617")
 		)
@@ -1264,24 +1183,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -1384,24 +1285,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7e77c4ea-c571-48ee-8068-80ac10cd3ff2")
 		)
@@ -1490,24 +1373,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1f59e8ad-1962-4fd3-866e-a9f1a2091273")
 		)
@@ -1588,24 +1453,6 @@
 			)
 		)
 		(property "P/N" "APTD2012LCGCK"
-			(at 80.01 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 80.01 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 80.01 68.58 0)
 			(effects
 				(font

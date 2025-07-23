@@ -1455,24 +1455,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 187.96 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 187.96 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -1667,28 +1649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "3.55"
-			(at 168.91 435.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Part Number" "538-52465-2470"
 			(at 168.91 535.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/52465-2470?qs=sEN%2FkO1EG6Yhu4DkZwbE7Q%3D%3D"
-			(at 168.91 635.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,24 +1676,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -1937,24 +1881,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 157.48 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 157.48 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "BPS-Leader"
 				(path "/c248b171-df31-4e8a-afb6-607fa2df334b"
@@ -2081,24 +2007,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 177.8 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 177.8 89.535 0)
 			(effects
 				(font
@@ -2306,24 +2214,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -2379,24 +2269,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 177.8 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 177.8 97.79 0)
 			(effects
 				(font

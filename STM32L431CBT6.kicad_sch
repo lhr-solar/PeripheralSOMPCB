@@ -5855,24 +5855,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 198.12 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 198.12 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bac7365c-3a13-4291-835d-94cda0a568cf")
 		)
@@ -6302,24 +6284,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 99.06 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 99.06 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ea43f884-0c2f-43d3-9eb3-3a47d13fd615")
 		)
@@ -6465,24 +6429,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 114.3 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 114.3 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 114.3 147.32 0)
 			(effects
 				(font
@@ -6644,24 +6590,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 110.49 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 110.49 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4968ef2d-2bf7-4d9c-a2bc-72a0a7bb63a6")
 		)
@@ -6807,24 +6735,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 78.74 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 78.74 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 78.74 147.32 0)
 			(effects
 				(font
@@ -7042,24 +6952,6 @@
 			)
 		)
 		(property "P/N" "MFBW1V2012-121-R"
-			(at 55.88 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 55.88 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 55.88 180.34 0)
 			(effects
 				(font
@@ -7353,24 +7245,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 60.96 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 60.96 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "30451bb5-55d4-42f4-8589-1aaf6715f164")
 		)
@@ -7451,24 +7325,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 99.06 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 99.06 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 99.06 147.32 0)
 			(effects
 				(font
@@ -7565,24 +7421,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 109.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 109.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8cece931-75d4-439a-93b2-74d8fe03eca8")
 		)
@@ -7663,24 +7501,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 199.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 199.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -7789,24 +7609,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 66.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 66.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c8e059ec-bca7-4eb7-b71c-c28b620db037")
 		)
@@ -7886,24 +7688,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 92.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 92.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 92.71 38.1 0)
 			(effects
 				(font
@@ -8066,24 +7850,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 54.61 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 54.61 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4dd2030a-78a3-4751-8879-39b8437a6a66")
 		)
@@ -8161,24 +7927,6 @@
 			)
 		)
 		(property "Mouser Part Number" "815-ABM3-8-D2Y-T"
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 101.6 43.18 0)
 			(effects
 				(font
@@ -8265,24 +8013,6 @@
 			)
 		)
 		(property "P/N" "MFBW1V2012-121-R"
-			(at 140.335 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 140.335 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 140.335 120.65 0)
 			(effects
 				(font
@@ -8419,24 +8149,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 144.78 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 144.78 144.78 0)
 			(effects
 				(font
@@ -8670,24 +8382,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "214844e6-fc61-4e19-9f78-30de34b370f0")
 		)
@@ -8907,24 +8601,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0a019429-46e0-4fa6-a581-97b06cd8ca34")
 		)
@@ -9079,24 +8755,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 43.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 43.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7dd38403-b0c8-4e02-9b8b-7b8bf8d27159")
 		)
@@ -9177,24 +8835,6 @@
 			)
 		)
 		(property "P/N" "STM32L431CBT6"
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 140.97 69.85 0)
 			(effects
 				(font

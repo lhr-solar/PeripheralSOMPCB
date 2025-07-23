@@ -595,30 +595,6 @@
         },
         {
           "group_by": false,
-          "label": "Color",
-          "name": "Color",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "If",
-          "name": "If",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Inventory",
-          "name": "Inventory",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
           "show": false
@@ -630,12 +606,6 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
           "group_by": true,
           "label": "P/N",
           "name": "P/N",
@@ -643,32 +613,8 @@
         },
         {
           "group_by": false,
-          "label": "PN",
-          "name": "PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Vf",
-          "name": "Vf",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "p/n",
-          "name": "p/n",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfg",
-          "name": "Mfg",
           "show": false
         }
       ],
