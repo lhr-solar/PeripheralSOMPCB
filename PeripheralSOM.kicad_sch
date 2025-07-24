@@ -2335,6 +2335,46 @@
 				(hide yes)
 			)
 		)
+		(pin "CAN_H" bidirectional
+			(at 53.34 41.91 0)
+			(uuid "5ec5a093-7482-4cf5-beef-9d2b3de2b118")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 53.34 44.45 0)
+			(uuid "505d9d1e-cb93-427f-9cb5-5e94849130ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 53.34 50.8 0)
+			(uuid "177ab49b-5774-45ca-ba3f-5f1bdbb315ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 53.34 48.26 0)
+			(uuid "66fd40ee-cacf-412e-9a68-c71de45ac065")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
