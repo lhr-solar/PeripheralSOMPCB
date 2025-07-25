@@ -6,4 +6,5 @@
   (lib (name "utsvt_misc")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/utsvt_misc.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt_power")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/utsvt_power.kicad_sym")(options "")(descr ""))
   (lib (name "LT1963AEST-3.3_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/Components/LT1963AEST-3.3#TRPBF/LT1963AEST-3.3_TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2115ADRBR")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS2115ADRBR/TPS2115ADRBR.kicad_sym")(options "")(descr ""))
 )
