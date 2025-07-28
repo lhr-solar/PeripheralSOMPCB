@@ -1217,7 +1217,7 @@
 		)
 		(uuid 6ffa0d32-387f-4ffc-9041-e1ec456801e0)
 	)
-	(text "Todo:\n- Finish microcontroller breakouts\n- Check over and redo MCU pins\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)\n- Add new logo footprint (KiCAD-Bild)\n- Part & Footprint selection\nDone:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for Sci Labs chip\n- Change all testpoints to pad testpoints\n"
+	(text "Todo:\n- Check over and redo MCU pins\n- Add new logo footprint (KiCAD-Bild)\n- Part & Footprint selection\nDone:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for Sci Labs chip\n- Change all testpoints to pad testpoints\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)"
 		(exclude_from_sim no)
 		(at 69.088 79.248 0)
 		(effects
@@ -1300,16 +1300,6 @@
 		)
 		(uuid "3d30726e-80d2-4e9b-9b2f-0b6843c9dd94")
 	)
-	(bus
-		(pts
-			(xy 53.34 77.47) (xy 66.04 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f89b6e5-9b23-4711-89f3-e277f9078002")
-	)
 	(wire
 		(pts
 			(xy 172.72 55.88) (xy 182.88 55.88)
@@ -1320,6 +1310,16 @@
 		)
 		(uuid "6935ebd7-a561-4945-8ae4-7488bce5d266")
 	)
+	(bus
+		(pts
+			(xy 118.11 25.4) (xy 128.27 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbd4636-9993-4b0f-8d45-83ea4a32ba2e")
+	)
 	(wire
 		(pts
 			(xy 172.72 40.64) (xy 185.42 40.64)
@@ -1329,16 +1329,6 @@
 			(type default)
 		)
 		(uuid "94ed347d-9c48-4f97-997b-a93eb86d511f")
-	)
-	(wire
-		(pts
-			(xy 59.69 80.01) (xy 53.34 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa780b02-a752-47d9-885b-95e2db6353a1")
 	)
 	(wire
 		(pts
@@ -1370,25 +1360,15 @@
 		)
 		(uuid "fcc8240f-5d5a-43e7-b7d4-e3be2b269c7f")
 	)
-	(label "PB[3..5]"
-		(at 66.04 77.47 180)
+	(label "{USART1}"
+		(at 128.27 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0a00c4fb-b01d-4a79-8441-1ecf1ad5d68d")
-	)
-	(label "PA0"
-		(at 59.69 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcfd5522-0163-4108-9338-081340b57a1b")
+		(uuid "bcbcae5d-dca0-45c3-afa4-465ae12e1532")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -2349,7 +2329,7 @@
 	)
 	(sheet
 		(at 13.97 39.37)
-		(size 39.37 13.97)
+		(size 21.59 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2373,7 +2353,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 13.97 54.5596 0)
+			(at 13.97 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2371,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 53.34 41.91 0)
+			(at 35.56 41.91 0)
 			(uuid "5ec5a093-7482-4cf5-beef-9d2b3de2b118")
 			(effects
 				(font
@@ -2401,7 +2381,7 @@
 			)
 		)
 		(pin "CAN_L" bidirectional
-			(at 53.34 44.45 0)
+			(at 35.56 44.45 0)
 			(uuid "505d9d1e-cb93-427f-9cb5-5e94849130ea")
 			(effects
 				(font
@@ -2411,7 +2391,7 @@
 			)
 		)
 		(pin "CAN_RX" output
-			(at 53.34 50.8 0)
+			(at 35.56 50.8 0)
 			(uuid "177ab49b-5774-45ca-ba3f-5f1bdbb315ad")
 			(effects
 				(font
@@ -2421,7 +2401,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 53.34 48.26 0)
+			(at 35.56 48.26 0)
 			(uuid "66fd40ee-cacf-412e-9a68-c71de45ac065")
 			(effects
 				(font
@@ -2439,8 +2419,8 @@
 		)
 	)
 	(sheet
-		(at 75.184 21.59)
-		(size 44.45 22.606)
+		(at 74.295 21.59)
+		(size 44.45 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2455,7 +2435,7 @@
 		)
 		(uuid "1d53f8ef-8689-4a8b-8330-e806b7f39af5")
 		(property "Sheetname" "MCU"
-			(at 75.184 20.8784 0)
+			(at 74.295 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2444,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32L431CBT6.kicad_sch"
-			(at 75.184 44.7806 0)
+			(at 74.295 44.7806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,19 +2452,9 @@
 				(justify left top)
 			)
 		)
-		(pin "UART1" bidirectional
-			(at 119.634 40.64 0)
-			(uuid "780e1e43-2f77-4733-ac54-ccfb8cad355d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1" bidirectional
-			(at 119.634 24.13 0)
-			(uuid "ab81904f-2386-4ec1-8035-f8cd6151a630")
+		(pin "USART1" bidirectional
+			(at 118.745 25.4 0)
+			(uuid "df458b56-0b29-4092-8f1e-0c0737d28229")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2472,7 @@
 	)
 	(sheet
 		(at 13.97 74.93)
-		(size 39.37 10.16)
+		(size 21.59 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2544,7 +2514,7 @@
 			)
 		)
 		(pin "LED[1..3]" input
-			(at 53.34 77.47 0)
+			(at 35.56 77.47 0)
 			(uuid "8ba3119a-a294-4bdc-b273-d6a0affa90a3")
 			(effects
 				(font
@@ -2554,7 +2524,7 @@
 			)
 		)
 		(pin "LED_HB" input
-			(at 53.34 80.01 0)
+			(at 35.56 80.01 0)
 			(uuid "c3217380-bcda-433e-b692-43938052b7fc")
 			(effects
 				(font
@@ -2573,7 +2543,7 @@
 	)
 	(sheet
 		(at 13.97 22.098)
-		(size 39.37 9.652)
+		(size 24.765 9.652)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2615,7 +2585,7 @@
 	)
 	(sheet
 		(at 13.97 60.325)
-		(size 39.37 8.255)
+		(size 21.59 8.255)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2657,7 +2627,7 @@
 			)
 		)
 		(pin "UART_RX" input
-			(at 53.34 63.5 0)
+			(at 35.56 63.5 0)
 			(uuid "73f3fe28-c540-4159-9516-08aa85430acc")
 			(effects
 				(font
@@ -2667,7 +2637,7 @@
 			)
 		)
 		(pin "UART_TX" output
-			(at 53.34 66.04 0)
+			(at 35.56 66.04 0)
 			(uuid "1e40edfc-9584-42f9-afe5-7bccb26719b4")
 			(effects
 				(font
