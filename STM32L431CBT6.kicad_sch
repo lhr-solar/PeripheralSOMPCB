@@ -2655,131 +2655,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VDDA"
 			(power)
 			(pin_numbers
@@ -4500,6 +4375,18 @@
 		(uuid "9cf5d841-83aa-42ec-8f4f-a9901652a656")
 	)
 	(junction
+		(at 137.16 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a11b6ea2-d870-4f50-8ae7-3715aa0be3d7")
+	)
+	(junction
+		(at 138.43 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a54a855c-afd7-44e7-b189-c0048647b631")
+	)
+	(junction
 		(at 21.59 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4570,10 +4457,6 @@
 	(no_connect
 		(at 124.46 50.8)
 		(uuid "609902ef-37d5-41de-8a08-2b0574b99d95")
-	)
-	(no_connect
-		(at 134.62 27.94)
-		(uuid "6a4388d6-8233-455b-9a5f-48c61e622005")
 	)
 	(no_connect
 		(at 124.46 86.36)
@@ -4703,6 +4586,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 26.67) (xy 134.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114bb03d-7fa0-40eb-8389-4aeb13e8b76a")
+	)
+	(wire
+		(pts
 			(xy 139.7 26.67) (xy 139.7 27.94)
 		)
 		(stroke
@@ -4810,6 +4703,16 @@
 			(type default)
 		)
 		(uuid "2a6e6344-9122-4e61-a43d-3742627ef721")
+	)
+	(wire
+		(pts
+			(xy 134.62 26.67) (xy 137.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b878d7b-370a-403a-8fa3-7ab91103c51f")
 	)
 	(wire
 		(pts
@@ -5223,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 26.67) (xy 139.7 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff18636-4cb8-4409-b292-4c31fd657118")
+	)
+	(wire
+		(pts
 			(xy 113.03 76.2) (xy 124.46 76.2)
 		)
 		(stroke
@@ -5243,7 +5156,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 26.67) (xy 139.7 26.67)
+			(xy 137.16 26.67) (xy 138.43 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5543,7 +5456,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 24.13) (xy 139.7 26.67)
+			(xy 138.43 24.13) (xy 138.43 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9031,7 +8944,7 @@
 		)
 		(uuid "069809ca-3145-4987-89a5-65aedbd0a4f5")
 	)
-	(label "CAN_RX"
+	(label "CAN1_RX"
 		(at 113.03 78.74 0)
 		(effects
 			(font
@@ -9261,7 +9174,7 @@
 		)
 		(uuid "9299ece2-238e-43be-9a79-8afa626f3c09")
 	)
-	(label "CAN_TX"
+	(label "CAN1_TX"
 		(at 113.03 81.28 0)
 		(effects
 			(font
@@ -9411,6 +9324,71 @@
 			(justify left)
 		)
 		(uuid "ed33ba74-be42-4617-a30f-b0b6818c082f")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 33.02 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04cbc51b-3029-40ab-b9d9-61a2f7d329a1")
+		(property "Reference" "#PWR062"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 32.004 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e8324a5-5447-469d-92a0-604c68fd292b")
+		)
+		(instances
+			(project "PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "utsvt-chips:D5V0P4UR6SO-7")
@@ -12003,7 +11981,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 139.7 24.13 0)
+		(at 138.43 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12011,7 +11989,7 @@
 		(dnp no)
 		(uuid "9e79d72a-d49d-4840-84fa-b94aaf9c8b34")
 		(property "Reference" "#PWR023"
-			(at 139.7 27.94 0)
+			(at 138.43 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,7 +11998,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 138.684 20.574 0)
+			(at 137.414 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,7 +12006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 24.13 0)
+			(at 138.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 24.13 0)
+			(at 138.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 24.13 0)
+			(at 138.43 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,72 +12345,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 33.02 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bab9dbe6-3e5e-49a5-aa80-7880d37a505c")
-		(property "Reference" "#PWR062"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 33.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 33.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb9bff79-303d-4911-bf2d-b43716a5253d")
-		)
-		(instances
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
