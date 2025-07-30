@@ -5928,7 +5928,7 @@
 			"QJJzAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "Fault"
+	(label "FAULT"
 		(at 17.78 38.1 0)
 		(effects
 			(font
@@ -5948,7 +5948,7 @@
 		)
 		(uuid "24c7ba33-389a-49b4-b300-e2cf202e3628")
 	)
-	(label "Fault"
+	(label "FAULT"
 		(at 179.07 26.67 270)
 		(effects
 			(font
@@ -7114,7 +7114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11.3k"
+		(property "Value" "4.3k"
 			(at 180.848 37.973 0)
 			(effects
 				(font
@@ -9605,7 +9605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11.3k"
+		(property "Value" "4.3k"
 			(at 160.528 37.973 0)
 			(effects
 				(font
@@ -10567,7 +10567,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "715"
+		(property "Value" "100"
 			(at 170.688 37.973 0)
 			(effects
 				(font
