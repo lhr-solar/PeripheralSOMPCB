@@ -2780,14 +2780,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "utsvt-chips:D5V0P4UR6SO-7"
+		(symbol "utsvt_ics:D5V0P4UR6SO-7"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CR"
+			(property "Reference" "CR2"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -2803,7 +2803,7 @@
 					)
 				)
 			)
-			(property "Footprint" "UTSVT_ICs:SOT26_DIO"
+			(property "Footprint" "UTSVT_ICs:D5V0P4UR6SO-7"
 				(at 20.32 3.81 0)
 				(effects
 					(font
@@ -2824,6 +2824,42 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-D5V0P4UR6SO-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "D5V0P4UR6SO-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "p/n" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -10064,7 +10100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "utsvt-chips:D5V0P4UR6SO-7")
+		(lib_id "utsvt_ics:D5V0P4UR6SO-7")
 		(at 33.02 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10088,7 +10124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_ICs:D5V0P4UR6SO-7"
 			(at 53.34 163.83 0)
 			(effects
 				(font
@@ -10126,7 +10162,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "D5V0P4UR6SO-7"
+			(at 33.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 33.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 33.02 167.64 0)
 			(effects
 				(font
@@ -10553,7 +10607,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 21.59 105.41 0)
 			(effects
 				(font
@@ -10706,7 +10760,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 36.83 59.69 0)
 			(effects
 				(font
@@ -10832,7 +10886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3sl.pdf"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -11012,7 +11066,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 57.15 35.56 0)
 			(effects
 				(font
@@ -11202,7 +11256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-mfbw1v2012-high-impedance-multilayer-ferrite-chip-bead-data-sheet.pdf"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -11578,7 +11632,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 64.77 58.42 0)
 			(effects
 				(font
@@ -11666,7 +11720,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 21.59 59.69 0)
 			(effects
 				(font
@@ -11846,7 +11900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "utsvt-chips:D5V0P4UR6SO-7")
+		(lib_id "utsvt_ics:D5V0P4UR6SO-7")
 		(at 33.02 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11871,7 +11925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_ICs:D5V0P4UR6SO-7"
 			(at 53.34 140.97 0)
 			(effects
 				(font
@@ -11909,7 +11963,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "D5V0P4UR6SO-7"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 33.02 144.78 0)
 			(effects
 				(font
@@ -12009,7 +12081,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 44.45 35.56 0)
 			(effects
 				(font
@@ -12096,7 +12168,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "06035U120FAT2A"
 			(at 88.9 34.29 0)
 			(effects
 				(font
@@ -12249,7 +12321,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -12307,7 +12379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/Resonators/ABM3.pdf"
 			(at 96.52 39.37 0)
 			(effects
 				(font
@@ -12393,7 +12465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-mfbw1v2012-high-impedance-multilayer-ferrite-chip-bead-data-sheet.pdf"
 			(at 139.065 113.03 0)
 			(effects
 				(font
@@ -12780,7 +12852,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "06035U120FAT2A"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -13087,7 +13159,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "08055D475KAT4A"
 			(at 21.59 35.56 0)
 			(effects
 				(font

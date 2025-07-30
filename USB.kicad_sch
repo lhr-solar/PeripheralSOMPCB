@@ -3835,6 +3835,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "08055D475KAT4A"
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3231ef66-809c-4b3c-9f80-f3b2176fa4f5")
 		)
@@ -4027,6 +4036,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -4228,6 +4246,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "08055D475KAT4A"
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -4515,6 +4542,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 113.03 39.37 0)
 			(effects
 				(font
@@ -5529,6 +5565,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 80.01 34.29 0)
 			(effects
 				(font

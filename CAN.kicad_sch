@@ -1857,6 +1857,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da72b964-1e1f-4c57-974e-d315a039a160")
 		)
@@ -2237,6 +2246,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "MLASU168SB5105KTNA01"
+			(at 24.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc047445-6789-4ab0-b10c-3a7249df4d75")
 		)
@@ -2427,7 +2445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/aptd2012lsurck.pdf"
 			(at 111.76 49.53 0)
 			(effects
 				(font
@@ -2447,6 +2465,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LSURCK"
+			(at 111.76 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)

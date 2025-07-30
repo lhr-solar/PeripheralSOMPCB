@@ -545,117 +545,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "utsvt-misc:Logo_Placeholder"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LOGO"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Logo_Placeholder"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Graph footprint placeholder"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "graphic, symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Logo_Placeholder_0_1"
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy -0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 0)
-					(mid 0 -1.8967)
-					(end -1.905 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8448)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "utsvt_connectors:52465-2470"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1204,6 +1093,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "utsvt_misc:Logo_Placeholder"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO1"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Dr. Hallock"
+				(at 3.556 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "UTSVT_Logos:Hallock_Image_Small"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Graph footprint placeholder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "p/n" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic, symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Placeholder_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 0)
+					(mid 0 -1.8967)
+					(end -1.905 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8448)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 150.876 72.009)
@@ -1263,9 +1282,9 @@
 		)
 		(uuid "314b90a2-640b-40b4-b3b5-09689bffca32")
 	)
-	(text "Todo:\n- Add new logo footprint (KiCAD-Bild)\n- Part & Footprint selection\n- Add datasheet links for all\nDone:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for SiLabs chip\n- Change all testpoints to pad testpoints\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA (programmable gain amplifier)\n- Check over and redo MCU pins\n"
+	(text "Todo:\n- Part & Footprint selection\n- Add datasheet links for all\nDone:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for SiLabs chip\n- Change all testpoints to pad testpoints\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA\n- Check over and redo MCU pins\n"
 		(exclude_from_sim no)
-		(at 222.758 146.812 0)
+		(at 14.986 114.808 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,9 +1293,9 @@
 		)
 		(uuid "4bb2de95-b47c-4d28-a58a-e9d02c7f142e")
 	)
-	(text "Connector mates with 53307-2471\nConsult README for pin usage guide\n*Always verify pin functions with CubeMX*"
+	(text "idk figure it out"
 		(exclude_from_sim no)
-		(at 152.4 82.804 0)
+		(at 152.654 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2422,7 +2441,7 @@
 		(at 139.7 83.185 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "07867946-1205-46f6-aecc-9d61a7cfbdf4")
@@ -2540,6 +2559,87 @@
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt_misc:Logo_Placeholder")
+		(at 109.22 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d0e69fd-38c4-441f-9a19-e33820c05595")
+		(property "Reference" "LOGO2"
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LHRs"
+			(at 112.776 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Logos:Hallock_Image_Small"
+			(at 109.22 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+					(reference "LOGO2")
 					(unit 1)
 				)
 			)
@@ -2864,11 +2964,11 @@
 		)
 	)
 	(symbol
-		(lib_id "utsvt-misc:Logo_Placeholder")
+		(lib_id "utsvt_misc:Logo_Placeholder")
 		(at 109.22 83.185 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8967d3d3-a9d0-48a1-a99c-a331a525c705")
@@ -2890,7 +2990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Logos:Hallock_Image_Small"
 			(at 109.22 81.28 0)
 			(effects
 				(font
@@ -2909,6 +3009,24 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
+			(at 109.22 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 109.22 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
 			(at 109.22 83.185 0)
 			(effects
 				(font
@@ -3002,7 +3120,7 @@
 		(at 129.54 83.185 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9352fb5e-b7ac-4bfc-8718-1341f5f893b5")
@@ -3267,7 +3385,7 @@
 		(at 139.7 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eb165bd8-8188-4ea9-b262-858ff1299a5d")
@@ -3330,7 +3448,7 @@
 		(at 129.54 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f030510b-1516-4b94-8038-2b4680961a12")
