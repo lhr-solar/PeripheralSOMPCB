@@ -1402,7 +1402,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603120RFKEC "
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -1495,7 +1495,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603120RFKEC "
 			(at 38.1 36.83 0)
 			(effects
 				(font
@@ -1659,7 +1659,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603120RFKEC "
 			(at 25.4 36.83 0)
 			(effects
 				(font
@@ -1752,7 +1752,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603120RFKEC "
 			(at 72.39 36.83 0)
 			(effects
 				(font

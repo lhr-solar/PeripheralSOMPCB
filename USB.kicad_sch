@@ -4760,6 +4760,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW06030000Z0EI "
+			(at 33.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f020681f-eb70-442b-8b8c-32af1d02ee1d")
 		)
@@ -4884,6 +4893,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW060347K5FKEAHP "
 			(at 134.62 59.69 0)
 			(effects
 				(font
@@ -5027,6 +5045,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW06035K10FKEC "
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9aadadc-dc14-481d-b11a-e4756525ba26")
 		)
@@ -5152,6 +5179,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW060322K1FKEBC "
+			(at 128.27 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,6 +5753,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW06031K00FKEI "
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa66541e-8988-464f-be69-aaf24502b0a6")
 		)
@@ -5847,6 +5892,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 21.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW06035K10FKEC "
 			(at 21.59 106.68 0)
 			(effects
 				(font

@@ -4336,7 +4336,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603402KFKEAC "
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW06032K10FKEA "
 			(at 21.59 123.19 0)
 			(effects
 				(font
@@ -4664,7 +4664,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 152.4 64.77 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 166.37 66.675 0)
 			(effects
 				(font
@@ -4752,7 +4752,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 163.83 64.77 0)
 			(effects
 				(font
@@ -4969,7 +4969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 167.64 92.075 0)
 			(effects
 				(font
@@ -5014,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -5325,7 +5325,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603590RFKEA"
 			(at 21.59 113.03 0)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW060345K3FKEAHP "
 			(at 21.59 102.87 0)
 			(effects
 				(font

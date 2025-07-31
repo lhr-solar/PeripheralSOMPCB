@@ -6716,6 +6716,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0603332RFKEAHP "
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a96e99f-2726-4232-bf77-9513f10c3880")
 		)
@@ -6794,7 +6803,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW060316K0FKTA "
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -7273,7 +7282,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW06034K30FKTA "
 			(at 179.07 36.83 0)
 			(effects
 				(font
@@ -7342,6 +7351,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 266.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW060310K0FKEI "
+			(at 266.7 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +9896,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW06034K30FKTA "
 			(at 158.75 36.83 0)
 			(effects
 				(font
@@ -10031,57 +10049,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=391793"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "2.8-5.5-V, 84-m?, 1.25-A, power mux with manual, automatic switchover and status output 8-SON -40 to 85"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "VSON-8 Texas Instruments"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "VSON-8 Texas Instruments"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS2115ADRBR/Texas+Instruments/view-part/?ref=eda"
 			(at 242.57 105.41 0)
 			(effects
 				(font
@@ -10101,16 +10069,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS2115ADRBR/Texas+Instruments/view-part/?ref=snap"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MP" "TPS2115ADRBR"
 			(at 242.57 105.41 0)
 			(effects
@@ -10121,37 +10079,7 @@
 				(hide yes)
 			)
 		)
-		(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=391793"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Warning"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2.8-V to 5.5-V, 84-mΩ, 2-A, power mux with manual, automatic switchover and status output"
 			(at 242.57 105.41 0)
 			(effects
 				(font
@@ -10891,7 +10819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 170.688 37.973 0)
 			(effects
 				(font
@@ -10936,7 +10864,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW0603120RFKEC "
 			(at 168.91 36.83 0)
 			(effects
 				(font

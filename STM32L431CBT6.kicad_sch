@@ -10171,24 +10171,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 33.02 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 33.02 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bac7365c-3a13-4291-835d-94cda0a568cf")
 		)
@@ -11778,7 +11760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/972/cjs-1827353.pdf"
 			(at 120.65 146.05 0)
 			(effects
 				(font
@@ -11788,6 +11770,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 120.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CJS-1200TA "
 			(at 120.65 138.43 0)
 			(effects
 				(font
@@ -11875,7 +11866,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -11964,24 +11955,6 @@
 			)
 		)
 		(property "P/N" "D5V0P4UR6SO-7"
-			(at 33.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 33.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 33.02 144.78 0)
 			(effects
 				(font
@@ -12619,7 +12592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22232041?display=pdf"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -12629,6 +12602,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0022232041"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -13026,7 +13008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 35.56 95.885 0)
 			(effects
 				(font
@@ -13071,7 +13053,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 33.02 93.98 0)
 			(effects
 				(font

@@ -1282,9 +1282,9 @@
 		)
 		(uuid "314b90a2-640b-40b4-b3b5-09689bffca32")
 	)
-	(text "Todo:\n- Part & Footprint selection\n- Add datasheet links for all\nDone:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for SiLabs chip\n- Change all testpoints to pad testpoints\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA\n- Check over and redo MCU pins\n"
+	(text "Todo:\n- Move power/gnd to diff sides of conn\n- Connect IMON to MCU\n- Part & Footprint selection\n- Add datasheet links for all\nDone:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for SiLabs chip\n- Change all testpoints to pad testpoints\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA\n- Check over and redo MCU pins\n"
 		(exclude_from_sim no)
-		(at 14.986 114.808 0)
+		(at 13.208 116.586 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,24 +2618,6 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -3009,24 +2991,6 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
-			(at 109.22 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 109.22 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
 			(at 109.22 83.185 0)
 			(effects
 				(font
