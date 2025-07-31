@@ -3366,6 +3366,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 43.18) (xy 29.21 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6aec4f8-39c9-48b2-ad37-323d0d541282")
+	)
+	(wire
+		(pts
 			(xy 76.2 115.57) (xy 73.66 115.57)
 		)
 		(stroke
@@ -6081,6 +6091,17 @@
 			(justify right bottom)
 		)
 		(uuid "718323bf-b179-4278-9f33-59f6079528e6")
+	)
+	(hierarchical_label "IMON_OUT"
+		(shape output)
+		(at 27.94 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0363e79d-dfc0-470e-8620-12a89815797a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11495,6 +11516,16 @@
 		(pin "Fault" output
 			(at 29.21 38.1 180)
 			(uuid "900f7294-b2dd-4f91-a9c0-7a6683260ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMON_OUT" output
+			(at 29.21 43.18 180)
+			(uuid "dd053351-fa3c-4b66-8814-1cb807f8baa8")
 			(effects
 				(font
 					(size 1.27 1.27)
