@@ -10918,7 +10918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -11857,6 +11857,10 @@
 		)
 		(instances
 			(project ""
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d0c269d-60cf-499b-bfd2-5087981d6678"
+					(reference "SW2")
+					(unit 1)
+				)
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
 					(reference "SW2")
 					(unit 1)
@@ -11889,7 +11893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 110.49 136.652 90)
 			(effects
 				(font
@@ -13076,7 +13080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 93.98 90)
 			(effects
 				(font
