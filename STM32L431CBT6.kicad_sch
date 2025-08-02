@@ -10612,7 +10612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 22.5552 109.22 0)
 			(effects
 				(font
@@ -10765,7 +10765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 37.7952 63.5 0)
 			(effects
 				(font
@@ -11071,7 +11071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 58.1152 39.37 0)
 			(effects
 				(font
@@ -11288,7 +11288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.69 56.388 90)
 			(effects
 				(font
@@ -11324,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MFBW1V2012-121-R"
+		(property "P/N" "BLM18PG121SH1D"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -11637,7 +11637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 65.7352 62.23 0)
 			(effects
 				(font
@@ -11725,7 +11725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 22.5552 63.5 0)
 			(effects
 				(font
@@ -12081,7 +12081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 45.4152 39.37 0)
 			(effects
 				(font
@@ -12168,7 +12168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 85.09 35.2552 0)
 			(effects
 				(font
@@ -12321,7 +12321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 33.9852 39.37 0)
 			(effects
 				(font
@@ -12492,7 +12492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.065 114.808 90)
 			(effects
 				(font
@@ -12528,7 +12528,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MFBW1V2012-121-R"
+		(property "P/N" "BLM18PG121SH1D"
 			(at 139.065 113.03 0)
 			(effects
 				(font
@@ -12861,7 +12861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 85.09 45.4152 0)
 			(effects
 				(font
@@ -13168,7 +13168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 22.5552 39.37 0)
 			(effects
 				(font
