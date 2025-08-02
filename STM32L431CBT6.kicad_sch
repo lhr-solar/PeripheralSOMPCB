@@ -4142,18 +4142,6 @@
 		)
 		(uuid "23474e32-29d5-445b-9d19-38baea2ee50e")
 	)
-	(text "confirm rst behavior"
-		(exclude_from_sim no)
-		(at 23.876 114.808 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d318bea-9a41-4681-b469-294be50c6d9a")
-	)
 	(text "NC OPAMP1_VOUT -> internally connected to ADC1_IN8"
 		(exclude_from_sim no)
 		(at 155.956 40.894 0)
@@ -4241,18 +4229,6 @@
 			)
 		)
 		(uuid "ac9caaf3-9351-4c15-acc8-dbd40b102a5d")
-	)
-	(text "new part + pinout?"
-		(exclude_from_sim no)
-		(at 56.642 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8567cce-7b58-4cdb-90e4-e0017564ead1")
 	)
 	(text "USART bootloader pins"
 		(exclude_from_sim no)

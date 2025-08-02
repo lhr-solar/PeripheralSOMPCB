@@ -1282,7 +1282,7 @@
 		)
 		(uuid "314b90a2-640b-40b4-b3b5-09689bffca32")
 	)
-	(text "Todo:\n- Footprint selection\nDone:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for SiLabs chip\n- Change all testpoints to pad testpoints\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA\n- Check over and redo MCU pins\n- Connect IMON to MCU\n- Move power/gnd to diff sides of conn\n- Add datasheet links for all\n- Part selection\n"
+	(text "Done:\n- Need to change pp values to be 24V\n- Swap out buck converter for 25 - 5V converter\n- Spec LDO for a little bit higher current\n- Get rid of push button\n- Remove isolation\n- Swap out CAN chip for TCAN (noniso)\n- Add 5v power mux\n- Swap out Micro USB for USB-C\n- Swap out FTDI chip for SiLabs chip\n- Change all testpoints to pad testpoints\n- Double check pins for UART and CAN bootloader\n- Swap out 2 extra ADC pins for the better ones\n- CubeMX to try and get the internal STM32 PGA\n- Check over and redo MCU pins\n- Connect IMON to MCU\n- Move power/gnd to diff sides of conn\n- Add datasheet links for all\n- Part selection\n- Footprint selection\n"
 		(exclude_from_sim no)
 		(at 22.098 107.442 0)
 		(effects
