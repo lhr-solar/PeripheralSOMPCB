@@ -11810,7 +11810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CJS-1200TA:SW_CJS-1200TA"
 			(at 120.65 138.43 0)
 			(effects
 				(font
@@ -12406,7 +12406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm"
 			(at 96.52 39.37 0)
 			(effects
 				(font
@@ -12646,7 +12646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0022232041:CONN_A-6373-04A_MOL"
 			(at 68.58 91.44 0)
 			(effects
 				(font

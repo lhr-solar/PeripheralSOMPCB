@@ -4304,7 +4304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB4215-03-A:GCT_USB4215-03-A_REVA"
 			(at 44.45 43.18 0)
 			(effects
 				(font
