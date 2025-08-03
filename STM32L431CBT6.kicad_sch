@@ -4252,18 +4252,6 @@
 		)
 		(uuid "c9ca3f33-69eb-4e33-b7d7-4ece72311c41")
 	)
-	(text "shift pins for\noptimal routing"
-		(exclude_from_sim no)
-		(at 67.31 157.988 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "cabc2283-2198-44ad-97e0-1790accc3661")
-	)
 	(text "SWD Connector"
 		(exclude_from_sim no)
 		(at 62.23 79.756 0)
@@ -9600,7 +9588,7 @@
 		)
 		(uuid "29de2ac1-573a-4ce7-920d-7a16a9cf9cfb")
 	)
-	(label "SPI2_MISO"
+	(label "SPI2_MOSI"
 		(at 83.82 167.64 180)
 		(effects
 			(font
@@ -9730,7 +9718,7 @@
 		)
 		(uuid "793be7bc-6303-4435-ad8e-c0360cd69a8d")
 	)
-	(label "SPI2_MOSI"
+	(label "SPI2_MISO"
 		(at 22.86 167.64 0)
 		(effects
 			(font
