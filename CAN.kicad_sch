@@ -2875,7 +2875,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN TERM"
+		(property "Value" "TRM"
 			(at 144.78 60.96 0)
 			(effects
 				(font

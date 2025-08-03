@@ -2587,7 +2587,7 @@
 	)
 	(text "Voltage divider\nper datasheet\npg. 9"
 		(exclude_from_sim no)
-		(at 135.636 45.466 0)
+		(at 135.636 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3004,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 25.4) (xy 151.13 25.4)
+			(xy 137.16 25.4) (xy 151.13 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 26.67) (xy 138.43 25.4)
+			(xy 137.16 26.67) (xy 137.16 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 36.83) (xy 140.97 36.83)
+			(xy 137.16 36.83) (xy 140.97 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3424,7 +3424,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 34.29) (xy 138.43 36.83)
+			(xy 137.16 34.29) (xy 137.16 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3451,6 +3451,16 @@
 			(justify right bottom)
 		)
 		(uuid "0984e9c5-b823-4752-98fc-3fce9e4da96f")
+	)
+	(label "VBUS"
+		(at 135.89 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16157a69-5c36-4c0c-afb1-7e9d4fa10dcc")
 	)
 	(label "USART1_TX"
 		(at 177.8 39.37 180)
@@ -3492,7 +3502,7 @@
 		)
 		(uuid "592d097d-21f2-411c-884e-8e13d54e9f99")
 	)
-	(label "D-"
+	(label "D+"
 		(at 50.8 97.79 270)
 		(effects
 			(font
@@ -3500,7 +3510,27 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6600af51-500e-430f-9530-fc82b07cace6")
+		(uuid "5e016c0a-43c2-4f2c-8380-226836001109")
+	)
+	(label "D-"
+		(at 48.26 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a69f6f6-d923-4475-a6a7-215f89210fa4")
+	)
+	(label "SH"
+		(at 33.02 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cb5ac77-a57d-4beb-80ca-0bd7b0dc14dd")
 	)
 	(label "CC1"
 		(at 21.59 96.52 270)
@@ -3542,6 +3572,16 @@
 		)
 		(uuid "d36c76cb-1ea7-4e49-8a0e-1082554adc82")
 	)
+	(label "RST"
+		(at 137.16 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d36f1764-7301-457c-8b62-f9fc683ae60c")
+	)
 	(label "CC1"
 		(at 64.77 33.02 180)
 		(effects
@@ -3551,16 +3591,6 @@
 			(justify right bottom)
 		)
 		(uuid "e193d72b-00b7-4f3c-8f4c-02113e0d2037")
-	)
-	(label "D+"
-		(at 48.26 97.79 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f595e70d-6eac-44aa-810e-6550154bea3d")
 	)
 	(hierarchical_label "{USART1}"
 		(shape bidirectional)
@@ -4304,7 +4334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4215-03-A:GCT_USB4215-03-A_REVA"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 44.45 43.18 0)
 			(effects
 				(font
@@ -5700,7 +5730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 30.48 0)
+		(at 137.16 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5709,7 +5739,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecfdb780-4e82-4228-8101-60556e73373b")
 		(property "Reference" "R21"
-			(at 140.97 29.2099 0)
+			(at 139.7 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5748,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 140.97 31.7499 0)
+			(at 139.7 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5757,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 136.652 30.48 90)
+			(at 135.382 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 30.48 0)
+			(at 137.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5775,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 30.48 0)
+			(at 137.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5784,7 @@
 			)
 		)
 		(property "P/N" "CRCW06031K00FKEI "
-			(at 138.43 30.48 0)
+			(at 137.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
