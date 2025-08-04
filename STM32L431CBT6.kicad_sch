@@ -4263,6 +4263,17 @@
 		)
 		(uuid "ccb41e7f-0f25-40bc-8c4d-0ea3c5e6999b")
 	)
+	(text "Mates with\n0022013047"
+		(exclude_from_sim no)
+		(at 58.928 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2890864-4639-4b14-9e07-450bd207562e")
+	)
 	(text "Boot Switch"
 		(exclude_from_sim no)
 		(at 107.188 129.286 0)
@@ -10176,15 +10187,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "621-D5V0P4UR6SO-7"
-			(at 33.02 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "D5V0P4UR6SO-7"
 			(at 33.02 167.64 0)
 			(effects
@@ -10603,15 +10605,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
-			(at 21.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 21.59 105.41 0)
 			(effects
@@ -10748,15 +10741,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 36.83 59.69 0)
 			(effects
 				(font
@@ -10918,15 +10902,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "653-B3SL-1002P"
-			(at 33.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4968ef2d-2bf7-4d9c-a2bc-72a0a7bb63a6")
 		)
@@ -11054,15 +11029,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 57.15 35.56 0)
 			(effects
 				(font
@@ -11271,15 +11237,6 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 59.69 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "704-MFBW1V2012-121-R"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -11628,15 +11585,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
-			(at 64.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 64.77 58.42 0)
 			(effects
@@ -11708,15 +11656,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 21.59 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 21.59 59.69 0)
 			(effects
 				(font
@@ -11884,15 +11823,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
-			(at 110.49 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "CRCW060310K0FKEI "
 			(at 110.49 138.43 0)
 			(effects
@@ -11964,15 +11894,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-D5V0P4UR6SO-7"
 			(at 33.02 144.78 0)
 			(effects
 				(font
@@ -12072,15 +11993,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
-			(at 44.45 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 44.45 35.56 0)
 			(effects
@@ -12151,15 +12063,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 88.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C120K5HACTU"
 			(at 88.9 34.29 0)
 			(effects
 				(font
@@ -12312,15 +12215,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
-			(at 33.02 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 33.02 35.56 0)
 			(effects
@@ -12406,15 +12300,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "815-ABM3-8-D2Y-T"
-			(at 96.52 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b412dd00-10eb-416e-8ff4-190710f38bc7")
 		)
@@ -12475,15 +12360,6 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 139.065 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "704-MFBW1V2012-121-R"
 			(at 139.065 113.03 0)
 			(effects
 				(font
@@ -12852,15 +12728,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C120K5HACTU"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "06035U120FAT2A"
 			(at 88.9 44.45 0)
 			(effects
@@ -13071,15 +12938,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
-			(at 33.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "CRCW060310K0FKEI "
 			(at 33.02 93.98 0)
 			(effects
@@ -13159,15 +13017,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
-			(at 21.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "08055D475KAT4A"
 			(at 21.59 35.56 0)
 			(effects
@@ -13239,15 +13088,6 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 64KB RAM, 80 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
-			(at 139.7 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-STM32L431CBT6"
 			(at 139.7 66.04 0)
 			(effects
 				(font

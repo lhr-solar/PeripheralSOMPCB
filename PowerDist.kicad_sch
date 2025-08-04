@@ -2101,8 +2101,8 @@
 		)
 	)
 	(rectangle
-		(start 192.405 21.59)
-		(end 247.65 57.785)
+		(start 207.645 21.59)
+		(end 262.89 57.785)
 		(stroke
 			(width 0)
 			(type default)
@@ -2126,7 +2126,7 @@
 	)
 	(rectangle
 		(start 153.924 18.796)
-		(end 189.23 60.325)
+		(end 200.025 60.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -2258,7 +2258,7 @@
 	)
 	(text "Max current: 1.5A"
 		(exclude_from_sim no)
-		(at 201.676 56.388 0)
+		(at 216.916 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2300,7 +2300,7 @@
 	)
 	(text "Fault active low"
 		(exclude_from_sim no)
-		(at 180.34 25.4 0)
+		(at 179.07 24.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2353,7 +2353,7 @@
 	)
 	(text "5->3.3v LDO"
 		(exclude_from_sim no)
-		(at 203.708 24.638 0)
+		(at 218.948 24.638 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2434,7 +2434,7 @@
 		(uuid "92131089-c030-4146-93c5-fbc775a4059f")
 	)
 	(junction
-		(at 237.49 35.56)
+		(at 252.73 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e5c045f-f539-45c2-b836-a6c3d03e0b74")
@@ -2452,7 +2452,7 @@
 		(uuid "b3e98de3-1bff-45c2-bd23-7aaf157d2f34")
 	)
 	(junction
-		(at 196.85 35.56)
+		(at 212.09 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b87bb5e5-d9c3-4ca1-b123-c27bac18a446")
@@ -2464,7 +2464,7 @@
 		(uuid "c0eef5fb-d4b6-425d-b231-3f5e135ecdf4")
 	)
 	(junction
-		(at 217.17 48.26)
+		(at 232.41 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2d73c2-5626-4c8a-a33a-18dba591ce95")
@@ -2497,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 35.56) (xy 196.85 31.75)
+			(xy 212.09 35.56) (xy 212.09 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2647,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 31.75) (xy 237.49 35.56)
+			(xy 252.73 31.75) (xy 252.73 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2767,13 +2767,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 26.67) (xy 179.07 33.02)
+			(xy 179.07 30.48) (xy 179.07 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ad05fba-449b-4445-a193-18b796be9a5b")
+	)
+	(wire
+		(pts
+			(xy 189.23 30.48) (xy 189.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8780c5-b413-4fea-b595-45842189795d")
 	)
 	(wire
 		(pts
@@ -2937,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 45.72) (xy 237.49 48.26)
+			(xy 252.73 45.72) (xy 252.73 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2987,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 45.72) (xy 196.85 48.26)
+			(xy 212.09 45.72) (xy 212.09 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 38.1) (xy 196.85 35.56)
+			(xy 212.09 38.1) (xy 212.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3117,13 +3127,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 30.48) (xy 95.25 33.02)
+			(xy 179.07 50.8) (xy 179.07 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95d24146-57c6-4e84-8ec9-c370e848f11c")
+		(uuid "94e317a5-aef4-40e1-9b44-f5815061db2b")
 	)
 	(wire
 		(pts
@@ -3187,6 +3197,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 40.64) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd17123-e536-4340-9ac8-f73f67754b19")
+	)
+	(wire
+		(pts
 			(xy 220.98 121.92) (xy 218.44 121.92)
 		)
 		(stroke
@@ -3197,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 35.56) (xy 196.85 35.56)
+			(xy 222.25 35.56) (xy 212.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 45.72) (xy 217.17 48.26)
+			(xy 232.41 45.72) (xy 232.41 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3247,7 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 48.26) (xy 237.49 48.26)
+			(xy 232.41 48.26) (xy 252.73 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3287,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 35.56) (xy 237.49 38.1)
+			(xy 252.73 35.56) (xy 252.73 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3377,16 +3397,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 50.8) (xy 179.07 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c6ac5a-3cf0-4921-aa3e-2b5ea9739716")
-	)
-	(wire
-		(pts
 			(xy 107.95 45.72) (xy 107.95 48.26)
 		)
 		(stroke
@@ -3417,7 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 48.26) (xy 217.17 49.53)
+			(xy 232.41 48.26) (xy 232.41 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3427,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 35.56) (xy 227.33 35.56)
+			(xy 252.73 35.56) (xy 242.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 48.26) (xy 217.17 48.26)
+			(xy 212.09 48.26) (xy 232.41 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3574,6 +3584,16 @@
 			(type default)
 		)
 		(uuid "fb04f0fa-e085-4620-8fba-ecc8f0d09832")
+	)
+	(wire
+		(pts
+			(xy 189.23 50.8) (xy 189.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff05dd11-c065-42e4-b77f-9f9b14fc6da4")
 	)
 	(wire
 		(pts
@@ -6063,16 +6083,6 @@
 		)
 		(uuid "24c7ba33-389a-49b4-b300-e2cf202e3628")
 	)
-	(label "FAULT"
-		(at 179.07 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "644801dc-dd99-4864-9b8f-785c4f69cfc2")
-	)
 	(label "ROSC"
 		(at 123.19 110.49 180)
 		(effects
@@ -6083,6 +6093,16 @@
 		)
 		(uuid "718323bf-b179-4278-9f33-59f6079528e6")
 	)
+	(label "STAT"
+		(at 189.23 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b03f8765-08a0-4fd5-af90-aaf36a39d426")
+	)
 	(label "ILIM"
 		(at 220.98 110.49 0)
 		(effects
@@ -6092,6 +6112,16 @@
 			(justify left bottom)
 		)
 		(uuid "b661169a-2426-4f1a-b986-972ac5d73305")
+	)
+	(label "FAULT"
+		(at 179.07 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e08e9374-81a8-4a8b-b7d0-b5068afe1cd9")
 	)
 	(label "STAT"
 		(at 260.35 100.33 0)
@@ -6308,15 +6338,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e9362aae-9192-4272-94be-1e6394d53de7")
 		)
@@ -6334,7 +6355,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 237.49 35.56 270)
+		(at 252.73 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6342,7 +6363,7 @@
 		(dnp no)
 		(uuid "0951af4b-a0b9-4db4-8567-5513f4eb523b")
 		(property "Reference" "#FLG04"
-			(at 239.395 35.56 0)
+			(at 254.635 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6372,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 240.665 35.56 0)
+			(at 255.905 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 35.56 0)
+			(at 252.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 35.56 0)
+			(at 252.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6399,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 237.49 35.56 0)
+			(at 252.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3.3V"
 			(at 103.886 26.67 0)
 			(effects
 				(font
@@ -6826,15 +6847,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
-			(at 73.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "CRCW060316K0FKTA "
 			(at 73.66 132.08 0)
 			(effects
@@ -6861,7 +6873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 49.53 0)
+		(at 232.41 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6870,7 +6882,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b2561e8-0989-4bd5-bc15-2e35c3720037")
 		(property "Reference" "#PWR027"
-			(at 217.17 55.88 0)
+			(at 232.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 54.61 0)
+			(at 232.41 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 49.53 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 49.53 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 49.53 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,6 +6932,85 @@
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "207a3c54-7f82-403c-af87-7dd9d3029cd6")
+		(property "Reference" "R32"
+			(at 191.77 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "768"
+			(at 191.77 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 187.452 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603768RFKEA"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "176e4243-a61e-4049-9672-cd1b728970cb")
+		)
+		(pin "2"
+			(uuid "4e06dbe0-2e12-4021-bceb-53beb77a0b61")
+		)
+		(instances
+			(project ""
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6992,7 +7083,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 237.49 41.91 0)
+		(at 252.73 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7000,7 +7091,7 @@
 		(dnp no)
 		(uuid "23df1b26-0370-48d2-aff5-f64e0aa5e802")
 		(property "Reference" "C18"
-			(at 240.4872 40.7416 0)
+			(at 255.7272 40.7416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,7 +7100,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 240.4872 43.053 0)
+			(at 255.7272 43.053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7109,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 238.4552 45.72 0)
+			(at 253.6952 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 41.91 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7127,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 237.49 41.91 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,16 +7136,7 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
-			(at 237.49 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 237.49 41.91 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,15 +7214,6 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
-			(at 52.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
 			(at 52.07 105.41 0)
 			(effects
 				(font
@@ -7227,15 +7300,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0730a881-281a-40fe-a404-882803320d65")
 		)
@@ -7297,15 +7361,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 179.07 36.83 0)
 			(effects
 				(font
@@ -7520,7 +7575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "24V"
+		(property "Value" "+24V"
 			(at 107.95 41.656 0)
 			(effects
 				(font
@@ -7585,7 +7640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V_BUCK"
+		(property "Value" "+5V_BUCK"
 			(at 121.666 41.91 0)
 			(effects
 				(font
@@ -7634,7 +7689,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 41.91 0)
+		(at 212.09 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7642,7 +7697,7 @@
 		(dnp no)
 		(uuid "38f857d9-7680-433b-a1b9-759e14b97b0e")
 		(property "Reference" "C10"
-			(at 199.8472 40.7416 0)
+			(at 215.0872 40.7416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +7706,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 199.8472 43.053 0)
+			(at 215.0872 43.053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +7715,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 197.8152 45.72 0)
+			(at 213.0552 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 41.91 0)
+			(at 212.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7733,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 41.91 0)
+			(at 212.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,16 +7742,7 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
-			(at 196.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 196.85 41.91 0)
+			(at 212.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,15 +8090,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 203.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "42e0b303-50d1-4522-9a95-5934ee1d778b")
 		)
@@ -8123,15 +8160,6 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 191.77 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
 			(at 191.77 107.95 0)
 			(effects
 				(font
@@ -8316,7 +8344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V_VBUS"
+		(property "Value" "+5V_VBUS"
 			(at 134.366 41.91 0)
 			(effects
 				(font
@@ -8358,71 +8386,6 @@
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 95.25 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52ee317d-be9d-48a5-a1e0-134f05464ba0")
-		(property "Reference" "#PWR082"
-			(at 95.25 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 94.996 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 95.25 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad40747b-fe46-4ce7-85f2-8c55b8f3bb90")
-		)
-		(instances
-			(project "PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8558,15 +8521,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 73.66 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2e521520-311e-45d2-813d-f2c969aa85fa")
 		)
@@ -8649,7 +8603,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LT1963AxST-3.3")
-		(at 217.17 38.1 0)
+		(at 232.41 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8658,7 +8612,7 @@
 		(fields_autoplaced yes)
 		(uuid "62c4fbec-704c-4ff1-88fc-3042458c090e")
 		(property "Reference" "U3"
-			(at 217.17 27.94 0)
+			(at 232.41 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8620,7 @@
 			)
 		)
 		(property "Value" "LT1963AEST-3.3#TRPBF"
-			(at 217.17 30.48 0)
+			(at 232.41 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8628,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 217.17 49.53 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf"
-			(at 217.17 52.07 0)
+			(at 232.41 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8646,7 @@
 			)
 		)
 		(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
-			(at 217.17 38.1 0)
+			(at 232.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +8655,7 @@
 			)
 		)
 		(property "P/N" "LT1963AEST-3.3#TRPBF "
-			(at 217.17 38.1 0)
+			(at 232.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,6 +8676,71 @@
 			(project ""
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 189.23 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64e350b9-3f91-49d9-8244-5822a2a37a5c")
+		(property "Reference" "#PWR093"
+			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 188.976 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 189.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2eb3ae-9fba-498d-aa1d-4ca7296d68ff")
+		)
+		(instances
+			(project "PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -8878,7 +8897,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PG"
+		(property "Value" "FLT"
 			(at 182.88 49.8474 90)
 			(effects
 				(font
@@ -9146,7 +9165,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 196.85 31.75 0)
+		(at 212.09 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9154,7 +9173,7 @@
 		(dnp no)
 		(uuid "7fda51fe-e826-49c1-a5c1-6bec426c8d30")
 		(property "Reference" "#PWR025"
-			(at 196.85 35.56 0)
+			(at 212.09 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +9182,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 196.596 27.94 0)
+			(at 211.836 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +9190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 31.75 0)
+			(at 212.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 31.75 0)
+			(at 212.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 196.85 31.75 0)
+			(at 212.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,15 +9512,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 148.59 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d5e12f82-2349-49b9-bcc8-586686e64157")
 		)
@@ -9572,15 +9582,6 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -9919,15 +9920,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
-			(at 158.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "CRCW06034K30FKTA "
 			(at 158.75 36.83 0)
 			(effects
@@ -9953,16 +9945,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.07 53.34 0)
+		(lib_id "Device:LED")
+		(at 189.23 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9fbaab4c-067a-4cc6-9718-664ad789e927")
-		(property "Reference" "#PWR091"
-			(at 179.07 59.69 0)
+		(fields_autoplaced yes)
+		(uuid "99cb0dcd-f088-4930-b408-d065f2bac0fa")
+		(property "Reference" "D11"
+			(at 193.04 47.3074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BUCK"
+			(at 193.04 49.8474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,16 +9981,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 179.07 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 53.34 0)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LVBC-D.pdf"
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,8 +9990,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 179.07 53.34 0)
+		(property "Description" "Light emitting diode"
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,22 +9999,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 53.34 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "P/N" "APTD2012LVBC/D"
+			(at 189.23 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70790bc4-d01e-41f3-b777-c7c648c9563b")
 		)
 		(pin "1"
-			(uuid "15c9ac9c-0fab-4d39-90f0-a7703e9f9f9c")
+			(uuid "4e1b5c9c-60c0-4474-8be0-c120ce088175")
 		)
 		(instances
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "#PWR091")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10071,47 +10086,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "VSON-8 Texas Instruments"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS2115ADRBR"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 242.57 105.41 0)
 			(effects
 				(font
@@ -10168,7 +10143,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 237.49 31.75 0)
+		(at 252.73 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10176,7 +10151,7 @@
 		(dnp no)
 		(uuid "a9e48c61-24a4-44ec-bda9-c1a7dc4231b5")
 		(property "Reference" "#PWR026"
-			(at 237.49 35.56 0)
+			(at 252.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10160,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 237.236 27.94 0)
+			(at 252.476 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 31.75 0)
+			(at 252.73 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 31.75 0)
+			(at 252.73 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +10186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 237.49 31.75 0)
+			(at 252.73 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,15 +10261,6 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
 			(at 160.02 116.84 0)
 			(effects
 				(font
@@ -10450,6 +10416,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 179.07 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6bf9aac-d639-47a6-9f3f-ba87f00af5b3")
+		(property "Reference" "#PWR091"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 179.07 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "995b2422-afc5-41dd-b150-f0b525d9f229")
+		)
+		(instances
+			(project "PeripheralSOM"
+				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 137.16 0)
 		(unit 1)
@@ -10503,15 +10534,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" ""
 			(at 88.9 137.16 0)
 			(effects
@@ -10554,7 +10576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "24V_EXT"
+		(property "Value" "+24V_EXT"
 			(at 90.17 41.656 0)
 			(effects
 				(font
@@ -10704,7 +10726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/MBR230S1F.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ss26fl-d.pdf"
 			(at 130.81 114.3 0)
 			(effects
 				(font
@@ -10722,7 +10744,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MBR230S1F-7 "
+		(property "P/N" "SS24FL"
 			(at 130.81 114.3 90)
 			(effects
 				(font
@@ -10764,7 +10786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 65.2272 106.553 0)
 			(effects
 				(font
@@ -10773,7 +10795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 63.1952 109.22 0)
 			(effects
 				(font
@@ -10800,16 +10822,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "GRM21BR61H106KE43K"
-			(at 62.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
+		(property "P/N" "MLASU168SB5105KTNA01"
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -10879,15 +10892,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 168.91 36.83 0)
 			(effects
 				(font
@@ -11124,15 +11128,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 274.32 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "06469532-abd3-41aa-8ad2-e8640bc787d2")
 		)
@@ -11143,73 +11138,6 @@
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 95.25 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b9eaf0-d4fc-442b-bae0-10f7dee4d1d2")
-		(property "Reference" "TP5"
-			(at 97.79 35.0519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 97.79 37.5919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 90.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 95.25 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f94ac284-a619-4087-97a6-5db81241144d")
-		)
-		(instances
-			(project "PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
-					(reference "TP5")
 					(unit 1)
 				)
 			)

@@ -2774,26 +2774,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-52465-2470"
-			(at 165.1 530.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 165.1 730.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "P/N" "52465-2470"
 			(at 165.1 830.48 0)
 			(effects
@@ -2806,16 +2786,6 @@
 		)
 		(property "Height" "3.55"
 			(at 165.1 430.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/52465-2470?qs=sEN%2FkO1EG6Yhu4DkZwbE7Q%3D%3D"
-			(at 165.1 630.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2553,16 +2553,6 @@
 		)
 		(uuid "731796a5-950b-4ed6-bf0c-f722d2a9eef6")
 	)
-	(text "0 ohm cause ground\nloops can be fucky"
-		(exclude_from_sim no)
-		(at 28.702 80.772 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "96c3f21f-3f2c-495b-b4e0-77b685f8d0a8")
-	)
 	(text "shift around for\nbest layout"
 		(exclude_from_sim no)
 		(at 60.706 114.3 0)
@@ -3134,7 +3124,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 76.2) (xy 33.02 77.47)
+			(xy 33.02 66.04) (xy 33.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3394,16 +3384,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 66.04) (xy 33.02 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed609454-3aac-405b-87f7-2e5edb7925d3")
-	)
-	(wire
-		(pts
 			(xy 151.13 25.4) (xy 153.67 25.4)
 		)
 		(stroke
@@ -3521,16 +3501,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a69f6f6-d923-4475-a6a7-215f89210fa4")
-	)
-	(label "SH"
-		(at 33.02 68.58 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cb5ac77-a57d-4beb-80ca-0bd7b0dc14dd")
 	)
 	(label "CC1"
 		(at 21.59 96.52 270)
@@ -4486,15 +4456,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SP0503BAHTG "
-			(at 50.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "SP0503BAHTG"
 			(at 50.8 107.95 0)
 			(effects
@@ -4730,85 +4691,6 @@
 			(project "PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 33.02 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "808b4e52-5364-4d12-ac3f-df21f07e3f06")
-		(property "Reference" "R10"
-			(at 35.56 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 35.56 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 31.242 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW06030000Z0EI "
-			(at 33.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f020681f-eb70-442b-8b8c-32af1d02ee1d")
-		)
-		(pin "2"
-			(uuid "892be94d-e390-4ed0-828c-43202a1b6bb8")
-		)
-		(instances
-			(project ""
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
-					(reference "R10")
 					(unit 1)
 				)
 			)

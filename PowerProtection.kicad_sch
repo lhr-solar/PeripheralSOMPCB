@@ -5863,7 +5863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 158.75 36.83 0)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9101-d.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
 			(at 158.75 36.83 0)
 			(effects
 				(font
@@ -5890,7 +5890,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "ESD9101P2T5G"
+		(property "P/N" "SMF3.3"
 			(at 158.75 36.83 90)
 			(effects
 				(font
@@ -6027,15 +6027,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 106.68 46.99 0)
 			(effects
 				(font
@@ -6329,15 +6320,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 29.21 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2fa5d063-dcce-40de-bb2d-185cc6f54299")
 		)
@@ -6553,15 +6535,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
-			(at 21.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "P/N" "CRCW06032K10FKEA "
 			(at 21.59 123.19 0)
 			(effects
@@ -6715,15 +6688,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 130.81 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "52b8dd07-9136-4e41-af6d-52c9263c37f7")
 		)
@@ -6785,15 +6749,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
 			(at 146.05 88.9 0)
 			(effects
 				(font
@@ -6873,15 +6828,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -6977,15 +6923,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
-			(at 120.65 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8d621036-9442-47e2-bc05-713b86fc56f7")
 		)
@@ -7064,15 +7001,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "af461289-01a1-4b63-aad8-10c7b74e51c7")
 		)
@@ -7135,15 +7063,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
 			(at 36.83 68.58 0)
 			(effects
 				(font
@@ -7232,15 +7151,6 @@
 		)
 		(property "P/N" "SD24C-01FTG"
 			(at 52.07 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 52.07 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,26 +7309,6 @@
 		)
 		(property "P/N" "LM76202QPWPRQ1"
 			(at 93.98 826.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-LM76202QPWPRQ1"
-			(at 93.98 526.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 93.98 726.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,15 +7567,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 21.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 21.59 102.87 0)
 			(effects
 				(font
