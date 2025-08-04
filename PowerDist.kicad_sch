@@ -8830,7 +8830,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V_BUCK"
+		(property "Value" "5V_BK"
 			(at 124.46 52.8319 0)
 			(effects
 				(font
