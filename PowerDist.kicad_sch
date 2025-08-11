@@ -8897,7 +8897,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FLT"
+		(property "Value" "PFLT"
 			(at 182.88 49.8474 90)
 			(effects
 				(font
