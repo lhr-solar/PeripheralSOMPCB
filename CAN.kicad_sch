@@ -2445,7 +2445,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FAULT"
+		(property "Value" "FLT"
 			(at 115.57 52.3874 90)
 			(effects
 				(font
