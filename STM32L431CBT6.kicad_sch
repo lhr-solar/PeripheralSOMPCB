@@ -12486,7 +12486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0022232041:CONN_A-6373-04A_MOL"
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -12495,7 +12495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22232041?display=pdf"
+		(property "Datasheet" "https://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -12513,7 +12513,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "0022232041"
+		(property "P/N" "1053091104"
 			(at 68.58 91.44 0)
 			(effects
 				(font
