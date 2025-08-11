@@ -11,4 +11,5 @@
   (lib (name "CJS-1200TA")(type "KiCad")(uri "${KIPRJMOD}/Components/CJS-1200TA")(options "")(descr ""))
   (lib (name "0022232041")(type "KiCad")(uri "${KIPRJMOD}/Components/0022232041")(options "")(descr ""))
   (lib (name "USB4215-03-A")(type "KiCad")(uri "${KIPRJMOD}/Components/USB4215-03-A")(options "")(descr ""))
+  (lib (name "TL3365AF180QG")(type "KiCad")(uri "${KIPRJMOD}/Components/TL3365AF180QG")(options "")(descr ""))
 )

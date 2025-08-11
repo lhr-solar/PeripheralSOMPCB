@@ -10866,7 +10866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P"
+		(property "Footprint" "TL3365AF180QG:SW_TL3365AF180QG"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3sl.pdf"
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3365.pdf"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -10893,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "B3SL-1002P"
+		(property "P/N" "TL3365AF180QG"
 			(at 33.02 105.41 90)
 			(effects
 				(font
