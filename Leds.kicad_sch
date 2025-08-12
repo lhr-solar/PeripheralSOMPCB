@@ -1757,7 +1757,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED2"
+		(property "Value" "LED1"
 			(at 41.91 48.5774 90)
 			(effects
 				(font
@@ -1846,7 +1846,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED0"
 			(at 54.61 48.5774 90)
 			(effects
 				(font
@@ -1935,7 +1935,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED3"
+		(property "Value" "LED2"
 			(at 29.21 48.5774 90)
 			(effects
 				(font
