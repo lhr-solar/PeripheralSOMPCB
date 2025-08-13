@@ -2113,15 +2113,15 @@
 		)
 		(uuid "fcc8240f-5d5a-43e7-b7d4-e3be2b269c7f")
 	)
-	(label "ADC1_IN9"
-		(at 180.34 48.26 180)
+	(label "SPI2_MOSI"
+		(at 180.34 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0788ef1f-c7b7-4ec5-a18e-a8b128aced04")
+		(uuid "031aa0f6-d698-4475-9ecc-0f1cb0d93826")
 	)
 	(label "ADC1_IN9"
 		(at 44.45 46.99 0)
@@ -2143,28 +2143,18 @@
 		)
 		(uuid "14999dcb-bca4-49e3-8983-3f0e4eae2667")
 	)
-	(label "SPI2_MOSI"
-		(at 132.08 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1765e9df-5ec2-465f-8df3-21fd8a6d29a9")
-	)
-	(label "ADC1_IN7"
-		(at 180.34 50.8 180)
+	(label "SPI2_SCK"
+		(at 180.34 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "21285f14-fd3b-430e-8cee-c4afbc1b0f2b")
+		(uuid "27cf532c-06a6-47ac-8d67-c68f9d65ba2e")
 	)
 	(label "SPI1_MOSI"
-		(at 132.08 40.64 0)
+		(at 132.08 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2203,15 +2193,15 @@
 		)
 		(uuid "3f2fe2da-72ea-4068-985a-8ac453ab6258")
 	)
-	(label "SPI2_SCK"
-		(at 132.08 50.8 0)
+	(label "ADC1_IN10"
+		(at 132.08 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4677fb12-e085-42dc-88bb-c5cf3adde7fd")
+		(uuid "41ac111b-72b8-48d9-9394-e5ff20ecd937")
 	)
 	(label "CAN_H"
 		(at 24.13 33.02 0)
@@ -2222,16 +2212,6 @@
 			(justify left bottom)
 		)
 		(uuid "47d42b8e-7270-454b-8378-cc848d579d37")
-	)
-	(label "ADC1_IN11"
-		(at 180.34 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "496ede2c-7458-4d61-8e52-b5e195ef7891")
 	)
 	(label "I2C1_SDA"
 		(at 180.34 60.96 180)
@@ -2244,7 +2224,7 @@
 		(uuid "5161f692-e48b-4e3b-bc8d-3e80ff0aaaef")
 	)
 	(label "OPAMP1_VINP"
-		(at 132.08 45.72 0)
+		(at 132.08 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2262,16 +2242,6 @@
 			(justify right bottom)
 		)
 		(uuid "600d80bb-bff0-4742-b252-4c5005444f95")
-	)
-	(label "SPI2_NSS"
-		(at 132.08 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64acbc10-e728-4130-846f-02f2384e30ef")
 	)
 	(label "I2C1_SCL"
 		(at 118.11 29.21 180)
@@ -2323,15 +2293,25 @@
 		)
 		(uuid "787cfbdc-4954-4479-bb09-7fa815e5740e")
 	)
-	(label "ADC1_IN10"
-		(at 180.34 45.72 180)
+	(label "ADC1_IN11"
+		(at 132.08 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f4381fd-f379-4c9f-824f-75dcbd496430")
+	)
+	(label "SPI2_NSS"
+		(at 180.34 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "93533c3a-9098-4399-ae6f-afde4ba1120e")
+		(uuid "8fe88c99-cca4-43ce-a7c5-40fb4c6436f8")
 	)
 	(label "SPI1_MOSI"
 		(at 119.38 52.07 180)
@@ -2344,7 +2324,7 @@
 		(uuid "960f0e58-5403-4d87-937b-84c524216514")
 	)
 	(label "SPI1_MISO"
-		(at 132.08 43.18 0)
+		(at 132.08 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2353,8 +2333,18 @@
 		)
 		(uuid "96793b6d-1364-4c9f-8bff-8535822d5fc5")
 	)
+	(label "SPI2_MISO"
+		(at 180.34 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a3d39af-98c6-4946-bca0-cb9dcaa350dc")
+	)
 	(label "SPI1_SCK"
-		(at 132.08 38.1 0)
+		(at 132.08 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2413,15 +2403,15 @@
 		)
 		(uuid "bf99db42-8653-414d-ac5e-2f5974d8b9ac")
 	)
-	(label "SPI2_MISO"
-		(at 132.08 55.88 0)
+	(label "ADC1_IN7"
+		(at 132.08 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c4e79196-7e5f-4380-b3e2-1e71ed813973")
+		(uuid "c6bad0d7-5900-47bd-8d58-6f077427d89f")
 	)
 	(label "CAN_L"
 		(at 180.34 40.64 180)
@@ -2444,7 +2434,7 @@
 		(uuid "d4035c77-1978-4d4f-ac3d-707a06757182")
 	)
 	(label "SPI1_NSS"
-		(at 132.08 35.56 0)
+		(at 132.08 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2462,6 +2452,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2f3bab1-5e17-47fc-b666-26d2da473104")
+	)
+	(label "ADC1_IN9"
+		(at 132.08 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec744048-98c0-4cc5-8442-9494d3bfb341")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
