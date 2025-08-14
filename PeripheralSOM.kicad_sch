@@ -2593,7 +2593,7 @@
 	)
 	(symbol
 		(lib_id "utsvt_misc:Logo_Placeholder")
-		(at 107.95 93.98 0)
+		(at 111.76 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2601,7 +2601,7 @@
 		(dnp no)
 		(uuid "0d0e69fd-38c4-441f-9a19-e33820c05595")
 		(property "Reference" "LOGO2"
-			(at 107.95 90.17 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2610,7 @@
 			)
 		)
 		(property "Value" "LHRs"
-			(at 111.506 93.98 0)
+			(at 115.316 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2619,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Logos:LHRs_LOGO"
-			(at 107.95 92.075 0)
+			(at 111.76 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 92.075 0)
+			(at 111.76 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
-			(at 107.95 93.98 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,75 +2937,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "utsvt_misc:Logo_Placeholder")
-		(at 107.95 85.725 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8967d3d3-a9d0-48a1-a99c-a331a525c705")
-		(property "Reference" "LOGO1"
-			(at 107.95 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Dr. Hallock"
-			(at 111.506 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UTSVT_Logos:Hallock_Image_Tiny"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Graph footprint placeholder"
-			(at 107.95 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-					(reference "LOGO1")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "LOGO1")
 					(unit 1)
 				)
 			)
