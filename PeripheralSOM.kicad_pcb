@@ -38293,6 +38293,18 @@
 			)
 		)
 	)
+	(gr_text "move usb uart to front....\nput pin numbers for leds on back\ncheck if more passives can be moved to front\nmake vdda/gnda stuff closer to pins\nmove bootstrap diode to top layer"
+		(at 171.4 88.8 0)
+		(layer "F.SilkS")
+		(uuid "86852bf8-b913-43db-b09b-78e420568a24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Ravi Shah & Lakshay Gupta 2025\n"
 		(at 138.496602 75.8 0)
 		(layer "F.SilkS")
