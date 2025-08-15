@@ -3442,6 +3442,16 @@
 		)
 		(uuid "16157a69-5c36-4c0c-afb1-7e9d4fa10dcc")
 	)
+	(label "D+"
+		(at 48.26 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1aa6572f-9903-4053-a40f-549fc51f458b")
+	)
 	(label "USART1_TX"
 		(at 177.8 39.37 180)
 		(effects
@@ -3482,18 +3492,8 @@
 		)
 		(uuid "592d097d-21f2-411c-884e-8e13d54e9f99")
 	)
-	(label "D+"
-		(at 50.8 97.79 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e016c0a-43c2-4f2c-8380-226836001109")
-	)
 	(label "D-"
-		(at 48.26 97.79 270)
+		(at 50.8 97.79 270)
 		(effects
 			(font
 				(size 1.27 1.27)
