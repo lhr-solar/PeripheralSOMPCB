@@ -26318,8 +26318,8 @@
 			(uuid "42c0d007-5b49-4f64-8a00-aadc1c371a27")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 				(justify mirror)
 			)
@@ -29124,13 +29124,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
-			(at 2.25 0 180)
+			(at -2.25 0 180)
 			(layer "B.SilkS")
 			(uuid "9a351c11-f319-4a48-8f7f-383ff3666e44")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 				(justify mirror)
 			)
@@ -30064,13 +30064,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
-			(at 2.25 0 180)
+			(at -2.25 0 0)
 			(layer "B.SilkS")
-			(uuid "a3fd4073-7a0e-4a63-ab58-e544178f59a2")
+			(uuid "4f211a63-7d84-4362-94af-2c0871738a0d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 				(justify mirror)
 			)
@@ -30078,7 +30078,7 @@
 		(property "Value" "120"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
-			(uuid "038971fb-b59e-4955-8daf-b52a6b124180")
+			(uuid "90da3753-55db-4c81-aec5-170ba1bef5b4")
 			(effects
 				(font
 					(size 1 1)
@@ -30091,7 +30091,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "33bbbeb5-9fbb-43fa-a6e8-097a727f046d")
+			(uuid "0694807a-2390-4549-9b3e-82582fe2c135")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30104,7 +30104,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f0045061-2272-4a35-a580-b3ef70baa568")
+			(uuid "c074932b-0f02-4e46-b07e-faddca463eb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35889,13 +35889,13 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
-			(at -2.25 0 180)
+			(at -2.25 0.25 180)
 			(layer "B.SilkS")
 			(uuid "de5721f5-eea9-4153-b252-3655c1ab1a62")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 				(justify mirror)
 			)
@@ -38815,6 +38815,42 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "PA7"
+		(at 122.25 84.5 270)
+		(layer "B.SilkS" knockout)
+		(uuid "0ad1c752-ff20-46dc-8eed-0d501d4deac8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PA8"
+		(at 120 84.5 270)
+		(layer "B.SilkS" knockout)
+		(uuid "89706b04-0489-4498-8191-6c33fec7985f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PB11"
+		(at 115.5 84.5 270)
+		(layer "B.SilkS" knockout)
+		(uuid "a581395d-2dd6-4d35-8fa2-91b73595fb79")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "no magic smoke?\ndefinitely a software issue"
 		(at 120.75 92.5 0)
 		(layer "B.SilkS")
@@ -39374,6 +39410,18 @@
 					(xy 112.687294 91.845918) (xy 112.668396 91.909995) (xy 112.661897 91.981526)
 				)
 			)
+		)
+	)
+	(gr_text "PA15"
+		(at 117.793079 84.5 270)
+		(layer "B.SilkS" knockout)
+		(uuid "e930791b-8793-4f2b-8851-eff216d871a1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "validated"
