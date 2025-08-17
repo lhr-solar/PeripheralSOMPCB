@@ -39521,7 +39521,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "new led 0603\nput pin numbers for leds on back\ncheck if more passives can be moved to front\nmake vdda/gnda stuff closer to pins\nmove bootstrap diode to top layer\nchange any non-exact resistor values to match basic inventory"
+	(gr_text "put pin numbers for leds on back\ncheck if more passives can be moved to front\nmake vdda/gnda stuff closer to pins\nmove bootstrap diode to top layer\nchange any non-exact resistor values to match basic inventory"
 		(at 171.4 88.8 0)
 		(layer "Cmts.User")
 		(uuid "86852bf8-b913-43db-b09b-78e420568a24")

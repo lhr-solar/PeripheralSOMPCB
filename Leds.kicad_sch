@@ -1291,7 +1291,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LVBC/D"
+		(property "P/N" "XL-1608UBC-06A"
 			(at 72.39 45.72 90)
 			(effects
 				(font
@@ -1793,7 +1793,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LVBC/D"
+		(property "P/N" "XL-1608UBC-06A"
 			(at 38.1 45.72 0)
 			(effects
 				(font
@@ -1882,7 +1882,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LVBC/D"
+		(property "P/N" "XL-1608UBC-06A"
 			(at 50.8 45.72 0)
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LVBC/D"
+		(property "P/N" "XL-1608UBC-06A"
 			(at 25.4 45.72 0)
 			(effects
 				(font
