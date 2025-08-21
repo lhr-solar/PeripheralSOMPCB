@@ -531,7 +531,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BPS-PeripheralSOM.step",
+      "step": "../../../../Downloads/PeripheralSOM.step",
       "svg": "",
       "vrml": ""
     },
