@@ -30,10 +30,8 @@ fp-info-cache
 # Exported files
 *.xml
 
-
 #Mac Specific
 .DS_Store
-Production/
 
 # Backups
 BPS-PeriphersalSOM-backups/*

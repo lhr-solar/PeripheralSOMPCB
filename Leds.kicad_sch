@@ -1,150 +1,21 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8df4ab2d-c341-4d52-baa1-59a5b978bc98")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(title "LEDs")
+	)
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -191,6 +62,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -212,10 +92,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -236,7 +128,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -248,22 +140,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -309,9 +189,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -430,25 +313,29 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -456,7 +343,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -465,15 +352,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -482,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -491,10 +369,38 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -505,7 +411,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -517,7 +423,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -527,21 +433,36 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -557,9 +478,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -575,12 +496,383 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_2_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_3_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -671,40 +963,23 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
-		(at 119.38 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12f56249-3916-4d03-9445-47669c93b8a2")
-	)
-	(junction
-		(at 106.68 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "402709c3-2cbb-4bbb-bfeb-0a7e0c17b98d")
-	)
-	(junction
-		(at 106.68 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46325127-2506-482d-a57c-c9dbab3eb10f")
-	)
-	(junction
-		(at 132.08 124.46)
+		(at 38.1 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7289e4ab-13b8-4bc6-9037-fab5b8284f10")
 	)
 	(junction
-		(at 144.78 124.46)
+		(at 50.8 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77cd398d-61f0-49ba-8d10-44cff071d424")
 	)
 	(bus_entry
-		(at 129.54 95.25)
+		(at 35.56 24.13)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -713,7 +988,7 @@
 		(uuid "29ff0322-b224-4f3d-947c-8dc2728499d1")
 	)
 	(bus_entry
-		(at 116.84 95.25)
+		(at 22.86 24.13)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -722,7 +997,7 @@
 		(uuid "35a84828-ce35-4ac3-a0c2-0fd8dc90727f")
 	)
 	(bus_entry
-		(at 142.24 95.25)
+		(at 48.26 24.13)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -732,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 120.65) (xy 132.08 124.46)
+			(xy 38.1 49.53) (xy 38.1 53.34)
 		)
 		(stroke
 			(width 0)
@@ -742,17 +1017,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 114.3) (xy 95.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "259273a1-593d-4f50-9c42-640aa2d7396e")
-	)
-	(wire
-		(pts
-			(xy 119.38 120.65) (xy 119.38 124.46)
+			(xy 25.4 49.53) (xy 25.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +1027,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 124.46) (xy 144.78 124.46)
+			(xy 72.39 53.34) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -772,17 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 121.92) (xy 95.25 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c862e9-a83f-44da-a4e4-0f9c65c9a066")
-	)
-	(wire
-		(pts
-			(xy 119.38 97.79) (xy 119.38 104.14)
+			(xy 25.4 26.67) (xy 25.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +1047,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 95.25) (xy 142.24 95.25)
+			(xy 35.56 24.13) (xy 48.26 24.13)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 132.08 113.03)
+			(xy 38.1 40.64) (xy 38.1 41.91)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 120.65) (xy 163.83 124.46)
+			(xy 72.39 49.53) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -822,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 119.38 113.03)
+			(xy 25.4 40.64) (xy 25.4 41.91)
 		)
 		(stroke
 			(width 0)
@@ -830,29 +1085,9 @@
 		)
 		(uuid "4ef7c2f9-2ed9-4d3c-95ac-12c1e9f0ed74")
 	)
-	(wire
-		(pts
-			(xy 95.25 113.03) (xy 106.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a72b64-7ba7-486e-8e69-1f3d6cd7563a")
-	)
-	(wire
-		(pts
-			(xy 106.68 123.19) (xy 106.68 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a8c068-3e8a-4a2f-98d7-e12fa7d88751")
-	)
 	(bus
 		(pts
-			(xy 116.84 95.25) (xy 129.54 95.25)
+			(xy 22.86 24.13) (xy 35.56 24.13)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 132.08 124.46)
+			(xy 25.4 53.34) (xy 38.1 53.34)
 		)
 		(stroke
 			(width 0)
@@ -872,7 +1107,7 @@
 	)
 	(bus
 		(pts
-			(xy 142.24 95.25) (xy 152.4 95.25)
+			(xy 48.26 24.13) (xy 58.42 24.13)
 		)
 		(stroke
 			(width 0)
@@ -882,17 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 124.46) (xy 106.68 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf05745-7463-46ce-8b4e-ea6528e1b079")
-	)
-	(wire
-		(pts
-			(xy 163.83 100.33) (xy 163.83 104.14)
+			(xy 72.39 29.21) (xy 72.39 33.02)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 111.76) (xy 163.83 113.03)
+			(xy 72.39 40.64) (xy 72.39 41.91)
 		)
 		(stroke
 			(width 0)
@@ -912,17 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 99.06) (xy 106.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f4f18c-1896-4f9d-b217-7ab95a0dc835")
-	)
-	(wire
-		(pts
-			(xy 132.08 97.79) (xy 132.08 104.14)
+			(xy 38.1 26.67) (xy 38.1 33.02)
 		)
 		(stroke
 			(width 0)
@@ -932,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 113.03)
+			(xy 50.8 40.64) (xy 50.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 144.78 104.14)
+			(xy 50.8 26.67) (xy 50.8 33.02)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 132.08 124.46)
+			(xy 50.8 53.34) (xy 38.1 53.34)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 120.65) (xy 144.78 124.46)
+			(xy 50.8 49.53) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -970,19 +1185,8 @@
 		)
 		(uuid "fb72c545-2cd8-4ae0-acc1-6277d5ffe4da")
 	)
-	(wire
-		(pts
-			(xy 106.68 124.46) (xy 119.38 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcca4455-f661-4cea-ac67-5d34eef86ca7")
-	)
 	(label "LED2"
-		(at 132.08 97.79 0)
-		(fields_autoplaced yes)
+		(at 38.1 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,8 +1196,7 @@
 		(uuid "c937e539-2951-4bab-834b-fdcb4ec09ca6")
 	)
 	(label "LED3"
-		(at 119.38 97.79 0)
-		(fields_autoplaced yes)
+		(at 25.4 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1003,8 +1206,7 @@
 		(uuid "dc5a9075-f173-404e-a428-c3bc87465ba7")
 	)
 	(label "LED1"
-		(at 144.78 97.79 0)
-		(fields_autoplaced yes)
+		(at 50.8 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1015,8 +1217,7 @@
 	)
 	(hierarchical_label "LED_HB"
 		(shape input)
-		(at 163.83 100.33 90)
-		(fields_autoplaced yes)
+		(at 72.39 29.21 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,8 +1228,7 @@
 	)
 	(hierarchical_label "LED[1..3]"
 		(shape input)
-		(at 152.4 95.25 0)
-		(fields_autoplaced yes)
+		(at 58.42 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1037,21 +1237,9 @@
 		)
 		(uuid "4b4e9c99-552f-4444-9c3d-f9064be07a5d")
 	)
-	(hierarchical_label "SW_PUSH"
-		(shape output)
-		(at 106.68 99.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd362674-16ca-493c-9fd3-25cf375cf7d0")
-	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 163.83 116.84 90)
+		(at 72.39 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1059,7 +1247,7 @@
 		(dnp no)
 		(uuid "054a8cf6-316c-4737-a859-2653d75601c3")
 		(property "Reference" "D4"
-			(at 166.8018 115.8748 90)
+			(at 75.3618 44.7548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1256,7 @@
 			)
 		)
 		(property "Value" "Heartbeat"
-			(at 166.8018 118.1862 90)
+			(at 75.3618 47.0662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,8 +1264,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 163.83 116.84 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 72.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,8 +1273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 163.83 116.84 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
+			(at 72.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1283,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 163.83 116.84 0)
+			(at 72.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,8 +1291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Color" "Green"
-			(at 163.83 116.84 90)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 72.39 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,35 +1300,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
-			(at 163.83 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 163.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 163.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 163.83 116.84 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,120 +1331,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 106.68 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0801883b-945f-4c3b-b230-e3ff2e5a8af9")
-		(property "Reference" "SW7"
-			(at 108.585 117.475 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 108.585 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P"
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 106.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "653-B3SL-1002P"
-			(at 106.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "B3SL-1002P"
-			(at 106.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 106.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 106.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "964d9243-6ab1-4a19-9670-f7dad290b372")
-		)
-		(pin "2"
-			(uuid "31df5506-04c1-42c4-ad2a-83bf545c01ab")
-		)
-		(instances
-			(project "Telemetry-Primary"
-				(path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/ef5b995d-f9db-4668-8b34-2450d3a2d44c"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 144.78 107.95 0)
+		(at 50.8 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1291,7 +1340,7 @@
 		(dnp no)
 		(uuid "1b402642-4080-477f-a8c8-7395d2aa9271")
 		(property "Reference" "R18"
-			(at 146.558 106.7816 0)
+			(at 52.578 35.6616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,8 +1348,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 146.558 109.093 0)
+		(property "Value" "120"
+			(at 52.578 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,8 +1357,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.002 107.95 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 49.022 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 107.95 0)
+			(at 50.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1376,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 107.95 0)
+			(at 50.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,35 +1384,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "Inventory"
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SDR10EZPF2200"
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 144.78 107.95 0)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 50.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 107.95 0)
+		(at 38.1 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1402,7 +1424,7 @@
 		(dnp no)
 		(uuid "2d88ce04-9a6e-4d1c-a1f0-5ec64402ba53")
 		(property "Reference" "R17"
-			(at 133.858 106.7816 0)
+			(at 39.878 35.6616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,8 +1432,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 133.858 109.093 0)
+		(property "Value" "120"
+			(at 39.878 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,8 +1441,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 130.302 107.95 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 36.322 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 107.95 0)
+			(at 38.1 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1460,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 107.95 0)
+			(at 38.1 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,35 +1468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "Inventory"
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SDR10EZPF2200"
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 132.08 107.95 0)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 38.1 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,15 +1500,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 124.46 0)
+		(at 38.1 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "359743d9-2387-404a-9b77-07801065e75b")
-		(property "Reference" "#PWR0125"
-			(at 132.08 130.81 0)
+		(property "Reference" "#PWR040"
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.207 128.8542 0)
+			(at 38.227 57.7342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 124.46 0)
+			(at 38.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 124.46 0)
+			(at 38.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1543,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 124.46 0)
+			(at 38.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1571,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 107.95 0)
+		(at 25.4 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1584,7 +1579,7 @@
 		(dnp no)
 		(uuid "79a71a1b-3bbb-4d9a-ab3c-682bda8d67b7")
 		(property "Reference" "R6"
-			(at 121.158 106.7816 0)
+			(at 27.178 35.6616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,8 +1587,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 121.158 109.093 0)
+		(property "Value" "120"
+			(at 27.178 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,8 +1596,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 117.602 107.95 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 23.622 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 107.95 0)
+			(at 25.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 107.95 0)
+			(at 25.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,35 +1623,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "Inventory"
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SDR10EZPF2200"
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 119.38 107.95 0)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 25.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,120 +1654,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 95.25 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d377374-91a0-4c52-b255-5345666d2c9c")
-		(property "Reference" "C25"
-			(at 99.06 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 99.06 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 96.2152 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
-			(at 95.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "C0805C104M5RACTU"
-			(at 95.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 95.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 95.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6cf795c-8451-444f-84b2-2684daf32f65")
-		)
-		(pin "2"
-			(uuid "43e8934f-456d-4726-bc6a-637366e73466")
-		)
-		(instances
-			(project "BPS-Minion"
-				(path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/40e00f49-8295-4a27-8e00-c31cad3b7d6c"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 163.83 107.95 0)
+		(at 72.39 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1807,7 +1663,7 @@
 		(dnp no)
 		(uuid "83b5221c-b8a7-4767-94ef-8b41291c5e24")
 		(property "Reference" "R11"
-			(at 165.608 106.7816 0)
+			(at 74.168 35.6616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,8 +1671,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 165.608 109.093 0)
+		(property "Value" "120"
+			(at 74.168 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,8 +1680,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 162.052 107.95 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 70.612 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 107.95 0)
+			(at 72.39 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1699,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 107.95 0)
+			(at 72.39 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,35 +1707,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "Inventory"
-			(at 163.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SDR10EZPF2200"
-			(at 163.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 163.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 163.83 107.95 0)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 72.39 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,8 +1738,9 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_2")
 		(lib_id "Device:LED")
-		(at 132.08 116.84 90)
+		(at 38.1 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1919,7 +1749,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0974f69-626c-432b-ae0e-75e4f760ed51")
 		(property "Reference" "D13"
-			(at 135.89 117.7925 90)
+			(at 41.91 46.0374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,8 +1757,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 135.89 120.3325 90)
+		(property "Value" "LED1"
+			(at 41.91 48.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,8 +1766,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 132.08 116.84 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,8 +1775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 116.84 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1785,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 132.08 116.84 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,8 +1793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 132.08 116.84 0)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,26 +1802,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
-			(at 132.08 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 132.08 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 132.08 116.84 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,8 +1827,9 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_3")
 		(lib_id "Device:LED")
-		(at 144.78 116.84 90)
+		(at 50.8 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2025,7 +1838,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae422ee5-e47a-44fa-b215-be7ae38b976d")
 		(property "Reference" "D14"
-			(at 148.59 117.7925 90)
+			(at 54.61 46.0374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,8 +1846,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 148.59 120.3325 90)
+		(property "Value" "LED0"
+			(at 54.61 48.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,8 +1855,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 144.78 116.84 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,8 +1864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 144.78 116.84 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +1874,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 144.78 116.84 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,8 +1882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 144.78 116.84 0)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,26 +1891,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 144.78 116.84 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,8 +1916,9 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 119.38 116.84 90)
+		(at 25.4 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2131,7 +1927,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9e7ff7b-ff03-4d43-b99d-cb646df37810")
 		(property "Reference" "D12"
-			(at 123.19 117.7925 90)
+			(at 29.21 46.0374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,8 +1935,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 123.19 120.3325 90)
+		(property "Value" "LED2"
+			(at 29.21 48.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,8 +1944,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 119.38 116.84 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,8 +1953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 119.38 116.84 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +1963,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 119.38 116.84 0)
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,8 +1971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 119.38 116.84 0)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,26 +1980,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "APTD2012LCGCK"
-			(at 119.38 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 119.38 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 119.38 116.84 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
