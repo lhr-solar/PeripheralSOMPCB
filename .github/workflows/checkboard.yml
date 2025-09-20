@@ -53,6 +53,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Verify PCB file
+        run: |
+            echo "Checking PCB file exists and is readable"
+            ls -l ${{ needs.validate-files.outputs.layout }}
+            head -20 ${{ needs.validate-files.outputs.layout }}
+      
 
       - name: Run KiCad ERC/DRC
         uses: actions-for-kicad/kicad-actions@v1-k9.0
