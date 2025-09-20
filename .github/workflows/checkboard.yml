@@ -20,10 +20,10 @@ jobs:
 
       - name: Validate JSON and file paths
         run: |
-          json_file=$(find . -name '*.json' | head -n 1)
-          if [ -z "$json_file" ]; then
-            echo "❌ No JSON file found."
-            exit 1
+          json_file="pcb.json"
+          if [ ! -f "$json_file" ]; then
+             echo "❌ pcb.json not found in repository root."
+             exit 1
           fi
 
           echo "🔍 Checking $json_file..."
