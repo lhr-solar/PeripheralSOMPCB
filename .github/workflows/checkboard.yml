@@ -1,14 +1,13 @@
 name: Validate Design Files and Run KiCad Checks
 
 on:
-  workflow_dispatch:
   pull_request:
-  push:
-    
     paths:
       - '**/*.json'
       - '**/*.kicad_sch'
       - '**/*.kicad_pcb'
+  workflow_dispatch:
+
   
  
 
