@@ -1,5 +1,6 @@
 {
   "BOM": "bom/PeripheralSOM.csv",
   "3D Model": "3dmodel/PeripheralSOM.step",
-  "KiCad Project": "PeripheralSOM.kicad_pro"
+  "PCB Schematic": "PeripheralSOM.kicad_sch",
+  "PCB Layout": "PeripheralSOM.kicad_pcb"
 }

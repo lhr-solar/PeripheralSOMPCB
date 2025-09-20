@@ -1,4 +1,4 @@
-name: Validate Design Files and Run KiCad Checks
+name: Validate design files and run KiCad checks
 
 on:
   pull_request:
@@ -6,7 +6,6 @@ on:
       - 'pcb.json'
       - 'bom/**'
       - '3dmodel/**'
-      - '*.kicad_pro'
       - '*.kicad_sch'
       - '*.kicad_pcb'
   workflow_dispatch:
@@ -15,13 +14,16 @@ jobs:
   validate-files:
     runs-on: ubuntu-latest
     outputs:
-      project: ${{ steps.extract.outputs.project }}
+      schematic: ${{ steps.extract.outputs.schematic }}
+      layout: ${{ steps.extract.outputs.layout }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Validate pcb.json and extract paths
         id: extract
         run: |
+          set -euo pipefail
+
           json_file="pcb.json"
           if [ ! -f "$json_file" ]; then
             echo "❌ pcb.json not found."
@@ -30,53 +32,89 @@ jobs:
 
           bom=$(jq -r '.BOM' "$json_file")
           model=$(jq -r '.["3D Model"]' "$json_file")
-          project=$(jq -r '.["KiCad Project"]' "$json_file")
+          schematic=$(jq -r '.["PCB Schematic"]' "$json_file")
+          layout=$(jq -r '.["PCB Layout"]' "$json_file")
 
-          for file in "$bom" "$model" "$project"; do
-            if [ "$file" == "null" ] || [ ! -f "$file" ]; then
+          # Ensure all fields exist and files are present
+          for file in "$bom" "$model" "$schematic" "$layout"; do
+            if [ -z "$file" ] || [ "$file" = "null" ] || [ ! -f "$file" ]; then
               echo "❌ Missing or invalid file path: $file"
               exit 1
             fi
           done
 
-          echo "project=$project" >> $GITHUB_OUTPUT
-          echo "✅ pcb.json validated. All required files exist."
+          # Export for downstream job
+          echo "schematic=$schematic" >> "$GITHUB_OUTPUT"
+          echo "layout=$layout" >> "$GITHUB_OUTPUT"
+
+          echo "✅ pcb.json validated. All required files exist:"
+          printf ' - BOM: %s\n - 3D Model: %s\n - Schematic: %s\n - Layout: %s\n' "$bom" "$model" "$schematic" "$layout"
 
   run-kicad-checks:
     needs: validate-files
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Show resolved inputs
+        run: |
+          echo "Schematic: ${{ needs.validate-files.outputs.schematic }}"
+          echo "Layout: ${{ needs.validate-files.outputs.layout }}"
+          ls -la
 
       - name: Run KiCad ERC/DRC
         uses: actions-for-kicad/kicad-actions@v1-k9.0
         with:
-          project_name: ${{ needs.validate-files.outputs.project }}
+          schematic_file_name: ${{ needs.validate-files.outputs.schematic }}
           run_erc: true
+          pcb_file_name: ${{ needs.validate-files.outputs.layout }}
           run_drc: true
+          # Optional extras (uncomment only if you want these artifacts):
+          # schematic_output_pdf: true
+          # pcb_output_gerbers_and_drill: true
+          # pcb_output_image: true
+      # Notes:
+      # - Inputs supported by this action include schematic_file_name, run_erc,
+      #   pcb_file_name, run_drc, schematic_output_pdf, etc. There is no "project_name".
+      #   See action docs for the full list.
 
-      - name: Check ERC/DRC Reports for Errors
+      - name: Check ERC/DRC reports for errors
         run: |
+          set -euo pipefail
           fail=0
-          if [ -f erc.rpt ] && grep -q "Error:" erc.rpt; then
-            echo "❌ ERC errors found:"
-            grep "Error:" erc.rpt
-            fail=1
+
+          if [ -f erc.rpt ]; then
+            if grep -q "Error:" erc.rpt; then
+              echo "❌ ERC errors found:"
+              grep "Error:" erc.rpt
+              fail=1
+            else
+              echo "✅ No ERC errors found."
+            fi
+          else
+            echo "⚠️ No ERC report produced."
           fi
-          if [ -f drc.rpt ] && grep -q "DRC errors" drc.rpt; then
-            echo "❌ DRC errors found:"
-            grep "DRC errors" drc.rpt
-            fail=1
+
+          if [ -f drc.rpt ]; then
+            # Different KiCad versions may phrase the summary differently; check both common patterns.
+            if grep -Eq "DRC errors|ERROR" drc.rpt; then
+              echo "❌ DRC errors found (summary):"
+              grep -nE "DRC errors|ERROR" drc.rpt || true
+              fail=1
+            else
+              echo "✅ No DRC errors found."
+            fi
+          else
+            echo "⚠️ No DRC report produced."
           fi
+
           if [ "$fail" -eq 1 ]; then
             echo "❌ Design checks failed. Fix ERC/DRC issues before merging."
             exit 1
-          else
-            echo "✅ No ERC/DRC errors found."
           fi
 
-      - name: Upload ERC/DRC Reports
-        if: always()   # ensures upload even if previous step failed
+      - name: Upload ERC/DRC reports
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: KiCad-Reports
