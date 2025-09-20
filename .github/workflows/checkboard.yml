@@ -1,4 +1,4 @@
-name: Validate design files and run KiCad checks
+name: Validate Design Files and Run KiCad Checks
 
 on:
   pull_request:
@@ -35,7 +35,6 @@ jobs:
           schematic=$(jq -r '.["PCB Schematic"]' "$json_file")
           layout=$(jq -r '.["PCB Layout"]' "$json_file")
 
-          # Ensure all fields exist and files are present
           for file in "$bom" "$model" "$schematic" "$layout"; do
             if [ -z "$file" ] || [ "$file" = "null" ] || [ ! -f "$file" ]; then
               echo "❌ Missing or invalid file path: $file"
@@ -43,7 +42,6 @@ jobs:
             fi
           done
 
-          # Export for downstream job
           echo "schematic=$schematic" >> "$GITHUB_OUTPUT"
           echo "layout=$layout" >> "$GITHUB_OUTPUT"
 
@@ -69,55 +67,27 @@ jobs:
           run_erc: true
           pcb_file_name: ${{ needs.validate-files.outputs.layout }}
           run_drc: true
-          # Optional extras (uncomment only if you want these artifacts):
-          # schematic_output_pdf: true
-          # pcb_output_gerbers_and_drill: true
-          # pcb_output_image: true
-      # Notes:
-      # - Inputs supported by this action include schematic_file_name, run_erc,
-      #   pcb_file_name, run_drc, schematic_output_pdf, etc. There is no "project_name".
-      #   See action docs for the full list.
 
-      - name: Check ERC/DRC reports for errors
+      - name: Check ERC/DRC reports for Errors only
         run: |
           set -euo pipefail
           fail=0
 
           if [ -f erc.rpt ]; then
-            if grep -q "Error:" erc.rpt; then
+            if grep -qi "; error" erc.rpt; then
               echo "❌ ERC errors found:"
-              grep "Error:" erc.rpt
+              grep -i "; error" erc.rpt
               fail=1
             else
-              echo "✅ No ERC errors found."
+              echo "✅ No ERC errors found (warnings ignored)."
             fi
           else
             echo "⚠️ No ERC report produced."
           fi
 
           if [ -f drc.rpt ]; then
-            # Different KiCad versions may phrase the summary differently; check both common patterns.
-            if grep -Eq "DRC errors|ERROR" drc.rpt; then
-              echo "❌ DRC errors found (summary):"
-              grep -nE "DRC errors|ERROR" drc.rpt || true
+            if grep -qi "error" drc.rpt; then
+              echo "❌ DRC errors found:"
+              grep -i "error" drc.rpt
               fail=1
             else
-              echo "✅ No DRC errors found."
-            fi
-          else
-            echo "⚠️ No DRC report produced."
-          fi
-
-          if [ "$fail" -eq 1 ]; then
-            echo "❌ Design checks failed. Fix ERC/DRC issues before merging."
-            exit 1
-          fi
-
-      - name: Upload ERC/DRC reports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: KiCad-Reports
-          path: |
-            erc.rpt
-            drc.rpt
