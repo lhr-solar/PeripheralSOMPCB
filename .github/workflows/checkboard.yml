@@ -54,12 +54,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Show resolved inputs
-        run: |
-          echo "Schematic: ${{ needs.validate-files.outputs.schematic }}"
-          echo "Layout: ${{ needs.validate-files.outputs.layout }}"
-          ls -la
-
       - name: Run KiCad ERC/DRC
         uses: actions-for-kicad/kicad-actions@v1-k9.0
         with:
@@ -68,9 +62,9 @@ jobs:
           pcb_file_name: ${{ needs.validate-files.outputs.layout }}
           run_drc: true
 
-      - name: Check ERC/DRC reports for Errors only
+      - name: Parse ERC/DRC reports
+        id: parse
         run: |
-          set -euo pipefail
           fail=0
 
           if [ -f erc.rpt ]; then
@@ -91,3 +85,25 @@ jobs:
               grep -i "error" drc.rpt
               fail=1
             else
+              echo "✅ No DRC errors found (warnings ignored)."
+            fi
+          else
+            echo "⚠️ No DRC report produced."
+          fi
+
+          echo "fail=$fail" >> $GITHUB_OUTPUT
+
+      - name: Upload ERC/DRC Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: KiCad-Reports
+          path: |
+            erc.rpt
+            drc.rpt
+
+      - name: Fail if errors were found
+        if: steps.parse.outputs.fail == '1'
+        run: |
+          echo "❌ Design checks failed. Fix ERC/DRC errors before merging."
+          exit 1
