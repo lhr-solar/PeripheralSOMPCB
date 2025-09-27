@@ -104,93 +104,54 @@ jobs:
           name: DRC-Report
           path: drc.rpt
 
+  
   check-and-generate-3dmodel:
     needs: validate-files
     runs-on: ubuntu-latest
-    # container image that includes KiCad + 3D libraries (change if you prefer another image)
-    container:
-      image: ghcr.io/inti-cmnb/kicad9_full:latest
 
-    outputs:
-      generated: ${{ steps.check.outputs.generated }}
-      generated_files: ${{ steps.collect.outputs.generated_files }}
+    # ✅ Use a KiCad container image that includes 3D models
+    container:
+      image: ghcr.io/inti-cmnb/kicad9_auto:latest
 
     steps:
+      # --- Checkout the PR code ---
       - name: Checkout PR branch
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 
-      - name: Check for existing STEP files
+      # --- Check if any STEP files already exist ---
+      - name: Check for missing board-level STEP model
         id: check
         run: |
-          set -euo pipefail
           mkdir -p 3dmodel
-          # If any .step exists in 3dmodel, we consider the board-level model present
-          if find 3dmodel -maxdepth 1 -type f -iname '*.step' | grep -q .; then
-            echo "generated=false" >> $GITHUB_OUTPUT
-          else
+          if ! find 3dmodel -maxdepth 1 -type f -name '*.step' | grep -q .; then
+            echo "No STEP models found — will generate one..."
             echo "generated=true" >> $GITHUB_OUTPUT
+          else
+            echo "STEP model already exists."
+            echo "generated=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Generate board STEP model (if missing)
-        if: steps.check.outputs.generated == 'true'
-        uses: actions-for-kicad/kicad-actions@v1-k9.0
-        with:
-          pcb_file_name: ${{ needs.validate-files.outputs.layout }}
-          pcb_output_step: true
-
-      - name: Collect generated STEP files into 3dmodel/
-        id: collect
+      # --- Generate the STEP model if missing ---
+      - name: Generate board STEP model
         if: steps.check.outputs.generated == 'true'
         run: |
-          set -euo pipefail
-          mkdir -p 3dmodel
+          echo "Generating board STEP model..."
+          # Replace with your actual board filename
+          kicad-cli pcb export step \
+            --board myboard.kicad_pcb \
+            --output 3dmodel/myboard.step
 
-          # Move pcb.step created at repo root (common behavior) into 3dmodel/
-          if [ -f pcb.step ]; then
-            mv pcb.step 3dmodel/ || true
-          fi
-
-          # Find any other .step files created outside 3dmodel and move them in
-          while IFS= read -r -d '' f; do
-            # skip files already in 3dmodel
-            if [[ "$f" != ./3dmodel/* ]]; then
-              base=$(basename "$f")
-              mv "$f" "3dmodel/$base" || true
-            fi
-          done < <(find . -type f -iname '*.step' -not -path './3dmodel/*' -print0 || true)
-
-          # Build newline-separated list of files now present in 3dmodel/
-          files=$(find 3dmodel -maxdepth 1 -type f -iname '*.step' -printf "%f\n" | sort || true)
-
-          if [ -n "$files" ]; then
-            echo "generated_files<<EOF" >> $GITHUB_OUTPUT
-            echo "$files" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
-          else
-            # ensure the output key exists but is empty
-            echo "generated_files=" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit generated STEP files (if any)
+      # --- Commit and push generated STEP model back to PR branch ---
+      - name: Commit and push generated model
         if: steps.check.outputs.generated == 'true'
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Stage any STEP files in 3dmodel/
-          git add 3dmodel/*.step || true
-
-          # Only commit if there are staged changes
-          if git diff --staged --quiet; then
-            echo "No generated STEP files to commit."
-          else
-            git commit -m "Add auto-generated board/component STEP model(s)"
-            git push origin HEAD:${{ github.event.pull_request.head.ref }}
-          fi
-            
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add 3dmodel/*.step
+          git commit -m "Add auto-generated STEP board model"
+          git push
 
  
   post-comment:
