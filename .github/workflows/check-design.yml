@@ -9,6 +9,10 @@ on:
       - '*.kicad_sch'
       - '*.kicad_pcb'
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   validate-files:
     runs-on: ubuntu-latest
@@ -100,52 +104,55 @@ jobs:
           name: DRC-Report
           path: drc.rpt
 
-  check-3dmodel:
+  check-and-generate-3dmodel:
     needs: validate-files
     runs-on: ubuntu-latest
     outputs:
-      missing3d: ${{ steps.check.outputs.missing3d }}
-      missing3d_list: ${{ steps.check.outputs.missing3d_list }}
+      generated: ${{ steps.check.outputs.generated }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
 
-      - name: Check for missing board-level 3D model
+      - name: Install KiCad CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y kicad-cli
+
+      - name: Check for missing board-level STEP model
         id: check
         run: |
-          # Expected model file(s) – adjust as needed
-          MODELS=("3dmodel/board.step")
-
-          missing_list=""
-          for f in "${MODELS[@]}"; do
-            if [ ! -f "$f" ]; then
-              echo "❌ Missing 3D model file: $f"
-              missing_list="${missing_list}\n${f}"
-            fi
-          done
-
-          if [ -n "$missing_list" ]; then
-            echo "missing3d=true" >> $GITHUB_OUTPUT
-            echo "missing3d_list<<EOF" >> $GITHUB_OUTPUT
-            echo -e "$missing_list" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+          mkdir -p 3dmodel
+          if ! find 3dmodel -maxdepth 1 -type f -name '*.step' | grep -q .; then
+            echo "No STEP models found — generating one..."
+            kicad-cli pcb export step "${{ needs.validate-files.outputs.layout }}" \
+              --output 3dmodel/board_auto.step
+            echo "generated=true" >> $GITHUB_OUTPUT
           else
-            echo "missing3d=false" >> $GITHUB_OUTPUT
+            echo "generated=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Commit generated model
+        if: steps.check.outputs.generated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add 3dmodel/*.step
+          git commit -m "Add missing board STEP model"
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
 
   post-comment:
-    needs: [run-erc, run-drc, check-3dmodel]
+    needs: [run-erc, run-drc, check-and-generate-3dmodel]
     runs-on: ubuntu-latest
     steps:
-      - name: Create summary comment
+      - name: Post summary comment
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const erc = `${{ needs.run-erc.outputs.erc_errors }}`.trim();
             const drc = `${{ needs.run-drc.outputs.drc_errors }}`.trim();
-            const missing3d = '${{ needs.check-3dmodel.outputs.missing3d }}' === 'true';
-            const missingList = `${{ needs.check-3dmodel.outputs.missing3d_list }}`.trim();
+            const generated = '${{ needs.check-and-generate-3dmodel.outputs.generated }}' === 'true';
 
             let body = "## 🛠️ KiCad CI Report\n";
 
@@ -161,14 +168,10 @@ jobs:
               body += "\n✅ No DRC errors found.\n";
             }
 
-            if (missing3d) {
-              body += "\n⚠️ Board-level 3D model is missing.\n";
-              if (missingList) {
-                body += `\nMissing files:\n\`\`\`\n${missingList}\n\`\`\`\n`;
-              }
-              body += "\nComment `/generate-3dmodel` on this PR to auto-generate and commit the board model to this branch.\n";
+            if (generated) {
+              body += "\n✅ Missing board-level STEP model was auto-generated and committed to this PR.\n";
             } else {
-              body += "\n✅ Board-level 3D model present.\n";
+              body += "\n✅ Board-level STEP model already present.\n";
             }
 
             await github.rest.issues.createComment({
