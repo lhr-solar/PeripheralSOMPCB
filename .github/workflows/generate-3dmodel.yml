@@ -3,6 +3,7 @@ name: Generate Missing 3D Models
 on:
   issue_comment:
     types: [created]
+  pull_request:
 
 jobs:
   generate-3d:
