@@ -1,0 +1,194 @@
+name: Validate Design Files, ERC/DRC, and 3D Model Check
+
+on:
+  pull_request:
+    paths:
+      - 'pcb.json'
+      - 'bom/**'
+      - '3dmodel/**'
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+    outputs:
+      schematic: ${{ steps.extract.outputs.schematic }}
+      layout: ${{ steps.extract.outputs.layout }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate pcb.json and extract paths
+        id: extract
+        run: |
+          set -euo pipefail
+          json_file="pcb.json"
+          [ -f "$json_file" ] || { echo "❌ pcb.json not found."; exit 1; }
+
+          schematic=$(jq -r '.["PCB Schematic"]' "$json_file")
+          layout=$(jq -r '.["PCB Layout"]' "$json_file")
+
+          for file in "$schematic" "$layout"; do
+            if [ -z "$file" ] || [ "$file" = "null" ] || [ ! -f "$file" ]; then
+              echo "❌ Missing or invalid file path: $file"
+              exit 1
+            fi
+          done
+
+          echo "schematic=$schematic" >> "$GITHUB_OUTPUT"
+          echo "layout=$layout" >> "$GITHUB_OUTPUT"
+
+  run-erc:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    outputs:
+      erc_errors: ${{ steps.parse.outputs.erc_errors }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run KiCad ERC
+        continue-on-error: true
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          schematic_file_name: ${{ needs.validate-files.outputs.schematic }}
+          run_erc: true
+
+      - name: Parse ERC report (errors only)
+        id: parse
+        run: |
+          if [ -f erc.rpt ]; then
+            ERRORS=$(grep -i "; error" erc.rpt || true)
+            echo "erc_errors<<EOF" >> $GITHUB_OUTPUT
+            echo "${ERRORS}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ERC-Report
+          path: erc.rpt
+
+  run-drc:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    outputs:
+      drc_errors: ${{ steps.parse.outputs.drc_errors }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run KiCad DRC
+        continue-on-error: true
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          pcb_file_name: ${{ needs.validate-files.outputs.layout }}
+          run_drc: true
+
+      - name: Parse DRC report (errors only)
+        id: parse
+        run: |
+          if [ -f drc.rpt ]; then
+            ERRORS=$(grep -i "error" drc.rpt || true)
+            echo "drc_errors<<EOF" >> $GITHUB_OUTPUT
+            echo "${ERRORS}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: DRC-Report
+          path: drc.rpt
+
+  
+  check-and-generate-3dmodel:
+    needs: validate-files
+    runs-on: ubuntu-latest
+
+    # ✅ Use a KiCad container image that includes 3D models
+    container:
+      image: ghcr.io/inti-cmnb/kicad9_auto:latest
+
+    steps:
+      # --- Checkout the PR code ---
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      # --- Check if any STEP files already exist ---
+      - name: Check for missing board-level STEP model
+        id: check
+        run: |
+          mkdir -p 3dmodel
+          if ! find 3dmodel -maxdepth 1 -type f -name '*.step' | grep -q .; then
+            echo "No STEP models found — will generate one..."
+            echo "generated=true" >> $GITHUB_OUTPUT
+          else
+            echo "STEP model already exists."
+            echo "generated=false" >> $GITHUB_OUTPUT
+          fi
+
+      # --- Generate the STEP model if missing ---
+      - name: Generate board STEP model (if missing)
+        if: steps.check.outputs.generated == 'true'
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        continue-on-error: true
+        with:
+          pcb_file_name: ${{ needs.validate-files.outputs.layout }}
+          pcb_output_step: true
+
+      # --- Commit and push generated STEP model back to PR branch ---
+      - name: Commit and push generated model
+        if: steps.check.outputs.generated == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add 3dmodel/*.step
+          git commit -m "Add auto-generated STEP board model"
+          git push
+
+ 
+  post-comment:
+    needs: [run-erc, run-drc, check-and-generate-3dmodel]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post summary comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const erc = `${{ needs.run-erc.outputs.erc_errors }}`.trim();
+            const drc = `${{ needs.run-drc.outputs.drc_errors }}`.trim();
+            const generated = '${{ needs.check-and-generate-3dmodel.outputs.generated }}' === 'true';
+
+            let body = "## 🛠️ KiCad CI Report\n";
+
+            if (erc) {
+              body += `### ERC Errors\n\`\`\`\n${erc}\n\`\`\`\n`;
+            } else {
+              body += "✅ No ERC errors found.\n";
+            }
+
+            if (drc) {
+              body += `\n### DRC Errors\n\`\`\`\n${drc}\n\`\`\`\n`;
+            } else {
+              body += "\n✅ No DRC errors found.\n";
+            }
+
+            if (generated) {
+              body += "\n✅ Missing board-level STEP model was auto-generated and committed to this PR.\n";
+            } else {
+              body += "\n✅ Board-level STEP model already present.\n";
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body
+            });
