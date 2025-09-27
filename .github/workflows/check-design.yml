@@ -134,14 +134,12 @@ jobs:
           fi
 
       # --- Generate the STEP model if missing ---
-      - name: Generate board STEP model
+      - name: Generate board STEP model (if missing)
         if: steps.check.outputs.generated == 'true'
-        run: |
-          echo "Generating board STEP model..."
-          # Replace with your actual board filename
-          kicad-cli pcb export step \
-            --board myboard.kicad_pcb \
-            --output 3dmodel/myboard.step
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          pcb_file_name: ${{ needs.validate-files.outputs.layout }}
+          pcb_output_step: true
 
       # --- Commit and push generated STEP model back to PR branch ---
       - name: Commit and push generated model
