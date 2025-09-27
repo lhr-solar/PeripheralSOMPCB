@@ -105,29 +105,55 @@ jobs:
           path: drc.rpt
 
   check-and-generate-3dmodel:
-    needs: validate-files
-    runs-on: ubuntu-latest
-    outputs:
-      generated: ${{ steps.check.outputs.generated }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
+  needs: validate-files
+  runs-on: ubuntu-latest
+  # Use a container image that includes KiCad 9 + libraries
+  container:
+    image: ghcr.io/inti-cmnb/kicad9_full:latest
 
-      - name: Check for missing board-level STEP model
-        id: check
-        run: |
-          mkdir -p 3dmodel
-          if ! find 3dmodel -maxdepth 1 -type f -name '*.step' | grep -q .; then
-            echo "No STEP models found — will generate one..."
-            echo "generated=true" >> $GITHUB_OUTPUT
-          else
-            echo "generated=false" >> $GITHUB_OUTPUT
-          fi
+  outputs:
+    generated: ${{ steps.check.outputs.generated }}
 
-      - name: Install KiCad 3D model libraries
-        run: |
-          sudo apt-get install -y kicad-packages3d
+  steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - name: Check for missing board-level STEP model
+      id: check
+      run: |
+        mkdir -p 3dmodel
+        if ! find 3dmodel -maxdepth 1 -type f -name '*.step' | grep -q .; then
+          echo "No STEP models found — will generate one..."
+          echo "generated=true" >> $GITHUB_OUTPUT
+        else
+          echo "generated=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Generate board STEP model (if missing)
+      if: steps.check.outputs.generated == 'true'
+      uses: actions-for-kicad/kicad-actions@v1-k9.0
+      with:
+        pcb_file_name: ${{ needs.validate-files.outputs.layout }}
+        pcb_output_step: true
+
+    - name: Move generated STEP model into 3dmodel/ folder
+      if: steps.check.outputs.generated == 'true'
+      run: |
+        mkdir -p 3dmodel
+        # Move whatever STEP file KiCad created into our 3dmodel/ directory
+        find . -maxdepth 1 -type f -name '*.step' -exec mv {} 3dmodel/ \;
+
+    - name: Commit and push generated STEP model
+      if: steps.check.outputs.generated == 'true'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add 3dmodel/*.step
+        git commit -m "Add auto-generated board-level STEP model"
+        git push origin HEAD:${{ github.event.pull_request.head.ref }}
+
+
 
       - name: Generate board STEP model with kicad-actions
         if: steps.check.outputs.generated == 'true'
