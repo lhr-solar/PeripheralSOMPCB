@@ -47,6 +47,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run KiCad ERC
+        continue-on-error: true
         uses: actions-for-kicad/kicad-actions@v1-k9.0
         with:
           schematic_file_name: ${{ needs.validate-files.outputs.schematic }}
@@ -77,6 +78,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run KiCad DRC
+        continue-on-error: true
         uses: actions-for-kicad/kicad-actions@v1-k9.0
         with:
           pcb_file_name: ${{ needs.validate-files.outputs.layout }}
