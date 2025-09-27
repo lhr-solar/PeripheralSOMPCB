@@ -126,13 +126,17 @@ jobs:
           fi
 
       - name: Generate board STEP model with kicad-actions
-        continue-on-error: true
         if: steps.check.outputs.generated == 'true'
         uses: actions-for-kicad/kicad-actions@v1-k9.0
         with:
           pcb_file_name: ${{ needs.validate-files.outputs.layout }}
           pcb_output_step: true
-          pcb_output_directory: 3dmodel
+
+      - name: Move STEP to 3dmodel folder
+        if: steps.check.outputs.generated == 'true'
+        run: |
+          mkdir -p 3dmodel
+          mv pcb.step 3dmodel/pcb.step || echo "STEP file not found after generation"
 
       - name: Commit generated model
         if: steps.check.outputs.generated == 'true'
