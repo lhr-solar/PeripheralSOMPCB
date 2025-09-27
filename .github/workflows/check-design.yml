@@ -1,0 +1,157 @@
+name: Validate Design Files, ERC/DRC, and 3D Model Check
+
+on:
+  pull_request:
+    paths:
+      - 'pcb.json'
+      - 'bom/**'
+      - '3dmodel/**'
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+    outputs:
+      schematic: ${{ steps.extract.outputs.schematic }}
+      layout: ${{ steps.extract.outputs.layout }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate pcb.json and extract paths
+        id: extract
+        run: |
+          set -euo pipefail
+          json_file="pcb.json"
+          [ -f "$json_file" ] || { echo "❌ pcb.json not found."; exit 1; }
+
+          schematic=$(jq -r '.["PCB Schematic"]' "$json_file")
+          layout=$(jq -r '.["PCB Layout"]' "$json_file")
+
+          for file in "$schematic" "$layout"; do
+            if [ -z "$file" ] || [ "$file" = "null" ] || [ ! -f "$file" ]; then
+              echo "❌ Missing or invalid file path: $file"
+              exit 1
+            fi
+          done
+
+          echo "schematic=$schematic" >> "$GITHUB_OUTPUT"
+          echo "layout=$layout" >> "$GITHUB_OUTPUT"
+
+  run-erc:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    outputs:
+      erc_errors: ${{ steps.parse.outputs.erc_errors }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run KiCad ERC
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          schematic_file_name: ${{ needs.validate-files.outputs.schematic }}
+          run_erc: true
+
+      - name: Parse ERC report (errors only)
+        id: parse
+        run: |
+          if [ -f erc.rpt ]; then
+            ERRORS=$(grep -i "; error" erc.rpt || true)
+            echo "erc_errors<<EOF" >> $GITHUB_OUTPUT
+            echo "${ERRORS}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ERC-Report
+          path: erc.rpt
+
+  run-drc:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    outputs:
+      drc_errors: ${{ steps.parse.outputs.drc_errors }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run KiCad DRC
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          pcb_file_name: ${{ needs.validate-files.outputs.layout }}
+          run_drc: true
+
+      - name: Parse DRC report (errors only)
+        id: parse
+        run: |
+          if [ -f drc.rpt ]; then
+            ERRORS=$(grep -i "error" drc.rpt || true)
+            echo "drc_errors<<EOF" >> $GITHUB_OUTPUT
+            echo "${ERRORS}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: DRC-Report
+          path: drc.rpt
+
+  check-3dmodel:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    outputs:
+      missing3d: ${{ steps.check.outputs.missing3d }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for missing 3D models
+        id: check
+        run: |
+          # crude example: check if 3dmodel directory is empty
+          if [ ! -d 3dmodel ] || [ -z "$(ls -A 3dmodel)" ]; then
+            echo "missing3d=true" >> $GITHUB_OUTPUT
+          else
+            echo "missing3d=false" >> $GITHUB_OUTPUT
+          fi
+
+  post-comment:
+    needs: [run-erc, run-drc, check-3dmodel]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create summary comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const erc = `${{ needs.run-erc.outputs.erc_errors }}`.trim();
+            const drc = `${{ needs.run-drc.outputs.drc_errors }}`.trim();
+            const missing3d = ${{ needs.check-3dmodel.outputs.missing3d == 'true' && 'true' || 'false' }};
+
+            let body = "## 🛠️ KiCad CI Report\n";
+            if (erc) {
+              body += `### ERC Errors\n\`\`\`\n${erc}\n\`\`\`\n`;
+            } else {
+              body += "✅ No ERC errors found.\n";
+            }
+
+            if (drc) {
+              body += `\n### DRC Errors\n\`\`\`\n${drc}\n\`\`\`\n`;
+            } else {
+              body += "\n✅ No DRC errors found.\n";
+            }
+
+            if (missing3d === 'true') {
+              body += "\n⚠️ 3D models missing for one or more footprints.\n";
+              body += "Comment `/generate-3dmodel` on this PR to auto-generate and commit them.\n";
+            } else {
+              body += "\n✅ All 3D models present.\n";
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body
+            });
