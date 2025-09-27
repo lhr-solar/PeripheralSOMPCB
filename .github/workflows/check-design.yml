@@ -126,6 +126,7 @@ jobs:
           fi
 
       - name: Generate board STEP model with kicad-actions
+        continue-on-error: true
         if: steps.check.outputs.generated == 'true'
         uses: actions-for-kicad/kicad-actions@v1-k9.0
         with:
