@@ -166,7 +166,7 @@ jobs:
               if (missingList) {
                 body += `\nMissing files:\n\`\`\`\n${missingList}\n\`\`\`\n`;
               }
-              body += "\nComment `/generate-3dmodel` on this PR to auto-generate and commit the board model.\n";
+              body += "\nComment `/generate-3dmodel` on this PR to auto-generate and commit the board model to this branch.\n";
             } else {
               body += "\n✅ Board-level 3D model present.\n";
             }
