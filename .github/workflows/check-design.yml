@@ -114,23 +114,24 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 
-      - name: Install KiCad CLI
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y kicad-cli
-
       - name: Check for missing board-level STEP model
         id: check
         run: |
           mkdir -p 3dmodel
           if ! find 3dmodel -maxdepth 1 -type f -name '*.step' | grep -q .; then
-            echo "No STEP models found — generating one..."
-            kicad-cli pcb export step "${{ needs.validate-files.outputs.layout }}" \
-              --output 3dmodel/board_auto.step
+            echo "No STEP models found — will generate one..."
             echo "generated=true" >> $GITHUB_OUTPUT
           else
             echo "generated=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Generate board STEP model with kicad-actions
+        if: steps.check.outputs.generated == 'true'
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          pcb_file_name: ${{ needs.validate-files.outputs.layout }}
+          pcb_output_step: true
+          pcb_output_directory: 3dmodel
 
       - name: Commit generated model
         if: steps.check.outputs.generated == 'true'
