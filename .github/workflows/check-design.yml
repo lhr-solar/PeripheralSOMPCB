@@ -105,18 +105,33 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       missing3d: ${{ steps.check.outputs.missing3d }}
+      missing3d_list: ${{ steps.check.outputs.missing3d_list }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check for missing 3D models
+      - name: Check for missing board-level 3D model
         id: check
         run: |
-          # crude example: check if 3dmodel directory is empty
-          if [ ! -d 3dmodel ] || [ -z "$(ls -A 3dmodel)" ]; then
+          # Expected model file(s) – adjust as needed
+          MODELS=("3dmodel/board.step")
+
+          missing_list=""
+          for f in "${MODELS[@]}"; do
+            if [ ! -f "$f" ]; then
+              echo "❌ Missing 3D model file: $f"
+              missing_list="${missing_list}\n${f}"
+            fi
+          done
+
+          if [ -n "$missing_list" ]; then
             echo "missing3d=true" >> $GITHUB_OUTPUT
+            echo "missing3d_list<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$missing_list" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           else
             echo "missing3d=false" >> $GITHUB_OUTPUT
           fi
+
 
   post-comment:
     needs: [run-erc, run-drc, check-3dmodel]
@@ -129,9 +144,11 @@ jobs:
           script: |
             const erc = `${{ needs.run-erc.outputs.erc_errors }}`.trim();
             const drc = `${{ needs.run-drc.outputs.drc_errors }}`.trim();
-            const missing3d = ${{ needs.check-3dmodel.outputs.missing3d == 'true' && 'true' || 'false' }};
+            const missing3d = '${{ needs.check-3dmodel.outputs.missing3d }}' === 'true';
+            const missingList = `${{ needs.check-3dmodel.outputs.missing3d_list }}`.trim();
 
             let body = "## 🛠️ KiCad CI Report\n";
+
             if (erc) {
               body += `### ERC Errors\n\`\`\`\n${erc}\n\`\`\`\n`;
             } else {
@@ -144,11 +161,14 @@ jobs:
               body += "\n✅ No DRC errors found.\n";
             }
 
-            if (missing3d === 'true') {
-              body += "\n⚠️ 3D models missing for one or more footprints.\n";
-              body += "Comment `/generate-3dmodel` on this PR to auto-generate and commit them.\n";
+            if (missing3d) {
+              body += "\n⚠️ Board-level 3D model is missing.\n";
+              if (missingList) {
+                body += `\nMissing files:\n\`\`\`\n${missingList}\n\`\`\`\n`;
+              }
+              body += "\nComment `/generate-3dmodel` on this PR to auto-generate and commit the board model.\n";
             } else {
-              body += "\n✅ All 3D models present.\n";
+              body += "\n✅ Board-level 3D model present.\n";
             }
 
             await github.rest.issues.createComment({
