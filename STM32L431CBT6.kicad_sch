@@ -765,156 +765,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -4517,7 +4367,7 @@
 	)
 	(text "System memory\n(bootloader)"
 		(exclude_from_sim no)
-		(at 128.778 134.62 0)
+		(at 123.698 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4649,7 +4499,7 @@
 	)
 	(text "Boot from..."
 		(exclude_from_sim no)
-		(at 97.79 140.462 0)
+		(at 99.06 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4704,7 +4554,7 @@
 	)
 	(text "Main flash\n(user code)"
 		(exclude_from_sim no)
-		(at 128.778 143.51 0)
+		(at 123.698 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4724,12 +4574,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "321b54af-2b6d-4a6a-86a7-6fd8be358b50")
-	)
-	(junction
-		(at 166.37 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42c41f7a-9e82-4efe-ba67-c0a739b3a8c7")
 	)
 	(junction
 		(at 96.52 44.45)
@@ -5281,7 +5125,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 139.7) (xy 127 139.7)
+			(xy 120.65 140.97) (xy 121.92 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5841,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 139.7) (xy 127 140.97)
+			(xy 121.92 140.97) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 137.16) (xy 106.68 137.16)
+			(xy 99.06 138.43) (xy 110.49 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5911,16 +5755,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 172.72) (xy 166.37 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b11d34-87e2-4e8f-83f5-72231be171fa")
-	)
-	(wire
-		(pts
 			(xy 21.59 173.99) (xy 21.59 170.18)
 		)
 		(stroke
@@ -5931,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 133.35) (xy 127 134.62)
+			(xy 121.92 134.62) (xy 121.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6011,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 134.62) (xy 125.73 134.62)
+			(xy 121.92 135.89) (xy 120.65 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6098,16 +5932,6 @@
 			(type default)
 		)
 		(uuid "9d5238d9-bed0-4dd1-b0e2-5272d9444831")
-	)
-	(wire
-		(pts
-			(xy 166.37 165.1) (xy 166.37 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7fea25-4d15-4e97-95b8-cc53b8778d81")
 	)
 	(wire
 		(pts
@@ -6491,16 +6315,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 137.16) (xy 115.57 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc23641b-da67-42de-b677-517c359288fe")
-	)
-	(wire
-		(pts
 			(xy 21.59 31.75) (xy 33.02 31.75)
 		)
 		(stroke
@@ -6568,16 +6382,6 @@
 			(type default)
 		)
 		(uuid "e6ef92ca-5618-4ebd-8dae-819d69c121c2")
-	)
-	(wire
-		(pts
-			(xy 166.37 162.56) (xy 173.99 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7970db7-bf1e-4fcd-a412-9180b546fa8a")
 	)
 	(bus
 		(pts
@@ -6711,7 +6515,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 162.56) (xy 166.37 162.56)
+			(xy 165.1 162.56) (xy 173.99 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10368,7 +10172,7 @@
 		(uuid "3771869b-c517-442b-ad46-1faa39e19e7d")
 	)
 	(label "BOOT_SW"
-		(at 97.79 137.16 0)
+		(at 99.06 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10837,71 +10641,6 @@
 		(uuid "eeed107e-12ab-496d-ac9c-69d051ebac53")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 166.37 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "016fa6fd-8893-4787-ac37-39ccb1192bf4")
-		(property "Reference" "#PWR098"
-			(at 166.37 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef3ccec2-62d0-48d7-a6a9-129b4c179d09")
-		)
-		(instances
-			(project "PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 33.02 88.9 0)
 		(unit 1)
@@ -11189,7 +10928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 140.97 0)
+		(at 121.92 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11197,7 +10936,7 @@
 		(dnp no)
 		(uuid "0eb4feed-e94b-46ec-9817-d5b936da5301")
 		(property "Reference" "#PWR038"
-			(at 127 147.32 0)
+			(at 121.92 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +10945,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 145.034 0)
+			(at 121.92 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +10953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 140.97 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11223,7 +10962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 140.97 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11232,7 +10971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 140.97 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +11987,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 127 133.35 0)
+		(at 121.92 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12256,7 +11995,7 @@
 		(dnp no)
 		(uuid "490d10c7-020b-419b-bdbd-e497f5ba9878")
 		(property "Reference" "#PWR090"
-			(at 127 137.16 0)
+			(at 121.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,7 +12004,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 125.984 129.794 0)
+			(at 120.904 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +12012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 133.35 0)
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,7 +12021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 133.35 0)
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12291,7 +12030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 133.35 0)
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12406,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 120.65 137.16 0)
+		(at 115.57 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12675,7 +12414,7 @@
 		(dnp no)
 		(uuid "5df870d7-a5ad-4399-a04d-6a36ce49785d")
 		(property "Reference" "SW2"
-			(at 120.65 132.08 0)
+			(at 115.57 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12683,7 +12422,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 120.65 142.494 0)
+			(at 115.57 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12691,7 +12430,7 @@
 			)
 		)
 		(property "Footprint" "CJS-1200TA:SW_CJS-1200TA"
-			(at 120.65 137.16 0)
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12700,7 +12439,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/972/cjs-1827353.pdf"
-			(at 120.65 144.78 0)
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,7 +12448,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 120.65 137.16 0)
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12718,7 +12457,7 @@
 			)
 		)
 		(property "P/N" "CJS-1200TA "
-			(at 120.65 137.16 0)
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,82 +12482,6 @@
 				)
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68c631b2-1dba-4ea3-8fa6-86fe225dba55")
-		(property "Reference" "R19"
-			(at 110.49 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 110.49 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 110.49 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 110.49 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cece931-75d4-439a-93b2-74d8fe03eca8")
-		)
-		(pin "2"
-			(uuid "2874932a-01db-4371-9a88-ebdda135e61c")
-		)
-		(instances
-			(project "PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13524,7 +13187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 143.51 162.56 0)
 			(effects
 				(font
@@ -13930,85 +13593,6 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 166.37 168.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a26082af-e546-407e-ab6b-129faeba1e4d")
-		(property "Reference" "D15"
-			(at 168.91 167.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TVS"
-			(at 168.91 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 166.37 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
-			(at 166.37 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 166.37 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SMF3.3"
-			(at 166.37 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56f954d8-fbf5-4fbc-a6d4-d701ba906527")
-		)
-		(pin "1"
-			(uuid "62a26b97-4def-44c4-9a40-53d06d2b762c")
-		)
-		(instances
-			(project "PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/1d53f8ef-8689-4a8b-8330-e806b7f39af5"
-					(reference "D15")
 					(unit 1)
 				)
 			)

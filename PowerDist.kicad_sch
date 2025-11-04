@@ -11360,7 +11360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "lakshay"
+		(property "Value" "24V_EXT"
 			(at 97.79 52.8319 0)
 			(effects
 				(font
