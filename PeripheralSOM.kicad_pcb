@@ -4752,7 +4752,7 @@
 		(property "Reference" "U1"
 			(at 4.73226 3.825 270)
 			(layer "F.SilkS")
-			(uuid "25e79c63-5c33-4fa7-8b27-56679979de77")
+			(uuid "14d56d9a-10ff-457d-a61a-b7296158e27b")
 			(effects
 				(font
 					(size 1 1)
@@ -4763,7 +4763,7 @@
 		(property "Value" "STM32L431CBTx"
 			(at 0 5.85 90)
 			(layer "F.Fab")
-			(uuid "3b69fd60-c513-4342-9afa-eacaf2667e8d")
+			(uuid "48a897e3-75c5-4faf-80e5-f5e94952a59c")
 			(effects
 				(font
 					(size 1 1)
@@ -4775,7 +4775,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "317d046b-e4e8-435c-8dca-1dad418b3e2a")
+			(uuid "deb77757-4de4-4c10-a615-c2947daf405a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +4787,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d10de15-7d0b-4b8b-b786-54f30a2bb746")
+			(uuid "34580ad7-8108-4268-9ad5-bac4f872e85a")
 			(effects
 				(font
 					(size 1.27 1.27)
