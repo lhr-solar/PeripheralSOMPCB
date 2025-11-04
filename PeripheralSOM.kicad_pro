@@ -39,7 +39,7 @@
         "pads": {
           "drill": 0.0,
           "height": 0.95,
-          "width": 0.975
+          "width": 1.075
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -69,10 +69,6 @@
         ],
         [
           "starved_thermal|119000000|98637500|ceedfd6a-d832-43d4-b1ee-618d7016bf39|f145c066-9799-4f69-9da7-28b4d7a6d786|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|146012500|100882260|ceedfd6a-d832-43d4-b1ee-618d7016bf39|1c7167e2-81e1-4345-97c1-8bcbc2c64c18|F.Cu",
           ""
         ]
       ],
