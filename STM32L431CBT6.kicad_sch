@@ -13214,6 +13214,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "SN74AHC1G32TDBVRQ1"
+			(at 143.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2f12954-fe42-4e3e-8a35-5c4a1d8a6d4a")
 		)
