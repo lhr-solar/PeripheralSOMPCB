@@ -1639,7 +1639,7 @@
 		)
 		(uuid "e3109e25-782b-4c3c-a073-8fe3f0fc91e7")
 	)
-	(text "Typical gain: 78.28 uA/A\nVout @ 1.3A = 2.407v\nR(imon) = 23.7 mΩ"
+	(text "Typical gain: 78.28 uA/A\nVout @ 1.5A = 2.231v\nR(imon) = 19 kΩ"
 		(exclude_from_sim no)
 		(at 179.324 35.814 0)
 		(effects
@@ -6625,7 +6625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24m"
+		(property "Value" "19k"
 			(at 144.78 38.0999 0)
 			(effects
 				(font
@@ -6661,7 +6661,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "WFCP0603R0240FE66"
+		(property "P/N" "CRCW060320K0FKEA"
 			(at 142.24 36.83 0)
 			(effects
 				(font

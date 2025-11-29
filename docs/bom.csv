@@ -48,7 +48,7 @@
 "R32","768","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1",""
 "SW1","RST","TL3365AF180QG:SW_TL3365AF180QG","1",""
 "SW2","BOOT","CJS-1200TA:SW_CJS-1200TA","1",""
-"TP1","24V_EXT","TestPoint:TestPoint_Pad_1.0x1.0mm","1",""
+"TP1","lakshay","TestPoint:TestPoint_Pad_1.0x1.0mm","1",""
 "TP3","5V_BK","TestPoint:TestPoint_Pad_1.0x1.0mm","1",""
 "TP4","5V_USB","TestPoint:TestPoint_Pad_1.0x1.0mm","1",""
 "TP7,TP8","GND","TestPoint:TestPoint_Pad_1.0x1.0mm","2",""
